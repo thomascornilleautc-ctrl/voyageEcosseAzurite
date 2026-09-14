@@ -1,0 +1,378 @@
+/* =========================================================
+   AZURITE — Voyage en famille vers l'Écosse
+   Design tokens
+   ========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+  /* Palette — carte marine / cuivre de bord / bruyère écossaise */
+  --ink:      #0B2436; /* fond sombre principal, texte sur fond clair */
+  --sea:      #164C68; /* bleu mer, sections secondaires */
+  --brass:    #B4813F; /* cuivre / laiton, accent, liens */
+  --seaglass: #E7ECE4; /* fond clair, verre de mer */
+  --heather:  #6E5C74; /* bruyère écossaise, accent secondaire */
+  --rust:     #9C4632; /* rouge de carte marine, petites alertes/marqueurs */
+  --foam:     #F3F6F2; /* texte clair sur fond sombre */
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --measure: 42ch;
+  --gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior: auto; }
+  *, *::before, *::after{ animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+body{
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--foam);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+img{ max-width: 100%; display: block; }
+
+h1, h2, h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0 0 0.5em;
+}
+
+h1{ font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 600; }
+h2{ font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+h3{ font-size: 1.25rem; }
+
+p{ margin: 0 0 1em; max-width: var(--measure); }
+
+a{ color: var(--brass); text-decoration: none; }
+
+.link-underline{
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+.link-underline::after{
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -1px;
+  height: 2px; background: var(--brass);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .25s ease;
+}
+.link-underline:hover::after,
+.link-underline:focus-visible::after{ transform: scaleX(1); }
+
+:focus-visible{
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+.container{
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 var(--gap);
+}
+
+/* =========================================================
+   Header / navigation
+   ========================================================= */
+.site-header{
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(11,36,54,0.94);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(180,129,63,0.35);
+}
+.site-header .container{
+  display: flex; align-items: center; justify-content: space-between;
+  padding-top: 0.9rem; padding-bottom: 0.9rem;
+}
+.wordmark{
+  font-family: var(--font-display);
+  font-size: 1.35rem; font-weight: 600;
+  color: var(--foam); letter-spacing: 0.02em;
+}
+.wordmark span{ color: var(--brass); font-size: 0.65em; margin-left: 0.1em; vertical-align: super; }
+
+.nav-links{
+  display: flex; gap: clamp(1rem, 2vw, 1.8rem);
+  list-style: none; margin: 0; padding: 0;
+}
+.nav-links a{
+  color: var(--foam); font-size: 0.95rem;
+  border-bottom: 1px solid transparent;
+}
+.nav-links a:hover, .nav-links a:focus-visible, .nav-links a[aria-current="page"]{
+  border-bottom-color: var(--brass);
+}
+
+.lang-toggle{
+  display: flex; align-items: center; gap: 0.4rem;
+  font-size: 0.85rem; color: var(--foam);
+}
+.lang-toggle .current{ color: var(--brass); border-bottom: 1px solid var(--brass); }
+.lang-toggle .soon{
+  color: rgba(243,246,242,0.45); cursor: default;
+  border-bottom: 1px dashed rgba(243,246,242,0.3);
+}
+
+.nav-toggle{
+  display: none;
+  background: none; border: 1px solid rgba(243,246,242,0.4);
+  color: var(--foam); border-radius: 4px;
+  padding: 0.4rem 0.6rem; font-size: 0.9rem;
+}
+
+@media (max-width: 46rem){
+  .nav-toggle{ display: inline-flex; }
+  .nav-links{
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; gap: 0;
+    background: var(--ink);
+    border-bottom: 1px solid rgba(180,129,63,0.35);
+    max-height: 0; overflow: hidden;
+    transition: max-height .25s ease;
+  }
+  .nav-links.open{ max-height: 20rem; }
+  .nav-links li{ padding: 0.8rem var(--gap); border-top: 1px solid rgba(243,246,242,0.08); }
+}
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero{
+  position: relative;
+  min-height: min(88vh, 720px);
+  display: flex; align-items: flex-end;
+  background: var(--ink);
+  overflow: hidden;
+}
+.hero img{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover;
+  object-position: center 40%;
+}
+.hero::before{
+  content: "";
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(11,36,54,0.15) 0%, rgba(11,36,54,0.55) 55%, rgba(11,36,54,0.92) 100%);
+}
+.hero-content{
+  position: relative; z-index: 1;
+  padding: 3rem var(--gap) 3.2rem;
+  max-width: 42rem;
+  color: var(--foam);
+}
+.hero-kicker{
+  font-family: var(--font-body); font-weight: 600;
+  color: var(--brass); font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+.hero h1{ color: var(--foam); }
+.hero p{ color: rgba(243,246,242,0.9); max-width: 34rem; }
+
+.hero-route{
+  position: absolute; inset: 0; z-index: 1;
+  width: 100%; height: 100%;
+  pointer-events: none;
+}
+.hero-route path{
+  fill: none;
+  stroke: var(--foam);
+  stroke-width: 2;
+  stroke-dasharray: 6 8;
+  opacity: 0.55;
+  stroke-dashoffset: 1200;
+  animation: draw-route 2.6s ease-out 0.2s forwards;
+}
+@keyframes draw-route{ to{ stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce){
+  .hero-route path{ stroke-dashoffset: 0; animation: none; }
+}
+
+/* =========================================================
+   Sections générales
+   ========================================================= */
+section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.section-dark{ background: var(--ink); color: var(--foam); }
+.section-dark h2{ color: var(--foam); }
+.section-dark p{ color: rgba(243,246,242,0.85); }
+.section-sea{ background: var(--sea); color: var(--foam); }
+.section-sea h2{ color: var(--foam); }
+.section-sea p{ color: rgba(243,246,242,0.88); }
+
+.eyebrow-tag{
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--rust);
+  border-bottom: 1px solid var(--rust);
+  padding-bottom: 2px;
+  margin-bottom: 0.9rem;
+}
+
+.two-col{
+  display: grid; gap: var(--gap);
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: start;
+}
+@media (max-width: 46rem){ .two-col{ grid-template-columns: 1fr; } }
+
+.pull-figure{
+  border-left: 2px solid var(--brass);
+  padding-left: 1.2rem;
+}
+.pull-figure .num{
+  font-family: var(--font-display); font-size: 2.4rem;
+  display: block; line-height: 1;
+}
+
+/* Teaser links to the four sections (homepage) */
+.teaser-list{ list-style: none; margin: 0; padding: 0; }
+.teaser-list li{
+  border-top: 1px solid rgba(11,36,54,0.15);
+  padding: 1.6rem 0;
+  display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem;
+}
+.teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
+.teaser-list .coord{
+  font-family: var(--font-body); font-size: 0.85rem; color: var(--heather);
+  padding-top: 0.3rem;
+}
+@media (max-width: 40rem){
+  .teaser-list li{ grid-template-columns: 1fr; gap: 0.3rem; }
+}
+
+/* =========================================================
+   Waypoints (page Trajet) — vraie séquence, donc numérotée
+   ========================================================= */
+.waypoints{
+  list-style: none; margin: 0; padding: 0;
+  position: relative;
+  border-left: 2px solid rgba(180,129,63,0.4);
+  margin-left: 0.6rem;
+}
+.waypoints li{
+  position: relative;
+  padding: 0 0 1.6rem 1.6rem;
+}
+.waypoints li::before{
+  content: "";
+  position: absolute; left: -6.5px; top: 0.35rem;
+  width: 11px; height: 11px; border-radius: 50%;
+  background: var(--foam);
+  border: 2px solid var(--brass);
+}
+.waypoints li.leg-end::before{ background: var(--brass); }
+.waypoints .leg-num{ color: var(--heather); font-size: 0.85rem; }
+
+/* =========================================================
+   Fiche technique (page Bateau)
+   ========================================================= */
+.spec-plate{
+  border: 1px solid rgba(180,129,63,0.5);
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  background: rgba(180,129,63,0.06);
+}
+.spec-plate dl{
+  display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 1.2rem;
+  margin: 0;
+}
+.spec-plate dt{ color: var(--heather); font-size: 0.9rem; }
+.spec-plate dd{ margin: 0; font-weight: 600; }
+
+.refit-grid{
+  display: grid; gap: var(--gap);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+}
+@media (max-width: 50rem){ .refit-grid{ grid-template-columns: 1fr; } }
+.refit-grid h3{ border-bottom: 1px solid rgba(11,36,54,0.15); padding-bottom: 0.5rem; }
+.refit-grid ul{ padding-left: 1.1rem; margin: 0; }
+.refit-grid li{ margin-bottom: 0.5rem; }
+
+/* =========================================================
+   Portraits (page Équipage)
+   ========================================================= */
+.portrait{
+  display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--gap);
+  align-items: center;
+  padding: clamp(2rem, 5vw, 3rem) 0;
+  border-top: 1px solid rgba(11,36,54,0.12);
+}
+.portrait:first-of-type{ border-top: none; }
+.portrait.reverse{ grid-template-columns: 1.4fr 1fr; }
+.portrait.reverse .portrait-figure{ order: 2; }
+.portrait-figure img{ border-radius: 2px; }
+.portrait-name{ color: var(--heather); font-size: 0.95rem; margin-bottom: 0.2rem; display:block; }
+@media (max-width: 46rem){
+  .portrait, .portrait.reverse{ grid-template-columns: 1fr; }
+  .portrait.reverse .portrait-figure{ order: 0; }
+}
+
+.placeholder-card{
+  border: 1px dashed rgba(11,36,54,0.3);
+  padding: 1.6rem;
+  color: var(--heather);
+  font-style: italic;
+}
+
+/* =========================================================
+   Sponsors
+   ========================================================= */
+.sponsor-split{
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  border: 1px solid rgba(180,129,63,0.4);
+}
+.sponsor-panel{ padding: clamp(1.6rem, 4vw, 2.6rem); }
+.sponsor-panel + .sponsor-panel{ border-left: 1px solid rgba(180,129,63,0.4); }
+@media (max-width: 46rem){
+  .sponsor-split{ grid-template-columns: 1fr; }
+  .sponsor-panel + .sponsor-panel{ border-left: none; border-top: 1px solid rgba(180,129,63,0.4); }
+}
+.sponsor-panel h3{ margin-bottom: 0.3rem; }
+.sponsor-panel .kicker{ color: var(--rust); font-size: 0.85rem; display: block; margin-bottom: 0.6rem; }
+.sponsor-panel ul{ padding-left: 1.1rem; }
+
+.logo-slot{
+  border: 1px dashed rgba(11,36,54,0.25);
+  height: 4.5rem;
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(11,36,54,0.4); font-size: 0.85rem;
+}
+.logo-wall{
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 1rem; margin-top: 1.5rem;
+}
+
+.btn{
+  display: inline-block;
+  font-family: var(--font-body); font-weight: 600;
+  padding: 0.75rem 1.4rem;
+  background: var(--brass); color: var(--ink);
+  border: 1px solid var(--brass);
+}
+.btn:hover, .btn:focus-visible{ background: transparent; color: var(--ink); }
+.section-dark .btn:hover, .section-dark .btn:focus-visible,
+.section-sea .btn:hover, .section-sea .btn:focus-visible{ color: var(--foam); }
+
+/* =========================================================
+   Footer
+   ========================================================= */
+.site-footer{
+  background: var(--ink); color: rgba(243,246,242,0.75);
+  padding: 2.4rem 0; font-size: 0.9rem;
+}
+.site-footer a{ color: var(--foam); }
+.footer-grid{
+  display: flex; flex-wrap: wrap; gap: 1.5rem 3rem;
+  justify-content: space-between;
+}
