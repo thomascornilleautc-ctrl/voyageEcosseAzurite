@@ -6,6 +6,7 @@
 <title>Le trajet — Azurite</title>
 <meta name="description" content="Sept mois de navigation en famille : de La Faute-sur-Mer aux Shetland, et retour.">
 <link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
 </head>
 <body>
 
@@ -32,28 +33,33 @@
     <span class="eyebrow-tag">Le trajet</span>
     <h1>Sept mois vers les Shetland, et retour</h1>
     <p>Mars à septembre 2027 : sept mois de navigation en famille, de notre port d'attache jusqu'aux confins nord de l'Écosse.</p>
-    <p style="font-size:0.85rem; color:var(--heather);">La carte détaillée du trajet sera ajoutée ici — cette liste sert de repère en attendant.</p>
   </div>
 </section>
 
-<section>
+<section style="padding-top:0;">
+  <div class="container">
+    <div id="route-map" class="route-map" role="img" aria-label="Carte du trajet prévu, de La Faute-sur-Mer aux Shetland et retour, via la Bretagne, les îles Anglo-Normandes, les Scilly, l'Écosse, les Hébrides, les Orkney et les Shetland"></div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
   <div class="container">
     <ol class="waypoints">
-      <li><span class="leg-num">Étape 1</span><br>Départ de La Faute-sur-Mer</li>
-      <li><span class="leg-num">Étape 2</span><br>Contournement de la Bretagne</li>
-      <li><span class="leg-num">Étape 3</span><br>Remontée de la Manche jusqu'à Paimpol</li>
-      <li><span class="leg-num">Étape 4</span><br>Traversée vers les îles Anglo-Normandes</li>
-      <li><span class="leg-num">Étape 5</span><br>Remontée de la côte sud de l'Angleterre jusqu'aux Scilly</li>
-      <li><span class="leg-num">Étape 6</span><br>Remontée vers l'Écosse via la mer d'Irlande et l'île de Man</li>
-      <li><span class="leg-num">Étape 7</span><br>Passage à Glasgow</li>
-      <li><span class="leg-num">Étape 8</span><br>Les Hébrides</li>
-      <li><span class="leg-num">Étape 9</span><br>Cap sur Thurso, à la pointe nord de l'Écosse</li>
-      <li><span class="leg-num">Étape 10</span><br>Les Orkney</li>
-      <li class="leg-end"><span class="leg-num">Étape 11 — point le plus au nord</span><br>Les Shetland</li>
-      <li><span class="leg-num">Étape 12</span><br>Redescente vers Inverness, traversée du Loch Ness</li>
-      <li><span class="leg-num">Étape 13</span><br>Retour par la mer d'Irlande et l'île d'Arran</li>
-      <li><span class="leg-num">Étape 14</span><br>Traversée de la Manche</li>
-      <li><span class="leg-num">Étape 15</span><br>Retour à La Faute-sur-Mer</li>
+      <li tabindex="0" role="button" data-lat="46.334" data-lng="-1.663"><span class="leg-num">Étape 1</span><br>Départ de La Faute-sur-Mer</li>
+      <li tabindex="0" role="button" data-lat="47.98" data-lng="-4.77"><span class="leg-num">Étape 2</span><br>Contournement de la Bretagne</li>
+      <li tabindex="0" role="button" data-lat="48.78" data-lng="-3.04"><span class="leg-num">Étape 3</span><br>Remontée de la Manche jusqu'à Paimpol</li>
+      <li tabindex="0" role="button" data-lat="49.46" data-lng="-2.55"><span class="leg-num">Étape 4</span><br>Traversée vers les îles Anglo-Normandes</li>
+      <li tabindex="0" role="button" data-lat="49.92" data-lng="-6.33"><span class="leg-num">Étape 5</span><br>Remontée de la côte sud de l'Angleterre jusqu'aux Scilly</li>
+      <li tabindex="0" role="button" data-lat="54.23" data-lng="-4.55"><span class="leg-num">Étape 6</span><br>Remontée vers l'Écosse via la mer d'Irlande et l'île de Man</li>
+      <li tabindex="0" role="button" data-lat="55.86" data-lng="-4.35"><span class="leg-num">Étape 7</span><br>Passage à Glasgow</li>
+      <li tabindex="0" role="button" data-lat="57.3" data-lng="-7.15"><span class="leg-num">Étape 8</span><br>Les Hébrides</li>
+      <li tabindex="0" role="button" data-lat="58.6" data-lng="-3.52"><span class="leg-num">Étape 9</span><br>Cap sur Thurso, à la pointe nord de l'Écosse</li>
+      <li tabindex="0" role="button" data-lat="58.98" data-lng="-2.96"><span class="leg-num">Étape 10</span><br>Les Orkney</li>
+      <li tabindex="0" role="button" class="leg-end" data-lat="60.16" data-lng="-1.15"><span class="leg-num">Étape 11 — point le plus au nord</span><br>Les Shetland</li>
+      <li tabindex="0" role="button" data-lat="57.3" data-lng="-4.43"><span class="leg-num">Étape 12</span><br>Redescente vers Inverness, traversée du Loch Ness</li>
+      <li tabindex="0" role="button" data-lat="55.58" data-lng="-5.21"><span class="leg-num">Étape 13</span><br>Retour par la mer d'Irlande et l'île d'Arran</li>
+      <li tabindex="0" role="button" data-lat="49.75" data-lng="-2.25"><span class="leg-num">Étape 14</span><br>Traversée de la Manche</li>
+      <li tabindex="0" role="button" data-lat="46.334" data-lng="-1.663"><span class="leg-num">Étape 15</span><br>Retour à La Faute-sur-Mer</li>
     </ol>
   </div>
 </section>
@@ -106,6 +112,8 @@
   </div>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="assets/script.js"></script>
+<script src="assets/route-map.js"></script>
 </body>
 </html>
