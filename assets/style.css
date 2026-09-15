@@ -240,29 +240,15 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .teaser-list li{
   border-top: 1px solid rgba(11,36,54,0.15);
   padding: 1.6rem 0;
-  display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem;
-  align-items: start;
+  display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem;
 }
 .teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
-.teaser-media{ display: flex; flex-direction: column; gap: 0.5rem; }
-.teaser-media img{
-  width: 7rem; height: 7rem; object-fit: cover;
-  border-radius: 2px;
-  filter: grayscale(0.15) saturate(1.05);
-  transition: transform .4s ease, filter .4s ease;
-}
-.teaser-list li:hover .teaser-media img,
-.teaser-list li:focus-within .teaser-media img{
-  transform: scale(1.04);
-  filter: grayscale(0) saturate(1.15);
-}
-.teaser-media .coord{
-  font-family: var(--font-body); font-size: 0.8rem; color: var(--heather);
+.teaser-list .coord{
+  font-family: var(--font-body); font-size: 0.85rem; color: var(--heather);
+  padding-top: 0.3rem;
 }
 @media (max-width: 40rem){
-  .teaser-list li{ grid-template-columns: 1fr; gap: 0.8rem; }
-  .teaser-media{ flex-direction: row; align-items: center; }
-  .teaser-media img{ width: 4.5rem; height: 4.5rem; }
+  .teaser-list li{ grid-template-columns: 1fr; gap: 0.3rem; }
 }
 
 /* =========================================================
@@ -287,47 +273,55 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 }
 .waypoints li.leg-end::before{ background: var(--brass); }
 .waypoints .leg-num{ color: var(--heather); font-size: 0.85rem; }
-.waypoints li{ cursor: pointer; }
-.waypoints li:hover .leg-num,
-.waypoints li:focus-visible .leg-num{ color: var(--brass); }
+
+.waypoint-btn{
+  display: block; width: 100%; text-align: left;
+  background: none; border: none; padding: 0;
+  font-family: var(--font-body); font-size: 1rem; color: var(--ink);
+  cursor: pointer;
+}
+.waypoint-btn:hover, .waypoint-btn:focus-visible{ color: var(--brass); }
 
 /* =========================================================
-   Carte du trajet (Leaflet)
+   Carte interactive du trajet (Leaflet)
    ========================================================= */
-.route-map{
-  height: 32rem;
-  width: 100%;
-  background: var(--ink);
-  border: 1px solid rgba(180,129,63,0.5);
+.trajet-map-wrap{
+  display: grid; grid-template-columns: 1fr 1.3fr; gap: var(--gap);
+  align-items: start;
 }
-@media (max-width: 46rem){
-  .route-map{ height: 22rem; }
+@media (max-width: 50rem){ .trajet-map-wrap{ grid-template-columns: 1fr; } }
+
+#route-map{
+  height: 480px;
+  border: 1px solid rgba(180,129,63,0.4);
+  background: var(--seaglass);
 }
-.route-map .leaflet-popup-content-wrapper{
+@media (max-width: 50rem){ #route-map{ height: 340px; order: -1; } }
+
+.route-list-scroll{
+  max-height: 480px; overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* teinte la carte pour rester dans la palette du site plutôt que
+   les couleurs par défaut d'OpenStreetMap/CARTO */
+.leaflet-tile-pane{ filter: sepia(0.25) hue-rotate(170deg) saturate(1.25) brightness(0.98); }
+
+.route-marker span{
+  display: block; width: 100%; height: 100%; border-radius: 50%;
+  background: var(--foam); border: 2px solid var(--brass);
+}
+.route-marker--end span{ background: var(--brass); border-color: var(--ink); }
+
+.leaflet-popup-content-wrapper{
   background: var(--ink); color: var(--foam);
-  border-radius: 2px; font-family: var(--font-body);
+  border-radius: 2px;
 }
-.route-map .leaflet-popup-tip{ background: var(--ink); }
-.route-map .leaflet-popup-content{ margin: 0.7rem 0.9rem; font-size: 0.9rem; }
-.route-map .leaflet-popup-content strong{ color: var(--brass); }
-.route-map .leaflet-control-attribution{
-  background: rgba(11,36,54,0.75); color: rgba(243,246,242,0.6);
-  font-size: 0.7rem;
-}
-.route-map .leaflet-control-attribution a{ color: rgba(243,246,242,0.8); }
-
-/* =========================================================
-   Apparition douce au scroll
-   ========================================================= */
-.reveal{
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity .6s ease, transform .6s ease;
-}
-.reveal.is-visible{
-  opacity: 1;
-  transform: none;
-}
+.leaflet-popup-tip{ background: var(--ink); }
+.leaflet-popup-content{ font-family: var(--font-body); font-size: 0.9rem; margin: 0.7rem 0.9rem; }
+.leaflet-popup-content strong{ font-family: var(--font-display); }
+.leaflet-container a.leaflet-popup-close-button{ color: var(--foam); }
+.leaflet-control-attribution{ font-size: 0.7rem; }
 
 /* =========================================================
    Fiche technique (page Bateau)
