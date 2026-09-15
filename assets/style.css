@@ -116,13 +116,20 @@ a{ color: var(--brass); text-decoration: none; }
 }
 
 .lang-toggle{
-  display: flex; align-items: center; gap: 0.4rem;
-  font-size: 0.85rem; color: var(--foam);
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 0.85rem;
 }
-.lang-toggle .current{ color: var(--brass); border-bottom: 1px solid var(--brass); }
-.lang-toggle .soon{
-  color: rgba(243,246,242,0.45); cursor: default;
-  border-bottom: 1px dashed rgba(243,246,242,0.3);
+.lang-btn{
+  background: none; border: none; padding: 0 0 1px;
+  font-family: var(--font-body); font-size: 0.85rem;
+  color: rgba(243,246,242,0.45);
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.lang-btn:hover{ color: var(--foam); }
+.lang-btn[aria-pressed="true"]{
+  color: var(--brass); border-bottom-color: var(--brass);
+  cursor: default;
 }
 
 .nav-toggle{

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Le trajet — Azurite</title>
-<meta name="description" content="Sept mois de navigation en famille : de La Faute-sur-Mer aux Shetland, et retour.">
+<title data-i18n="meta.trajet.title">Le trajet — Azurite</title>
+<meta name="description" content="Sept mois de navigation en famille : de La Faute-sur-Mer aux Shetland, et retour." data-i18n-content="meta.trajet.description">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
@@ -14,29 +14,29 @@
 
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil">
+    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil" data-i18n-aria="nav.logoAria">
       <img src="assets/img/logo-azurite-badge.jpg" alt="">
     </a>
-    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu</button>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu" data-i18n="nav.menuToggle" data-i18n-aria="nav.menuAria">Menu</button>
     <ul class="nav-links">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="bateau.html">Le bateau</a></li>
-      <li><a href="equipage.html">L'équipage</a></li>
-      <li><a href="trajet.html" aria-current="page">Le trajet</a></li>
-      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="bateau.html" data-i18n="nav.boat">Le bateau</a></li>
+      <li><a href="equipage.html" data-i18n="nav.crew">L'équipage</a></li>
+      <li><a href="trajet.html" aria-current="page" data-i18n="nav.route">Le trajet</a></li>
+      <li><a href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a></li>
     </ul>
-    <div class="lang-toggle">
-      <span class="current">FR</span>
-      <span class="soon" title="Version anglaise à venir">EN</span>
+    <div class="lang-toggle" role="group" aria-label="Langue / Language">
+      <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
   </div>
 </header>
 
 <section style="padding-top:3.5rem;">
   <div class="container">
-    <span class="eyebrow-tag">Le trajet</span>
-    <h1>Sept mois vers les Shetland, et retour</h1>
-    <p>Mars à septembre 2027 : sept mois de navigation en famille, de notre port d'attache jusqu'aux confins nord de l'Écosse.</p>
+    <span class="eyebrow-tag" data-i18n="trajet.eyebrow">Le trajet</span>
+    <h1 data-i18n="trajet.title">Sept mois vers les Shetland, et retour</h1>
+    <p data-i18n="trajet.intro">Mars à septembre 2027 : sept mois de navigation en famille, de notre port d'attache jusqu'aux confins nord de l'Écosse.</p>
   </div>
 </section>
 
@@ -45,53 +45,53 @@
     <div class="route-video-wrap">
       <video controls preload="metadata" poster="assets/img/navigation-manche-poster.jpg" playsinline>
         <source src="assets/video/navigation-manche.mp4" type="video/mp4">
-        Votre navigateur ne supporte pas la lecture vidéo. <a href="assets/video/navigation-manche.mp4">Télécharger la vidéo</a>.
+        <span data-i18n="trajet.videoFallback">Votre navigateur ne supporte pas la lecture vidéo.</span> <a href="assets/video/navigation-manche.mp4" data-i18n="trajet.videoDownload">Télécharger la vidéo</a>.
       </video>
     </div>
-    <p style="font-size:0.85rem; color:var(--heather); text-align:center; margin-top:0.8rem;">Tracé animé de notre itinéraire prévisionnel.</p>
+    <p style="font-size:0.85rem; color:var(--heather); text-align:center; margin-top:0.8rem;" data-i18n="trajet.videoCaption">Tracé animé de notre itinéraire prévisionnel.</p>
   </div>
 </section>
 
 <section style="padding-top:0;">
   <div class="container">
     <ol class="waypoints">
-      <li><span class="leg-num">Étape 1</span><br>Départ de La Faute-sur-Mer</li>
-      <li><span class="leg-num">Étape 2</span><br>Contournement de la Bretagne</li>
-      <li><span class="leg-num">Étape 3</span><br>Remontée de la Manche jusqu'à Paimpol</li>
-      <li><span class="leg-num">Étape 4</span><br>Traversée vers les îles Anglo-Normandes</li>
-      <li><span class="leg-num">Étape 5</span><br>Remontée de la côte sud de l'Angleterre jusqu'aux Scilly</li>
-      <li><span class="leg-num">Étape 6</span><br>Remontée vers l'Écosse via la mer d'Irlande et l'île de Man</li>
-      <li><span class="leg-num">Étape 7</span><br>Passage à Glasgow</li>
-      <li><span class="leg-num">Étape 8</span><br>Les Hébrides</li>
-      <li><span class="leg-num">Étape 9</span><br>Cap sur Thurso, à la pointe nord de l'Écosse</li>
-      <li><span class="leg-num">Étape 10</span><br>Les Orkney</li>
-      <li class="leg-end"><span class="leg-num">Étape 11 — point le plus au nord</span><br>Les Shetland</li>
-      <li><span class="leg-num">Étape 12</span><br>Redescente vers Inverness, traversée du Loch Ness</li>
-      <li><span class="leg-num">Étape 13</span><br>Retour par la mer d'Irlande et l'île d'Arran</li>
-      <li><span class="leg-num">Étape 14</span><br>Traversée de la Manche</li>
-      <li><span class="leg-num">Étape 15</span><br>Retour à La Faute-sur-Mer</li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.1.legNum">Étape 1</span><br><span data-i18n="trajet.waypoints.1.name">Départ de La Faute-sur-Mer</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.2.legNum">Étape 2</span><br><span data-i18n="trajet.waypoints.2.name">Contournement de la Bretagne</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.3.legNum">Étape 3</span><br><span data-i18n="trajet.waypoints.3.name">Remontée de la Manche jusqu'à Paimpol</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.4.legNum">Étape 4</span><br><span data-i18n="trajet.waypoints.4.name">Traversée vers les îles Anglo-Normandes</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.5.legNum">Étape 5</span><br><span data-i18n="trajet.waypoints.5.name">Remontée de la côte sud de l'Angleterre jusqu'aux Scilly</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.6.legNum">Étape 6</span><br><span data-i18n="trajet.waypoints.6.name">Remontée vers l'Écosse via la mer d'Irlande et l'île de Man</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.7.legNum">Étape 7</span><br><span data-i18n="trajet.waypoints.7.name">Passage à Glasgow</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.8.legNum">Étape 8</span><br><span data-i18n="trajet.waypoints.8.name">Les Hébrides</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.9.legNum">Étape 9</span><br><span data-i18n="trajet.waypoints.9.name">Cap sur Thurso, à la pointe nord de l'Écosse</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.10.legNum">Étape 10</span><br><span data-i18n="trajet.waypoints.10.name">Les Orkney</span></li>
+      <li class="leg-end"><span class="leg-num" data-i18n="trajet.waypoints.11.legNum">Étape 11 — point le plus au nord</span><br><span data-i18n="trajet.waypoints.11.name">Les Shetland</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.12.legNum">Étape 12</span><br><span data-i18n="trajet.waypoints.12.name">Redescente vers Inverness, traversée du Loch Ness</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.13.legNum">Étape 13</span><br><span data-i18n="trajet.waypoints.13.name">Retour par la mer d'Irlande et l'île d'Arran</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.14.legNum">Étape 14</span><br><span data-i18n="trajet.waypoints.14.name">Traversée de la Manche</span></li>
+      <li><span class="leg-num" data-i18n="trajet.waypoints.15.legNum">Étape 15</span><br><span data-i18n="trajet.waypoints.15.name">Retour à La Faute-sur-Mer</span></li>
     </ol>
   </div>
 </section>
 
 <section class="section-sea">
   <div class="container">
-    <span class="eyebrow-tag" style="color:var(--brass); border-color:var(--brass);">La préparation</span>
-    <h2>On ne part pas à l'aventure au hasard</h2>
-    <p>Ce voyage n'est pas un coup de tête : on s'y prépare depuis qu'on a Azurite, en février 2025. Depuis que nous l'avons, nous avons déjà parcouru plus de 1500 milles nautiques, dont un aller-retour jusqu'à Guernesey — et on a appris à composer avec la météo plutôt qu'à s'y opposer.</p>
+    <span class="eyebrow-tag" style="color:var(--brass); border-color:var(--brass);" data-i18n="trajet.prepEyebrow">La préparation</span>
+    <h2 data-i18n="trajet.prepTitle">On ne part pas à l'aventure au hasard</h2>
+    <p data-i18n="trajet.prepText">Ce voyage n'est pas un coup de tête : on s'y prépare depuis qu'on a Azurite, en février 2025. Depuis que nous l'avons, nous avons déjà parcouru plus de 1500 milles nautiques, dont un aller-retour jusqu'à Guernesey — et on a appris à composer avec la météo plutôt qu'à s'y opposer.</p>
 
     <div class="two-col" style="margin-top:2rem;">
       <div>
-        <h3>Exemple concret : le cap sur les Scilly, version réalité</h3>
-        <p>On voulait initialement rejoindre les Scilly depuis l'Aber Wrac'h. Faute de fenêtre météo avec un vent de nord favorable, on a changé de plan et remonté la Manche vers les îles Anglo-Normandes à la place. C'est ce genre de décision qu'on retrouvera tout au long des sept mois vers l'Écosse — s'adapter plutôt que forcer.</p>
+        <h3 data-i18n="trajet.scillyTitle">Exemple concret : le cap sur les Scilly, version réalité</h3>
+        <p data-i18n="trajet.scillyText">On voulait initialement rejoindre les Scilly depuis l'Aber Wrac'h. Faute de fenêtre météo avec un vent de nord favorable, on a changé de plan et remonté la Manche vers les îles Anglo-Normandes à la place. C'est ce genre de décision qu'on retrouvera tout au long des sept mois vers l'Écosse — s'adapter plutôt que forcer.</p>
       </div>
       <div>
-        <h3>Ce qu'on a appris cet été, qui nous servira en Écosse</h3>
+        <h3 data-i18n="trajet.learnedTitle">Ce qu'on a appris cet été, qui nous servira en Écosse</h3>
         <ul>
-          <li>Exploiter au mieux Azurite : réglages de voile, routes préparées la veille</li>
-          <li>Naviguer dans les courants et le fort marnage de la Manche</li>
-          <li>Naviguer en sécurité au milieu des cailloux</li>
-          <li>Garder son sang-froid — et le sens de l'humour</li>
+          <li data-i18n="trajet.learnedItems.0">Exploiter au mieux Azurite : réglages de voile, routes préparées la veille</li>
+          <li data-i18n="trajet.learnedItems.1">Naviguer dans les courants et le fort marnage de la Manche</li>
+          <li data-i18n="trajet.learnedItems.2">Naviguer en sécurité au milieu des cailloux</li>
+          <li data-i18n="trajet.learnedItems.3">Garder son sang-froid — et le sens de l'humour</li>
         </ul>
       </div>
     </div>
@@ -101,27 +101,28 @@
 <section>
   <div class="container two-col">
     <div>
-      <span class="eyebrow-tag">La rencontre</span>
-      <p style="font-family:var(--font-display); font-style:italic; font-size:1.4rem; max-width:32rem;">« Allez-y, il faut le faire, c'est magnifique. »</p>
-      <p style="color:var(--heather); max-width:none;">— Philippe Poupon, croisé à bord de son voilier Fleur Australe lors d'une escale à l'Aber Wrac'h. On lui a parlé du projet Écosse ; sa réponse a fini de nous convaincre.</p>
+      <span class="eyebrow-tag" data-i18n="trajet.encounterEyebrow">La rencontre</span>
+      <p style="font-family:var(--font-display); font-style:italic; font-size:1.4rem; max-width:32rem;" data-i18n="trajet.quote">« Allez-y, il faut le faire, c'est magnifique. »</p>
+      <p style="color:var(--heather); max-width:none;" data-i18n="trajet.quoteAuthor">— Philippe Poupon, croisé à bord de son voilier Fleur Australe lors d'une escale à l'Aber Wrac'h. On lui a parlé du projet Écosse ; sa réponse a fini de nous convaincre.</p>
     </div>
     <div>
-      <span class="eyebrow-tag">Nous suivre</span>
-      <h2>Le voyage, en direct</h2>
-      <p>Nous partageons notre navigation sur PolarStep.</p>
-      <p><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly" class="link-underline">Notre étape de cet été jusqu'aux Scilly est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse.</p>
+      <span class="eyebrow-tag" data-i18n="trajet.followEyebrow">Nous suivre</span>
+      <h2 data-i18n="trajet.followTitle">Le voyage, en direct</h2>
+      <p data-i18n="trajet.followIntro">Nous partageons notre navigation sur PolarStep.</p>
+      <p data-i18n="trajet.followText"><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly" class="link-underline">Notre étape de cet été jusqu'aux Scilly est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse.</p>
     </div>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div>Azurite — Voyage en famille, mars-septembre 2027</div>
-    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly">Suivre sur PolarStep</a></div>
-    <div><a href="sponsors.html">Devenir sponsor</a></div>
+    <div data-i18n="footer.tagline">Azurite — Voyage en famille, mars-septembre 2027</div>
+    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly" data-i18n="footer.polarsteps">Suivre sur PolarStep</a></div>
+    <div><a href="sponsors.html" data-i18n="footer.sponsorCta">Devenir sponsor</a></div>
   </div>
 </footer>
 
+<script src="assets/i18n.js"></script>
 <script src="assets/script.js"></script>
 </body>
 </html>

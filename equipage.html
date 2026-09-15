@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>L'équipage — Azurite</title>
-<meta name="description" content="Thomas, Morgane, Gaston et Rose : l'équipage d'Azurite, en route vers l'Écosse.">
+<title data-i18n="meta.equipage.title">L'équipage — Azurite</title>
+<meta name="description" content="Thomas, Morgane, Gaston et Rose : l'équipage d'Azurite, en route vers l'Écosse." data-i18n-content="meta.equipage.description">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
@@ -14,36 +14,36 @@
 
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil">
+    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil" data-i18n-aria="nav.logoAria">
       <img src="assets/img/logo-azurite-badge.jpg" alt="">
     </a>
-    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu</button>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu" data-i18n="nav.menuToggle" data-i18n-aria="nav.menuAria">Menu</button>
     <ul class="nav-links">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="bateau.html">Le bateau</a></li>
-      <li><a href="equipage.html" aria-current="page">L'équipage</a></li>
-      <li><a href="trajet.html">Le trajet</a></li>
-      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="bateau.html" data-i18n="nav.boat">Le bateau</a></li>
+      <li><a href="equipage.html" aria-current="page" data-i18n="nav.crew">L'équipage</a></li>
+      <li><a href="trajet.html" data-i18n="nav.route">Le trajet</a></li>
+      <li><a href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a></li>
     </ul>
-    <div class="lang-toggle">
-      <span class="current">FR</span>
-      <span class="soon" title="Version anglaise à venir">EN</span>
+    <div class="lang-toggle" role="group" aria-label="Langue / Language">
+      <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
   </div>
 </header>
 
 <section style="padding-top:3.5rem; padding-bottom:0;">
   <div class="container">
-    <span class="eyebrow-tag">L'équipage</span>
-    <h1>Nous sommes une famille de quatre</h1>
-    <p>À bord, chacun a sa place — même si les rôles s'échangent selon l'humeur et la météo. Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau.</p>
+    <span class="eyebrow-tag" data-i18n="equipage.eyebrow">L'équipage</span>
+    <h1 data-i18n="equipage.title">Nous sommes une famille de quatre</h1>
+    <p data-i18n="equipage.intro">À bord, chacun a sa place — même si les rôles s'échangent selon l'humeur et la météo. Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau.</p>
   </div>
 </section>
 
 <section style="padding-top:1.5rem;">
   <div class="container">
     <figure style="margin:0;">
-      <img src="assets/img/famille-groupe.jpg" alt="Thomas, Morgane, Gaston et Rose en randonnée sur la côte, avec des voiliers au mouillage en arrière-plan">
+      <img src="assets/img/famille-groupe.jpg" alt="Thomas, Morgane, Gaston et Rose en randonnée sur la côte, avec des voiliers au mouillage en arrière-plan" data-i18n-alt="equipage.groupPhotoAlt">
     </figure>
   </div>
 </section>
@@ -53,48 +53,48 @@
 
     <div class="portrait">
       <figure class="portrait-figure" style="margin:0;">
-        <img src="assets/img/thomas-maquereau.jpg" alt="Thomas, un maquereau tout juste pêché coincé dans la barbe, à bord d'Azurite">
+        <img src="assets/img/thomas-maquereau.jpg" alt="Thomas, un maquereau tout juste pêché coincé dans la barbe, à bord d'Azurite" data-i18n-alt="equipage.thomas.imgAlt">
       </figure>
       <div>
-        <span class="portrait-name">Thomas, 36 ans</span>
-        <h2>Le capitaine, « Capt'ain Barbe Douce »</h2>
-        <p>Skipper, chef mécano et spécialiste électronique du bord : c'est Thomas qui gère la navigation avant, pendant et après chaque étape. Docteur en chimie organique reconverti ingénieur développeur logiciel, il a mis sa rigueur scientifique et son goût du bricolage au service du refit complet d'Azurite.</p>
-        <p>Surfeur passionné, c'est aussi lui qui rêve des vagues mythiques d'Écosse depuis le début du projet. Une anecdote, pour ceux qui doutent encore de son sang-froid : il s'est déjà baigné en pleine navigation... et a perdu son calçon quand le bateau a dépassé les 5 nœuds.</p>
+        <span class="portrait-name" data-i18n="equipage.thomas.name">Thomas, 36 ans</span>
+        <h2 data-i18n="equipage.thomas.role">Le capitaine, « Capt'ain Barbe Douce »</h2>
+        <p data-i18n="equipage.thomas.p1">Skipper, chef mécano et spécialiste électronique du bord : c'est Thomas qui gère la navigation avant, pendant et après chaque étape. Docteur en chimie organique reconverti ingénieur développeur logiciel, il a mis sa rigueur scientifique et son goût du bricolage au service du refit complet d'Azurite.</p>
+        <p data-i18n="equipage.thomas.p2">Surfeur passionné, c'est aussi lui qui rêve des vagues mythiques d'Écosse depuis le début du projet. Une anecdote, pour ceux qui doutent encore de son sang-froid : il s'est déjà baigné en pleine navigation... et a perdu son calçon quand le bateau a dépassé les 5 nœuds.</p>
       </div>
     </div>
 
     <div class="portrait reverse">
       <figure class="portrait-figure" style="margin:0;">
-        <img src="assets/img/morgane-portrait.jpg" alt="Morgane sur le pont d'Azurite, au large de la Bretagne">
+        <img src="assets/img/morgane-portrait.jpg" alt="Morgane sur le pont d'Azurite, au large de la Bretagne" data-i18n-alt="equipage.morgane.imgAlt">
       </figure>
       <div>
-        <span class="portrait-name">Morgane, 36 ans</span>
-        <h2>Équipière en second</h2>
-        <p>Morgane vient en soutien sur les manœuvres, les quarts, et participe à l'étude et à la validation des itinéraires. Mais avant tout, elle est là pour partager le plaisir d'être en mer avec son mari et ses enfants.</p>
-        <p>À bord, elle gère aussi la vie quotidienne : repas, logistique, activités pour les enfants, et la continuité pédagogique pendant les sept mois de voyage. Ce qu'elle aime dans ce petit cocon flottant : se recentrer sur la famille, une charge mentale bien plus légère qu'à terre, et passer du temps dehors à lire ou observer la mer — en particulier guetter les dauphins, ses compagnons préférés.</p>
-        <p>Le reste de l'année, Morgane travaille à l'accueil de la mairie du village — un métier qu'elle aime, varié et au contact du public, mais parfois éprouvant. Partir en mer est son exutoire, et elle attend ce voyage avec impatience : de quoi resserrer encore les liens familiaux, même si quelques frictions sont sûrement à prévoir à quatre dans un espace aussi restreint.</p>
+        <span class="portrait-name" data-i18n="equipage.morgane.name">Morgane, 36 ans</span>
+        <h2 data-i18n="equipage.morgane.role">Équipière en second</h2>
+        <p data-i18n="equipage.morgane.p1">Morgane vient en soutien sur les manœuvres, les quarts, et participe à l'étude et à la validation des itinéraires. Mais avant tout, elle est là pour partager le plaisir d'être en mer avec son mari et ses enfants.</p>
+        <p data-i18n="equipage.morgane.p2">À bord, elle gère aussi la vie quotidienne : repas, logistique, activités pour les enfants, et la continuité pédagogique pendant les sept mois de voyage. Ce qu'elle aime dans ce petit cocon flottant : se recentrer sur la famille, une charge mentale bien plus légère qu'à terre, et passer du temps dehors à lire ou observer la mer — en particulier guetter les dauphins, ses compagnons préférés.</p>
+        <p data-i18n="equipage.morgane.p3">Le reste de l'année, Morgane travaille à l'accueil de la mairie du village — un métier qu'elle aime, varié et au contact du public, mais parfois éprouvant. Partir en mer est son exutoire, et elle attend ce voyage avec impatience : de quoi resserrer encore les liens familiaux, même si quelques frictions sont sûrement à prévoir à quatre dans un espace aussi restreint.</p>
       </div>
     </div>
 
     <div class="portrait">
       <figure class="portrait-figure" style="margin:0;">
-        <img src="assets/img/gaston-etrave.jpg" alt="Un enfant à l'étrave d'Azurite, main sur un hauban, mer scintillante en arrière-plan">
+        <img src="assets/img/gaston-etrave.jpg" alt="Un enfant à l'étrave d'Azurite, main sur un hauban, mer scintillante en arrière-plan" data-i18n-alt="equipage.gaston.imgAlt">
       </figure>
       <div>
-        <span class="portrait-name">Gaston, 9 ans</span>
-        <h2>Le pêcheur du bord</h2>
-        <p>Dorade, maquereau, vieille, bonite, bar... rien ne lui résiste. Gaston fournit assez de poisson pour que la famille n'ait pas besoin d'en acheter. Curieux et observateur, il participe aux manœuvres et à la vie à bord à sa mesure — et on l'a déjà vu à la manœuvre en pleine mer, bien concentré.</p>
+        <span class="portrait-name" data-i18n="equipage.gaston.name">Gaston, 9 ans</span>
+        <h2 data-i18n="equipage.gaston.role">Le pêcheur du bord</h2>
+        <p data-i18n="equipage.gaston.p1">Dorade, maquereau, vieille, bonite, bar... rien ne lui résiste. Gaston fournit assez de poisson pour que la famille n'ait pas besoin d'en acheter. Curieux et observateur, il participe aux manœuvres et à la vie à bord à sa mesure — et on l'a déjà vu à la manœuvre en pleine mer, bien concentré.</p>
       </div>
     </div>
 
     <div class="portrait reverse">
       <figure class="portrait-figure" style="margin:0;">
-        <img src="assets/img/pont-lecture.jpg" alt="Un enfant coiffé d'un bonnet à motifs, allongé sur le pont en train de lire">
+        <img src="assets/img/pont-lecture.jpg" alt="Un enfant coiffé d'un bonnet à motifs, allongé sur le pont en train de lire" data-i18n-alt="equipage.rose.imgAlt">
       </figure>
       <div>
-        <span class="portrait-name">Rose, 6 ans</span>
-        <h2>La plus jeune, pas la plus timide</h2>
-        <p>Rose n'a pas froid aux yeux ni au corps : elle passerait des heures dans l'eau à se baigner et jouer. Studieuse, elle est toujours la première à s'installer pour les devoirs et l'école à bord. Et si quelque chose ne lui convient pas, elle sait très bien se faire entendre.</p>
+        <span class="portrait-name" data-i18n="equipage.rose.name">Rose, 6 ans</span>
+        <h2 data-i18n="equipage.rose.role">La plus jeune, pas la plus timide</h2>
+        <p data-i18n="equipage.rose.p1">Rose n'a pas froid aux yeux ni au corps : elle passerait des heures dans l'eau à se baigner et jouer. Studieuse, elle est toujours la première à s'installer pour les devoirs et l'école à bord. Et si quelque chose ne lui convient pas, elle sait très bien se faire entendre.</p>
       </div>
     </div>
 
@@ -104,20 +104,21 @@
 <section class="section-dark">
   <div class="container two-col">
     <div>
-      <h2>Rien n'est figé à bord</h2>
-      <p>Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau. Mais les rôles ne sont pas figés : ils s'échangent selon l'humeur de chacun et les conditions météo.</p>
+      <h2 data-i18n="equipage.rolesTitle">Rien n'est figé à bord</h2>
+      <p data-i18n="equipage.rolesText">Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau. Mais les rôles ne sont pas figés : ils s'échangent selon l'humeur de chacun et les conditions météo.</p>
     </div>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div>Azurite — Voyage en famille, mars-septembre 2027</div>
-    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly">Suivre sur PolarStep</a></div>
-    <div><a href="sponsors.html">Devenir sponsor</a></div>
+    <div data-i18n="footer.tagline">Azurite — Voyage en famille, mars-septembre 2027</div>
+    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly" data-i18n="footer.polarsteps">Suivre sur PolarStep</a></div>
+    <div><a href="sponsors.html" data-i18n="footer.sponsorCta">Devenir sponsor</a></div>
   </div>
 </footer>
 
+<script src="assets/i18n.js"></script>
 <script src="assets/script.js"></script>
 </body>
 </html>

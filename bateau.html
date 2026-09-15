@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Le bateau — Azurite</title>
-<meta name="description" content="Azurite, un First 375 de 1988 entièrement refait par la famille : électronique, sécurité hauturière, confort de vie à bord.">
+<title data-i18n="meta.bateau.title">Le bateau — Azurite</title>
+<meta name="description" content="Azurite, un First 375 de 1988 entièrement refait par la famille : électronique, sécurité hauturière, confort de vie à bord." data-i18n-content="meta.bateau.description">
 <link rel="stylesheet" href="assets/style.css">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16.png">
@@ -14,118 +14,119 @@
 
 <header class="site-header">
   <div class="container">
-    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil">
+    <a href="index.html" class="wordmark logo-swap" aria-label="Azurite — Accueil" data-i18n-aria="nav.logoAria">
       <img src="assets/img/logo-azurite-badge.jpg" alt="">
     </a>
-    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu">Menu</button>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu" data-i18n="nav.menuToggle" data-i18n-aria="nav.menuAria">Menu</button>
     <ul class="nav-links">
-      <li><a href="index.html">Accueil</a></li>
-      <li><a href="bateau.html" aria-current="page">Le bateau</a></li>
-      <li><a href="equipage.html">L'équipage</a></li>
-      <li><a href="trajet.html">Le trajet</a></li>
-      <li><a href="sponsors.html">Sponsors</a></li>
+      <li><a href="index.html" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="bateau.html" aria-current="page" data-i18n="nav.boat">Le bateau</a></li>
+      <li><a href="equipage.html" data-i18n="nav.crew">L'équipage</a></li>
+      <li><a href="trajet.html" data-i18n="nav.route">Le trajet</a></li>
+      <li><a href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a></li>
     </ul>
-    <div class="lang-toggle">
-      <span class="current">FR</span>
-      <span class="soon" title="Version anglaise à venir">EN</span>
+    <div class="lang-toggle" role="group" aria-label="Langue / Language">
+      <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
     </div>
   </div>
 </header>
 
 <section style="padding-top:3.5rem;">
   <div class="container">
-    <span class="eyebrow-tag">Le bateau</span>
-    <h1>Azurite, notre First 375</h1>
-    <p>Azurite est un First 375 construit par Bénéteau en 1988, dessiné par l'architecte naval Jean Berret. Un détail qui nous plaît particulièrement : le bateau a été immatriculé le 17 juin 1988 — exactement deux ans avant la naissance de Thomas, le 17 juin 1990. Azurite et Thomas sont nés le même jour.</p>
-    <p>Nous possédons Azurite depuis février 2025. Depuis, nous avons déjà parcouru plus de 1500 milles nautiques ensemble, dont un aller-retour jusqu'à Guernesey cet été, et navigué dans des conditions musclées jusqu'à 35 kts au portant.</p>
+    <span class="eyebrow-tag" data-i18n="bateau.eyebrow">Le bateau</span>
+    <h1 data-i18n="bateau.title">Azurite, notre First 375</h1>
+    <p data-i18n="bateau.intro1">Azurite est un First 375 construit par Bénéteau en 1988, dessiné par l'architecte naval Jean Berret. Un détail qui nous plaît particulièrement : le bateau a été immatriculé le 17 juin 1988 — exactement deux ans avant la naissance de Thomas, le 17 juin 1990. Azurite et Thomas sont nés le même jour.</p>
+    <p data-i18n="bateau.intro2">Nous possédons Azurite depuis février 2025. Depuis, nous avons déjà parcouru plus de 1500 milles nautiques ensemble, dont un aller-retour jusqu'à Guernesey cet été, et navigué dans des conditions musclées jusqu'à 35 kts au portant.</p>
   </div>
 </section>
 
 <section>
   <div class="container two-col">
     <div class="spec-plate">
-      <h3>Fiche technique</h3>
+      <h3 data-i18n="bateau.spec.title">Fiche technique</h3>
       <dl>
-        <dt>Chantier</dt><dd>Bénéteau</dd>
-        <dt>Architecte</dt><dd>Jean Berret</dd>
-        <dt>Année</dt><dd>1988</dd>
-        <dt>Longueur</dt><dd>≈ 11,3 m</dd>
-        <dt>Version</dt><dd>Petit tirant d'eau</dd>
-        <dt>Habitabilité</dt><dd>6 à 8 personnes</dd>
-        <dt>Gréement</dt><dd>Sloop fractionné</dd>
+        <dt data-i18n="bateau.spec.yard">Chantier</dt><dd data-i18n="bateau.spec.yardVal">Bénéteau</dd>
+        <dt data-i18n="bateau.spec.architect">Architecte</dt><dd data-i18n="bateau.spec.architectVal">Jean Berret</dd>
+        <dt data-i18n="bateau.spec.year">Année</dt><dd data-i18n="bateau.spec.yearVal">1988</dd>
+        <dt data-i18n="bateau.spec.length">Longueur</dt><dd data-i18n="bateau.spec.lengthVal">≈ 11,3 m</dd>
+        <dt data-i18n="bateau.spec.version">Version</dt><dd data-i18n="bateau.spec.versionVal">Petit tirant d'eau</dd>
+        <dt data-i18n="bateau.spec.capacity">Habitabilité</dt><dd data-i18n="bateau.spec.capacityVal">6 à 8 personnes</dd>
+        <dt data-i18n="bateau.spec.rig">Gréement</dt><dd data-i18n="bateau.spec.rigVal">Sloop fractionné</dd>
       </dl>
-      <p style="margin-top:1rem; font-size:0.85rem; color:var(--heather);">Cotes précises (largeur, tirant d'eau exact, déplacement) à confirmer avec les papiers du bord.</p>
+      <p style="margin-top:1rem; font-size:0.85rem; color:var(--heather);" data-i18n="bateau.spec.note">Cotes précises (largeur, tirant d'eau exact, déplacement) à confirmer avec les papiers du bord.</p>
     </div>
     <figure style="margin:0;">
-      <img src="assets/img/mat-voiles.jpg" alt="Vue depuis le pont d'Azurite, voiles gonflées, mât en contre-jour">
+      <img src="assets/img/mat-voiles.jpg" alt="Vue depuis le pont d'Azurite, voiles gonflées, mât en contre-jour" data-i18n-alt="bateau.photoAlt">
     </figure>
   </div>
 </section>
 
 <section class="section-sea">
   <div class="container">
-    <span class="eyebrow-tag" style="color:var(--brass); border-color:var(--brass);">Le refit</span>
-    <h2>Un bateau que nous connaissons par cœur</h2>
-    <p>Nous avons réalisé nous-mêmes l'essentiel du refit d'Azurite, avec un objectif simple : un bateau fiable et autonome pour sept mois de navigation en famille.</p>
+    <span class="eyebrow-tag" style="color:var(--brass); border-color:var(--brass);" data-i18n="bateau.refitEyebrow">Le refit</span>
+    <h2 data-i18n="bateau.refitTitle">Un bateau que nous connaissons par cœur</h2>
+    <p data-i18n="bateau.refitIntro">Nous avons réalisé nous-mêmes l'essentiel du refit d'Azurite, avec un objectif simple : un bateau fiable et autonome pour sept mois de navigation en famille.</p>
 
     <div class="refit-grid">
       <div>
-        <h3>Électronique &amp; énergie</h3>
+        <h3 data-i18n="bateau.refit.electronics.title">Électronique &amp; énergie</h3>
         <ul>
-          <li>Raymarine complet : pilote automatique EV-200 voilier + afficheur i70</li>
-          <li>Installation AIS</li>
-          <li>Multiplexeur : toutes les données de navigation sur tablette</li>
-          <li>Remise en route du radar Furuno d'origine</li>
-          <li>Panneaux solaires + batterie gel + chargeur MPPT sur portique</li>
-          <li>Convertisseur 12-220V</li>
-          <li>Chauffage stationnaire Webasto au gazole</li>
+          <li data-i18n="bateau.refit.electronics.items.0">Raymarine complet : pilote automatique EV-200 voilier + afficheur i70</li>
+          <li data-i18n="bateau.refit.electronics.items.1">Installation AIS</li>
+          <li data-i18n="bateau.refit.electronics.items.2">Multiplexeur : toutes les données de navigation sur tablette</li>
+          <li data-i18n="bateau.refit.electronics.items.3">Remise en route du radar Furuno d'origine</li>
+          <li data-i18n="bateau.refit.electronics.items.4">Panneaux solaires + batterie gel + chargeur MPPT sur portique</li>
+          <li data-i18n="bateau.refit.electronics.items.5">Convertisseur 12-220V</li>
+          <li data-i18n="bateau.refit.electronics.items.6">Chauffage stationnaire Webasto au gazole</li>
         </ul>
       </div>
       <div>
-        <h3>Sécurité &amp; fiabilité</h3>
+        <h3 data-i18n="bateau.refit.safety.title">Sécurité &amp; fiabilité</h3>
         <ul>
-          <li>Révision moteur complète</li>
-          <li>Refit complet du safran, jeu du tube de jaumière repris</li>
-          <li>Révision du gréement</li>
-          <li>Réserve d'eau propre rigide</li>
-          <li>Équipement de sécurité hauturière remis aux normes : EPIRB, extincteurs, radeau de survie, gilets</li>
+          <li data-i18n="bateau.refit.safety.items.0">Révision moteur complète</li>
+          <li data-i18n="bateau.refit.safety.items.1">Refit complet du safran, jeu du tube de jaumière repris</li>
+          <li data-i18n="bateau.refit.safety.items.2">Révision du gréement</li>
+          <li data-i18n="bateau.refit.safety.items.3">Réserve d'eau propre rigide</li>
+          <li data-i18n="bateau.refit.safety.items.4">Équipement de sécurité hauturière remis aux normes : EPIRB, extincteurs, radeau de survie, gilets</li>
         </ul>
       </div>
       <div>
-        <h3>Confort &amp; vie à bord</h3>
+        <h3 data-i18n="bateau.refit.comfort.title">Confort &amp; vie à bord</h3>
         <ul>
-          <li>Plage arrière créée pour l'accès annexe, la baignade et remonter le poisson pêché</li>
-          <li>Cockpit optimisé : bimini et capote de descente refaite</li>
-          <li>Table de cockpit amovible, support tablette et porte-gobelet</li>
-          <li>Carré convertible en canapé</li>
-          <li>Espace télétravail à la table à carte, double écran</li>
+          <li data-i18n="bateau.refit.comfort.items.0">Plage arrière créée pour l'accès annexe, la baignade et remonter le poisson pêché</li>
+          <li data-i18n="bateau.refit.comfort.items.1">Cockpit optimisé : bimini et capote de descente refaite</li>
+          <li data-i18n="bateau.refit.comfort.items.2">Table de cockpit amovible, support tablette et porte-gobelet</li>
+          <li data-i18n="bateau.refit.comfort.items.3">Carré convertible en canapé</li>
+          <li data-i18n="bateau.refit.comfort.items.4">Espace télétravail à la table à carte, double écran</li>
         </ul>
       </div>
     </div>
 
-    <p style="margin-top:2rem;"><strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie — c'est justement pour ça qu'on recherche des sponsors.</p>
-    <a href="sponsors.html" class="btn">Voir la page Sponsors</a>
+    <p style="margin-top:2rem;" data-i18n="bateau.todoText"><strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie — c'est justement pour ça qu'on recherche des sponsors.</p>
+    <a href="sponsors.html" class="btn" data-i18n="bateau.todoCta">Voir la page Sponsors</a>
   </div>
 </section>
 
 <section>
   <div class="container">
-    <span class="eyebrow-tag">Le plan de vie</span>
-    <h2>À l'intérieur d'Azurite</h2>
+    <span class="eyebrow-tag" data-i18n="bateau.planEyebrow">Le plan de vie</span>
+    <h2 data-i18n="bateau.planTitle">À l'intérieur d'Azurite</h2>
     <figure style="margin:0; max-width:52rem;">
-      <img src="assets/img/plan-vie-azurite.jpg" alt="Plan illustré de l'aménagement intérieur d'Azurite : cabines, Grand Carré, cuisine, salle de la machine, table à carte">
+      <img src="assets/img/plan-vie-azurite.jpg" alt="Plan illustré de l'aménagement intérieur d'Azurite : cabines, Grand Carré, cuisine, salle de la machine, table à carte" data-i18n-alt="bateau.planImgAlt">
     </figure>
   </div>
 </section>
 
 <footer class="site-footer">
   <div class="container footer-grid">
-    <div>Azurite — Voyage en famille, mars-septembre 2027</div>
-    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly">Suivre sur PolarStep</a></div>
-    <div><a href="sponsors.html">Devenir sponsor</a></div>
+    <div data-i18n="footer.tagline">Azurite — Voyage en famille, mars-septembre 2027</div>
+    <div><a href="https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly" data-i18n="footer.polarsteps">Suivre sur PolarStep</a></div>
+    <div><a href="sponsors.html" data-i18n="footer.sponsorCta">Devenir sponsor</a></div>
   </div>
 </footer>
 
+<script src="assets/i18n.js"></script>
 <script src="assets/script.js"></script>
 </body>
 </html>
