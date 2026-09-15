@@ -10,13 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-// Header : grand logo illustré en haut de page, qui laisse place
-// à l'icône compacte une fois qu'on a scrollé.
+// Header : le logo rétrécit une fois qu'on a un peu scrollé.
 document.addEventListener('DOMContentLoaded', function () {
   var header = document.querySelector('.site-header');
   if (!header) return;
 
-  var threshold = 60;
+  var threshold = 40;
   var ticking = false;
 
   function update() {

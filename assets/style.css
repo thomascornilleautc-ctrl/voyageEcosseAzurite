@@ -453,7 +453,7 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 
 .logo-swap{
   display: block;
-  height: 64px;
+  height: 72px;
   transition: height .3s ease;
 }
 .logo-swap img{
@@ -462,8 +462,8 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   border-radius: 50%;
 }
 
-.site-header.is-scrolled .container{ padding-top: 0.5rem; padding-bottom: 0.5rem; }
-.site-header.is-scrolled .logo-swap{ height: 44px; }
+.site-header.is-scrolled .container{ padding-top: 0.4rem; padding-bottom: 0.4rem; }
+.site-header.is-scrolled .logo-swap{ height: 38px; }
 
 @media (prefers-reduced-motion: reduce){
   .site-header, .logo-swap, .logo-swap img{ transition: none; }
