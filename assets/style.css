@@ -452,3 +452,9 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   display: flex; flex-wrap: wrap; gap: 1.5rem 3rem;
   justify-content: space-between;
 }
+.route-video-wrap{
+  max-width: 480px; margin: 0 auto;
+  border: 1px solid rgba(180,129,63,0.4);
+  background: var(--ink);
+}
+.route-video-wrap video{ display: block; width: 100%; height: auto; }
