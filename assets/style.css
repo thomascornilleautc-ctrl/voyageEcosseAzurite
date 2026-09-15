@@ -163,21 +163,38 @@ a{ color: var(--brass); text-decoration: none; }
   background: var(--ink);
   overflow: hidden;
 }
-.hero img{
-  position: absolute; inset: 0;
-  width: 100%; height: 100%; object-fit: cover;
-  object-position: center 40%;
+/* La photo (960×1280, portrait) est bien plus haute que large : en plein
+   cadre "cover" sur un écran large, l'essentiel de l'image sortait du cadre.
+   On affiche donc la photo entière ("contain"), sur un fond flouté agrandi
+   de la même image pour combler les côtés — elle reste lisible à toutes
+   les largeurs plutôt que rognée au hasard. */
+.hero-backdrop{
+  position: absolute; inset: -60px;
+  background: url('img/hero-spi.jpg') center 30% / cover no-repeat;
+  filter: blur(55px) saturate(1.05) brightness(0.4);
+  transform: scale(1.15);
 }
-.hero::before{
-  content: "";
+.hero-photo{
   position: absolute; inset: 0;
-  background: linear-gradient(180deg, rgba(11,36,54,0.15) 0%, rgba(11,36,54,0.55) 55%, rgba(11,36,54,0.92) 100%);
+  width: 100%; height: 100%;
+  object-fit: contain;
+  object-position: center 15%;
+}
+.hero-scrim{
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(30,47,61,0.2) 0%, rgba(30,47,61,0.45) 50%, rgba(30,47,61,0.92) 100%);
 }
 .hero-content{
   position: relative; z-index: 1;
   padding: 3rem var(--gap) 3.2rem;
   max-width: 42rem;
   color: var(--foam);
+}
+@media (max-width: 46rem){
+  /* En portrait mobile le cadre se rapproche déjà du ratio de la photo :
+     autant remplir tout l'écran plutôt que garder le fond flouté. */
+  .hero-backdrop{ display: none; }
+  .hero-photo{ object-fit: cover; object-position: center 40%; }
 }
 .hero-kicker{
   font-family: var(--font-body); font-weight: 600;
