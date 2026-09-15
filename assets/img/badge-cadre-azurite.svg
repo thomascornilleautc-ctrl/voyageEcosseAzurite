@@ -1,0 +1,41 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="arcTop" d="M 45,150 A 105,105 0 0 1 255,150" fill="none"/>
+  </defs>
+
+  <!-- anneaux du hublot -->
+  <circle cx="150" cy="150" r="140" fill="none" stroke="#0B2436" stroke-width="2"/>
+  <circle cx="150" cy="150" r="118" fill="none" stroke="#0B2436" stroke-width="1"/>
+
+  <!-- texte arqué -->
+  <text font-family="Georgia, serif" font-size="30" font-weight="700" letter-spacing="6" fill="#0B2436">
+    <textPath href="#arcTop" startOffset="50%" text-anchor="middle">AZURITE</textPath>
+  </text>
+
+  <!-- zone centrale : emplacement pour l'illustration (voilier + personnage) -->
+  <!-- rien n'est dessiné ici volontairement : cercle transparent d'environ 200px de diamètre -->
+
+  <!-- bandeau ruban -->
+  <path d="M55,250 L245,250 L230,267.5 L245,285 L55,285 L70,267.5 Z"
+        fill="#F3F6F2" stroke="#0B2436" stroke-width="2"/>
+  <text x="150" y="273" font-family="Georgia, serif" font-size="17" font-weight="700"
+        letter-spacing="2" fill="#0B2436" text-anchor="middle">TOUR D&#8217;ÉCOSSE</text>
+
+  <!-- petites ancres de part et d'autre du bandeau -->
+  <g stroke="#0B2436" stroke-width="1.6" fill="none" stroke-linecap="round">
+    <g transform="translate(34,267)">
+      <circle cx="0" cy="-8" r="3"/>
+      <line x1="0" y1="-5" x2="0" y2="9"/>
+      <line x1="-5" y1="-1" x2="5" y2="-1"/>
+      <path d="M0,9 Q -8,9 -8,2"/>
+      <path d="M0,9 Q 8,9 8,2"/>
+    </g>
+    <g transform="translate(266,267)">
+      <circle cx="0" cy="-8" r="3"/>
+      <line x1="0" y1="-5" x2="0" y2="9"/>
+      <line x1="-5" y1="-1" x2="5" y2="-1"/>
+      <path d="M0,9 Q -8,9 -8,2"/>
+      <path d="M0,9 Q 8,9 8,2"/>
+    </g>
+  </g>
+</svg>

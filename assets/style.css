@@ -5,14 +5,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap');
 
 :root{
-  /* Palette — carte marine / cuivre de bord / bruyère écossaise */
-  --ink:      #0B2436; /* fond sombre principal, texte sur fond clair */
-  --sea:      #164C68; /* bleu mer, sections secondaires */
-  --brass:    #B4813F; /* cuivre / laiton, accent, liens */
-  --seaglass: #E7ECE4; /* fond clair, verre de mer */
-  --heather:  #6E5C74; /* bruyère écossaise, accent secondaire */
-  --rust:     #9C4632; /* rouge de carte marine, petites alertes/marqueurs */
-  --foam:     #F3F6F2; /* texte clair sur fond sombre */
+  /* Palette — inspirée de l'affiche "Tour d'Écosse à bord d'Azurite" */
+  --ink:      #1E2F3D; /* titre de l'affiche / ciel du soir, fond sombre principal */
+  --sea:      #3E6A80; /* l'eau du loch */
+  --brass:    #A9713F; /* le mât et la bôme en bois */
+  --seaglass: #E3E8ED; /* le ciel nuageux, pâle et bleuté */
+  --heather:  #8C6E8F; /* la bruyère sur la colline */
+  --rust:     #5B6B46; /* les collines vertes des Highlands */
+  --foam:     #F4F6F3; /* texte clair sur fond sombre */
 
   --font-display: 'Fraunces', Georgia, serif;
   --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -240,29 +240,15 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .teaser-list li{
   border-top: 1px solid rgba(11,36,54,0.15);
   padding: 1.6rem 0;
-  display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem;
-  align-items: start;
+  display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem;
 }
 .teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
-.teaser-media{ display: flex; flex-direction: column; gap: 0.5rem; }
-.teaser-media img{
-  width: 7rem; height: 7rem; object-fit: cover;
-  border-radius: 2px;
-  filter: grayscale(0.15) saturate(1.05);
-  transition: transform .4s ease, filter .4s ease;
-}
-.teaser-list li:hover .teaser-media img,
-.teaser-list li:focus-within .teaser-media img{
-  transform: scale(1.04);
-  filter: grayscale(0) saturate(1.15);
-}
-.teaser-media .coord{
-  font-family: var(--font-body); font-size: 0.8rem; color: var(--heather);
+.teaser-list .coord{
+  font-family: var(--font-body); font-size: 0.85rem; color: var(--heather);
+  padding-top: 0.3rem;
 }
 @media (max-width: 40rem){
-  .teaser-list li{ grid-template-columns: 1fr; gap: 0.8rem; }
-  .teaser-media{ flex-direction: row; align-items: center; }
-  .teaser-media img{ width: 4.5rem; height: 4.5rem; }
+  .teaser-list li{ grid-template-columns: 1fr; gap: 0.3rem; }
 }
 
 /* =========================================================
@@ -336,19 +322,6 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .leaflet-popup-content strong{ font-family: var(--font-display); }
 .leaflet-container a.leaflet-popup-close-button{ color: var(--foam); }
 .leaflet-control-attribution{ font-size: 0.7rem; }
-
-/* =========================================================
-   Apparition douce au scroll
-   ========================================================= */
-.reveal{
-  opacity: 0;
-  transform: translateY(16px);
-  transition: opacity .6s ease, transform .6s ease;
-}
-.reveal.is-visible{
-  opacity: 1;
-  transform: none;
-}
 
 /* =========================================================
    Fiche technique (page Bateau)
@@ -452,9 +425,46 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   display: flex; flex-wrap: wrap; gap: 1.5rem 3rem;
   justify-content: space-between;
 }
+
+/* =========================================================
+   Vidéo du tracé (page Trajet) — remplace la carte interactive
+   ========================================================= */
 .route-video-wrap{
   max-width: 480px; margin: 0 auto;
   border: 1px solid rgba(180,129,63,0.4);
   background: var(--ink);
 }
 .route-video-wrap video{ display: block; width: 100%; height: auto; }
+
+/* =========================================================
+   Cadre affiche (page Accueil)
+   ========================================================= */
+.poster-frame{
+  max-width: 460px; margin: 0 auto;
+  border: 6px solid var(--foam);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+.poster-frame img{ display: block; width: 100%; height: auto; }
+
+/* =========================================================
+   Logo qui rétrécit au scroll
+   ========================================================= */
+.site-header{ transition: padding .3s ease; }
+
+.logo-swap{
+  display: block;
+  height: 64px;
+  transition: height .3s ease;
+}
+.logo-swap img{
+  display: block;
+  height: 100%; width: auto;
+  border-radius: 50%;
+}
+
+.site-header.is-scrolled .container{ padding-top: 0.5rem; padding-bottom: 0.5rem; }
+.site-header.is-scrolled .logo-swap{ height: 44px; }
+
+@media (prefers-reduced-motion: reduce){
+  .site-header, .logo-swap, .logo-swap img{ transition: none; }
+}
