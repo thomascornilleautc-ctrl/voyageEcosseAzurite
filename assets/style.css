@@ -378,6 +378,19 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .leaflet-control-attribution{ font-size: 0.7rem; }
 
 /* =========================================================
+   Apparition douce au scroll
+   ========================================================= */
+.reveal{
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.is-visible{
+  opacity: 1;
+  transform: none;
+}
+
+/* =========================================================
    Fiche technique (page Bateau)
    ========================================================= */
 .spec-plate{
