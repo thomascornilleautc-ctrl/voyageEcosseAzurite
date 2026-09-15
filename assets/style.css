@@ -259,20 +259,50 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   display: block; line-height: 1;
 }
 
+/* Bandeau "Vous pouvez nous aider" — badge Azurite en grand à côté du texte */
+.help-block{ align-items: center; }
+.help-logo{
+  display: flex; justify-content: center; align-items: center;
+}
+.help-logo img{
+  width: 100%;
+  max-width: 320px;
+  border-radius: 50%;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.35);
+}
+@media (max-width: 46rem){
+  .help-logo{ margin-top: 0.5rem; }
+  .help-logo img{ max-width: 220px; }
+}
+
 /* Teaser links to the four sections (homepage) */
 .teaser-list{ list-style: none; margin: 0; padding: 0; }
 .teaser-list li{
   border-top: 1px solid rgba(11,36,54,0.15);
   padding: 1.6rem 0;
-  display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem;
+  display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem;
+  align-items: start;
 }
 .teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
-.teaser-list .coord{
-  font-family: var(--font-body); font-size: 0.85rem; color: var(--heather);
-  padding-top: 0.3rem;
+.teaser-media{ display: flex; flex-direction: column; gap: 0.5rem; }
+.teaser-media img{
+  width: 7rem; height: 7rem; object-fit: cover;
+  border-radius: 2px;
+  filter: grayscale(0.15) saturate(1.05);
+  transition: transform .4s ease, filter .4s ease;
+}
+.teaser-list li:hover .teaser-media img,
+.teaser-list li:focus-within .teaser-media img{
+  transform: scale(1.04);
+  filter: grayscale(0) saturate(1.15);
+}
+.teaser-media .coord{
+  font-family: var(--font-body); font-size: 0.8rem; color: var(--heather);
 }
 @media (max-width: 40rem){
-  .teaser-list li{ grid-template-columns: 1fr; gap: 0.3rem; }
+  .teaser-list li{ grid-template-columns: 1fr; gap: 0.8rem; }
+  .teaser-media{ flex-direction: row; align-items: center; }
+  .teaser-media img{ width: 4.5rem; height: 4.5rem; }
 }
 
 /* =========================================================

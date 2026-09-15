@@ -83,7 +83,8 @@
       "quoteAuthor": "— Philippe Poupon, croisé cet été à l'Aber Wrac'h",
       "helpTitle": "Vous pouvez nous aider",
       "helpText": "Il nous reste à finaliser notre équipement avant le départ. Si vous représentez une marque, un commerce local ou une association, notre page Sponsors explique concrètement ce qu'on propose en échange.",
-      "helpCta": "Devenir sponsor"
+      "helpCta": "Devenir sponsor",
+      "helpLogoAlt": "Le badge Azurite — Écosse 2027"
     },
     "bateau": {
       "eyebrow": "Le bateau",
@@ -354,7 +355,8 @@
       "quoteAuthor": "— Philippe Poupon, met this summer at Aber Wrac'h",
       "helpTitle": "You can help us",
       "helpText": "We still have equipment to finalise before we leave. If you represent a brand, a local business or an association, our Sponsors page explains exactly what we offer in return.",
-      "helpCta": "Become a sponsor"
+      "helpCta": "Become a sponsor",
+      "helpLogoAlt": "The Azurite badge — Scotland 2027"
     },
     "bateau": {
       "eyebrow": "The boat",
