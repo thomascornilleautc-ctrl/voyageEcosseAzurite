@@ -240,15 +240,29 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .teaser-list li{
   border-top: 1px solid rgba(11,36,54,0.15);
   padding: 1.6rem 0;
-  display: grid; grid-template-columns: 9rem 1fr; gap: 1.5rem;
+  display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem;
+  align-items: start;
 }
 .teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
-.teaser-list .coord{
-  font-family: var(--font-body); font-size: 0.85rem; color: var(--heather);
-  padding-top: 0.3rem;
+.teaser-media{ display: flex; flex-direction: column; gap: 0.5rem; }
+.teaser-media img{
+  width: 7rem; height: 7rem; object-fit: cover;
+  border-radius: 2px;
+  filter: grayscale(0.15) saturate(1.05);
+  transition: transform .4s ease, filter .4s ease;
+}
+.teaser-list li:hover .teaser-media img,
+.teaser-list li:focus-within .teaser-media img{
+  transform: scale(1.04);
+  filter: grayscale(0) saturate(1.15);
+}
+.teaser-media .coord{
+  font-family: var(--font-body); font-size: 0.8rem; color: var(--heather);
 }
 @media (max-width: 40rem){
-  .teaser-list li{ grid-template-columns: 1fr; gap: 0.3rem; }
+  .teaser-list li{ grid-template-columns: 1fr; gap: 0.8rem; }
+  .teaser-media{ flex-direction: row; align-items: center; }
+  .teaser-media img{ width: 4.5rem; height: 4.5rem; }
 }
 
 /* =========================================================
@@ -322,6 +336,19 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .leaflet-popup-content strong{ font-family: var(--font-display); }
 .leaflet-container a.leaflet-popup-close-button{ color: var(--foam); }
 .leaflet-control-attribution{ font-size: 0.7rem; }
+
+/* =========================================================
+   Apparition douce au scroll
+   ========================================================= */
+.reveal{
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.is-visible{
+  opacity: 1;
+  transform: none;
+}
 
 /* =========================================================
    Fiche technique (page Bateau)
