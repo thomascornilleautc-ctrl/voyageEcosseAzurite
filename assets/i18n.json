@@ -266,7 +266,7 @@
       "logosText": "Emplacements réservés pour les logos de nos futurs partenaires.",
       "logoSlot": "Votre logo",
       "contactTitle": "Nous contacter",
-      "contactText": "Pour discuter d'un partenariat, écrivez-nous — nous répondons à chaque message.",
+      "contactText": "Pour discuter d'un partenariat, écrivez-nous.",
       "contactCta": "Nous écrire",
       "contactNote": "Adresse e-mail à remplacer par la vôtre avant mise en ligne."
     }
@@ -538,7 +538,7 @@
       "logosText": "Spaces reserved for our future partners' logos.",
       "logoSlot": "Your logo",
       "contactTitle": "Get in touch",
-      "contactText": "To discuss a partnership, write to us — we reply to every message.",
+      "contactText": "To discuss a partnership, write to us.",
       "contactCta": "Write to us",
       "contactNote": "Email address to be replaced with yours before going live."
     }
