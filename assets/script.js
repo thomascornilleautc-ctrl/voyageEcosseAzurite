@@ -34,10 +34,20 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Apparition douce des blocs de contenu au scroll.
+//
+// La règle générique (dernière ligne du sélecteur) cible chaque enfant direct
+// d'un .container, dans n'importe quelle section hors hero et hors toute
+// première section de page (déjà visible au chargement, inutile de la faire
+// apparaître). Elle s'applique donc automatiquement à tout nouveau contenu,
+// même si la mise en page d'une section change plus tard — les groupes
+// structurels ci-dessus (colonnes, listes, portraits...) gardent un rendu
+// plus fin, item par item.
 document.addEventListener('DOMContentLoaded', function () {
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var selector = '.two-col > div, .pull-figure, .teaser-list li, .waypoints li, ' +
-    '.portrait, .sponsor-panel, .spec-plate, .refit-grid > div, .logo-wall, .placeholder-card';
+  var selector = '.two-col > div, .teaser-list li, .waypoints li, .portrait, ' +
+    '.refit-grid > div, .logo-wall, ' +
+    'section:not(.hero):not(:first-of-type) > .container > ' +
+    '*:not(.two-col):not(.teaser-list):not(.waypoints):not(.refit-grid):not(.logo-wall)';
   var els = document.querySelectorAll(selector);
   if (!els.length || reduceMotion) return;
 
