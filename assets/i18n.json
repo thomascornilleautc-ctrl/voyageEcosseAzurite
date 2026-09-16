@@ -234,41 +234,22 @@
     },
     "sponsors": {
       "eyebrow": "Sponsors",
-      "title": "Une aventure qui part d'ici, jusqu'aux Shetland",
-      "intro1": "En mars 2027, nous embarquerons à bord d'Azurite, notre First 375 de 1988, pour sept mois de navigation en famille. Nous avons entièrement refait ce bateau nous-mêmes, et nous partagerons le voyage en direct : suivi PolarStep, sciences participatives avec Astrolabe Expeditions, et lives présentés par nos enfants pour les écoles de notre village.",
-      "intro2": "Nous recherchons des partenaires pour finaliser notre équipement avant le départ — voile d'avant et matériel de survie en particulier.",
-      "panel1": {
-        "kicker": "Partenaire produit",
-        "title": "Le fabricant écossais de bonnets",
-        "p1": "Nous prévoyons de ramener des bonnets écossais dans nos bagages pour les revendre à notre retour, en contrepartie de notre financement participatif. Nous cherchons un partenariat produit, pas juste une remise.",
-        "benefitsTitle": "Ce que vous gagnez :",
-        "benefits": [
-          "Logo/sticker visible sur la coque pendant 7 mois de navigation",
-          "Vos bonnets photographiés en situation : Hébrides, Orkney, Shetland, Loch Ness",
-          "Présence sur notre suivi PolarStep et dans les lives scolaires",
-          "Une histoire authentique plutôt qu'une simple pub"
-        ],
-        "ask": "<strong>Ce qu'on recherche :</strong> un tarif préférentiel sur un volume de bonnets à définir ensemble."
-      },
-      "panel2": {
-        "kicker": "Partenaire local",
-        "title": "Mairie, commerces, associations",
-        "p1": "Azurite est basé au port de la Faute-sur-Mer, et nous habitons à l'Aiguillon-sur-Mer. Ce voyage part de chez nous — nous voulons que notre village en fasse partie.",
-        "benefitsTitle": "Ce que vous gagnez :",
-        "benefits": [
-          "Logo visible sur la coque pendant les 7 mois de navigation",
-          "Mention sur cette page et sur notre suivi PolarStep",
-          "Association à un vrai projet pédagogique : nos enfants présentent la vie à bord en direct aux deux écoles du village"
-        ],
-        "ask": "<strong>Ce qu'on recherche :</strong> un soutien financier ou matériel, à définir selon le partenaire."
-      },
+      "title": "Bien plus qu'un tour en famille",
+      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
+      "benefitsTitle": "Ce que vous gagnez en nous soutenant",
+      "benefits": [
+        "Votre logo affiché sur la coque d'Azurite pendant les 7 mois de navigation",
+        "Une présence sur notre suivi PolarStep",
+        "Une visibilité pendant les lives réalisés avec les écoles",
+        "Vos produits mis en situation dans les décors magnifiques d'Écosse",
+        "Une histoire authentique, pas juste une publicité"
+      ],
+      "anySize": "Petit commerce du coin ou grande enseigne (Super U, Décathlon...) : toutes les tailles de partenariat nous intéressent.",
       "logosTitle": "Ils nous accompagnent déjà",
-      "logosText": "Emplacements réservés pour les logos de nos futurs partenaires.",
       "logoSlot": "Votre logo",
       "contactTitle": "Nous contacter",
-      "contactText": "Pour discuter d'un partenariat, écrivez-nous.",
-      "contactCta": "Nous écrire",
-      "contactNote": "Adresse e-mail à remplacer par la vôtre avant mise en ligne."
+      "contactText": "Pour discuter d'un partenariat, écrivez-nous — nous répondons à chaque message.",
+      "contactCta": "Nous écrire"
     }
   },
   "en": {
@@ -506,41 +487,22 @@
     },
     "sponsors": {
       "eyebrow": "Sponsors",
-      "title": "An adventure that starts right here, all the way to Shetland",
-      "intro1": "In March 2027, we'll set off aboard Azurite, our 1988 First 375, for seven months of family sailing. We rebuilt this boat entirely ourselves, and we'll be sharing the voyage live: PolarStep tracking, citizen science with Astrolabe Expeditions, and live calls hosted by our children for our village's schools.",
-      "intro2": "We're looking for partners to help finalise our equipment before we leave — a new headsail and survival gear in particular.",
-      "panel1": {
-        "kicker": "Product partner",
-        "title": "The Scottish beanie maker",
-        "p1": "We plan to bring back Scottish beanies in our luggage to sell on our return, as a reward for our crowdfunding backers. We're looking for a product partnership, not just a discount.",
-        "benefitsTitle": "What you get:",
-        "benefits": [
-          "Logo/sticker visible on the hull for 7 months of sailing",
-          "Your beanies photographed in action: the Hebrides, Orkney, Shetland, Loch Ness",
-          "Presence on our PolarStep tracking and in the school live calls",
-          "An authentic story rather than a plain ad"
-        ],
-        "ask": "<strong>What we're after:</strong> a preferential rate on a volume of beanies, to be agreed together."
-      },
-      "panel2": {
-        "kicker": "Local partner",
-        "title": "Town hall, shops, associations",
-        "p1": "Azurite is based at the port of La Faute-sur-Mer, and we live in L'Aiguillon-sur-Mer. This voyage starts right at home — we want our village to be part of it.",
-        "benefitsTitle": "What you get:",
-        "benefits": [
-          "Logo visible on the hull for the 7 months of sailing",
-          "Mention on this page and on our PolarStep tracking",
-          "Association with a genuine educational project: our children present life aboard live to the village's two schools"
-        ],
-        "ask": "<strong>What we're after:</strong> financial or material support, to be defined with each partner."
-      },
+      "title": "Much more than a family trip",
+      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with our commune's two schools through a co-built educational project and regular live calls hosted by our children. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
+      "benefitsTitle": "What you get by supporting us",
+      "benefits": [
+        "Your logo displayed on Azurite's hull throughout the 7 months of sailing",
+        "A presence on our PolarStep tracking",
+        "Visibility during the live calls with the schools",
+        "Your products featured against Scotland's stunning scenery",
+        "An authentic story, not just an ad"
+      ],
+      "anySize": "Small local shop or big retailer (Super U, Decathlon...) — partnerships of any size interest us.",
       "logosTitle": "Already backing us",
-      "logosText": "Spaces reserved for our future partners' logos.",
       "logoSlot": "Your logo",
       "contactTitle": "Get in touch",
-      "contactText": "To discuss a partnership, write to us.",
-      "contactCta": "Write to us",
-      "contactNote": "Email address to be replaced with yours before going live."
+      "contactText": "To discuss a partnership, write to us — we reply to every message.",
+      "contactCta": "Write to us"
     }
   }
 }
