@@ -49,12 +49,12 @@
       "pullNum": "1500+",
       "pullText": "milles nautiques déjà parcourus avec Azurite depuis février 2025, dont un aller-retour jusqu'à Guernesey cet été — notre entraînement avant l'Écosse.",
       "photoBreak": {
-        "imgAlt": "Thomas, Morgane, Gaston et Rose en randonnée sur la côte, avec des voiliers au mouillage en arrière-plan",
+        "imgAlt": "La famille sur un sentier côtier, au crépuscule, avec les voiliers au mouillage en contrebas",
         "caption": "Thomas, Morgane, Gaston et Rose."
       },
       "discoverEyebrow": "À découvrir",
       "boatBlock": {
-        "imgAlt": "Le mât et les voiles d'Azurite, vus depuis le pont",
+        "imgAlt": "Thomas au gréement, à l'étrave d'Azurite au mouillage",
         "title": "Notre maison fait 11 mètres",
         "text": "Azurite, notre First 375 : un voilier de 1988 que nous avons refait de nos mains — électronique, moteur, sécurité hauturière — pour sept mois de navigation en famille.",
         "cta": "Découvrir le bateau"
@@ -66,8 +66,8 @@
         "cta": "Rencontrer l'équipage"
       },
       "routeBlock": {
-        "eyebrow": "Le trajet",
-        "imgAlt": "Le spi arc-en-ciel d'Azurite gonflé au large",
+        "eyebrow": "L'itinéraire",
+        "imgAlt": "Vue en hauteur sur un mouillage de voiliers entre les falaises, lors de notre navigation d'entraînement",
         "title": "De la Vendée au 60e parallèle.",
         "lead": "Bretagne → Anglo-Normandes → Scilly → mer d'Irlande → Hébrides → Orkney → Shetland → Loch Ness.",
         "text": "Une ligne directrice, jamais un programme rigide : la météo aura toujours le dernier mot.",
@@ -174,7 +174,7 @@
         "p3": "Le reste de l'année, Morgane travaille à l'accueil de la mairie du village — un métier qu'elle aime, varié et au contact du public, mais parfois éprouvant. Partir en mer est son exutoire, et elle attend ce voyage avec impatience : de quoi resserrer encore les liens familiaux, même si quelques frictions sont sûrement à prévoir à quatre dans un espace aussi restreint."
       },
       "gaston": {
-        "imgAlt": "Un enfant à l'étrave d'Azurite, main sur un hauban, mer scintillante en arrière-plan",
+        "imgAlt": "Gaston debout sur un rocher, face à une eau turquoise et transparente",
         "name": "Gaston, 9 ans",
         "role": "Le pêcheur du bord",
         "p1": "Dorade, maquereau, vieille, bonite, bar... rien ne lui résiste. Gaston fournit assez de poisson pour que la famille n'ait pas besoin d'en acheter. Curieux et observateur, il participe aux manœuvres et à la vie à bord à sa mesure — et on l'a déjà vu à la manœuvre en pleine mer, bien concentré."
@@ -215,6 +215,8 @@
       "prepEyebrow": "La préparation",
       "prepTitle": "On ne part pas à l'aventure au hasard",
       "prepText": "Ce voyage n'est pas un coup de tête : on s'y prépare depuis qu'on a Azurite, en février 2025. Depuis que nous l'avons, nous avons déjà parcouru plus de 1500 milles nautiques, dont un aller-retour jusqu'à Guernesey — et on a appris à composer avec la météo plutôt qu'à s'y opposer.",
+      "prepPhotoAlt": "Soir sur une plage de galets, face aux voiliers au mouillage",
+      "prepPhotoCaption": "Fin de journée, cet été, avant l'Écosse.",
       "scillyTitle": "Exemple concret : le cap sur les Scilly, version réalité",
       "scillyText": "On voulait initialement rejoindre les Scilly depuis l'Aber Wrac'h. Faute de fenêtre météo avec un vent de nord favorable, on a changé de plan et remonté la Manche vers les îles Anglo-Normandes à la place. C'est ce genre de décision qu'on retrouvera tout au long des sept mois vers l'Écosse — s'adapter plutôt que forcer.",
       "learnedTitle": "Ce qu'on a appris cet été, qui nous servira en Écosse",
@@ -302,12 +304,12 @@
       "pullNum": "1500+",
       "pullText": "nautical miles already logged with Azurite since February 2025, including a return trip to Guernsey this summer — our training run before Scotland.",
       "photoBreak": {
-        "imgAlt": "Thomas, Morgane, Gaston and Rose hiking along the coast, with sailboats at anchor in the background",
+        "imgAlt": "The family on a coastal path at dusk, with sailboats at anchor below",
         "caption": "Thomas, Morgane, Gaston and Rose."
       },
       "discoverEyebrow": "Explore",
       "boatBlock": {
-        "imgAlt": "Azurite's mast and sails, seen from the deck",
+        "imgAlt": "Thomas at the rigging, at Azurite's bow, at anchor",
         "title": "Our home is 11 metres long",
         "text": "Azurite, our First 375: a 1988 sailboat we rebuilt with our own hands — electronics, engine, offshore safety gear — for seven months of family sailing.",
         "cta": "Discover the boat"
@@ -320,7 +322,7 @@
       },
       "routeBlock": {
         "eyebrow": "The route",
-        "imgAlt": "Azurite's rainbow spinnaker filled with wind offshore",
+        "imgAlt": "An elevated view over a sailboat anchorage between the cliffs, during our training sail",
         "title": "From Vendée to the 60th parallel.",
         "lead": "Brittany → Channel Islands → Scilly → Irish Sea → Hebrides → Orkney → Shetland → Loch Ness.",
         "text": "A guiding line, never a rigid schedule: the weather always gets the final say.",
@@ -428,7 +430,7 @@
         "p3": "The rest of the year, Morgane works at the village town hall's front desk — a job she loves, varied and people-facing, though sometimes draining. Getting out to sea is her release, and she can't wait for this voyage: a chance to bring the family even closer, even if a few frictions are bound to crop up with four of them in such a tight space."
       },
       "gaston": {
-        "imgAlt": "A child at Azurite's bow, hand on a shroud, sparkling sea behind him",
+        "imgAlt": "Gaston standing on a rock, facing clear turquoise water",
         "name": "Gaston, 9",
         "role": "The ship's fisherman",
         "p1": "Sea bream, mackerel, wrasse, bonito, sea bass... nothing gets past him. Gaston catches enough fish that the family never needs to buy any. Curious and observant, he pitches in on manoeuvres and life aboard at his own level — we've already seen him hard at work on deck, deep in concentration, mid-passage."
@@ -469,6 +471,8 @@
       "prepEyebrow": "Preparation",
       "prepTitle": "This isn't a leap into the unknown",
       "prepText": "This voyage isn't a spur-of-the-moment idea: we've been preparing for it ever since we got Azurite, in February 2025. Since then we've logged over 1,500 nautical miles, including a return trip to Guernsey — and we've learned to work with the weather rather than fight it.",
+      "prepPhotoAlt": "Evening on a pebble beach, facing the sailboats at anchor",
+      "prepPhotoCaption": "End of the day, this summer, before Scotland.",
       "scillyTitle": "A real example: the Scilly passage, as it actually happened",
       "scillyText": "We'd originally planned to reach the Scillies from Aber Wrac'h. With no weather window offering a favourable northerly, we changed plan and headed up the Channel to the Channel Islands instead. That's the kind of call we'll be making throughout the seven months to Scotland — adapting rather than forcing it.",
       "learnedTitle": "What we learned this summer that will serve us in Scotland",
