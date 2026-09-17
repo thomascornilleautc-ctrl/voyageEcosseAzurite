@@ -19,11 +19,11 @@
     </a>
     <button class="nav-toggle" aria-expanded="false" aria-label="Ouvrir le menu" data-i18n="nav.menuToggle" data-i18n-aria="nav.menuAria">Menu</button>
     <ul class="nav-links">
-      <li><a href="index.html" aria-current="page" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="index.html" aria-current="page" data-i18n="nav.home">Le projet</a></li>
       <li><a href="bateau.html" data-i18n="nav.boat">Le bateau</a></li>
       <li><a href="equipage.html" data-i18n="nav.crew">L'équipage</a></li>
-      <li><a href="trajet.html" data-i18n="nav.route">Le trajet</a></li>
-      <li><a href="sponsors.html" data-i18n="nav.sponsors">Sponsors</a></li>
+      <li><a href="trajet.html" data-i18n="nav.route">L'itinéraire</a></li>
+      <li><a href="sponsors.html" class="nav-cta" data-i18n="nav.sponsors">Partenaires</a></li>
     </ul>
     <div class="lang-toggle" role="group" aria-label="Langue / Language">
       <button type="button" class="lang-btn" data-lang="fr" aria-pressed="true">FR</button>
@@ -41,7 +41,7 @@
   </svg>
   <div class="hero-content">
     <p class="hero-kicker" data-i18n="index.heroKicker">Mars → Septembre 2027</p>
-    <h1 data-i18n="index.heroTitle">Cap sur l'Écosse, en famille</h1>
+    <h1 data-i18n="index.heroTitle">Cap sur<br>l'Écosse.</h1>
     <p data-i18n="index.heroText">Sept mois. Quatre personnes. Un First 375 de 1988. On est des enfants des années 90, et on part à l'aventure avec nos propres enfants — à la voile, jusqu'aux Shetland et retour, sur un bateau qu'on a refait de nos mains.</p>
   </div>
 </section>
@@ -50,7 +50,7 @@
   <div class="container two-col">
     <div>
       <span class="eyebrow-tag" data-i18n="index.projectEyebrow">Le projet</span>
-      <h2 data-i18n="index.projectTitle">Peu de gens ont le culot de s'y lancer</h2>
+      <h2 data-i18n="index.projectTitle">Une parenthèse de sept mois, pas une course.</h2>
       <p data-i18n="index.projectText1">Beaucoup rêvent de ce genre de projet. Peu s'y lancent vraiment. Et encore moins se donnent les moyens de le faire — l'investissement financier, l'investissement personnel, et des centaines d'heures passées à préparer le bateau plutôt qu'à en rêver.</p>
       <p data-i18n="index.projectText2">On l'a fait. Ou plutôt : on est en train de le faire.</p>
     </div>
@@ -61,51 +61,46 @@
   </div>
 </section>
 
+<figure class="photo-break">
+  <img src="assets/img/famille-groupe.jpg" alt="Thomas, Morgane, Gaston et Rose en randonnée sur la côte, avec des voiliers au mouillage en arrière-plan" data-i18n-alt="index.photoBreak.imgAlt" loading="lazy">
+  <figcaption data-i18n="index.photoBreak.caption">Thomas, Morgane, Gaston et Rose.</figcaption>
+</figure>
+
 <section class="section-sea">
   <div class="container">
     <span class="eyebrow-tag" style="color:var(--brass); border-color:var(--brass);" data-i18n="index.discoverEyebrow">À découvrir</span>
-    <ul class="teaser-list">
-      <li>
-        <div class="teaser-media">
-          <img src="assets/img/mat-voiles.jpg" alt="Le mât et les voiles d'Azurite, vus depuis le pont" loading="lazy" data-i18n-alt="index.teaser.boat.imgAlt">
-          <span class="coord" data-i18n="index.teaser.boat.coord">First 375, 1988</span>
-        </div>
-        <div>
-          <h3><a href="bateau.html" class="link-underline" data-i18n="index.teaser.boat.title">Le bateau</a></h3>
-          <p data-i18n="index.teaser.boat.text">Azurite, immatriculé le jour de naissance de Thomas — deux ans avant qu'il naisse. Refait de nos mains : électronique, moteur, sécurité hauturière.</p>
-        </div>
-      </li>
-      <li>
-        <div class="teaser-media">
-          <img src="assets/img/gaston-etrave.jpg" alt="Gaston à l'étrave d'Azurite" loading="lazy" data-i18n-alt="index.teaser.crew.imgAlt">
-          <span class="coord" data-i18n="index.teaser.crew.coord">Thomas, Morgane, Gaston, Rose</span>
-        </div>
-        <div>
-          <h3><a href="equipage.html" class="link-underline" data-i18n="index.teaser.crew.title">L'équipage</a></h3>
-          <p data-i18n="index.teaser.crew.text">Un capitaine surnommé « Capt'ain Barbe Douce », un pêcheur de 9 ans qui nous nourrit, et une petite de 6 ans qui ne recule devant rien.</p>
-        </div>
-      </li>
-      <li>
-        <div class="teaser-media">
-          <img src="assets/img/hero-spi.jpg" alt="Le spi arc-en-ciel d'Azurite gonflé au large" loading="lazy" data-i18n-alt="index.teaser.route.imgAlt">
-          <span class="coord" data-i18n="index.teaser.route.coord">La Faute-sur-Mer → Shetland</span>
-        </div>
-        <div>
-          <h3><a href="trajet.html" class="link-underline" data-i18n="index.teaser.route.title">Le trajet</a></h3>
-          <p data-i18n="index.teaser.route.text">Bretagne, Anglo-Normandes, Scilly, Hébrides, Orkney, Shetland, Loch Ness — sept mois de navigation, étape par étape.</p>
-        </div>
-      </li>
-      <li>
-        <div class="teaser-media">
-          <img src="assets/img/pont-lecture.jpg" alt="Rose allongée sur le pont, en train de lire" loading="lazy" data-i18n-alt="index.teaser.sponsors.imgAlt">
-          <span class="coord" data-i18n="index.teaser.sponsors.coord">Nous aider</span>
-        </div>
-        <div>
-          <h3><a href="sponsors.html" class="link-underline" data-i18n="index.teaser.sponsors.title">Devenir sponsor</a></h3>
-          <p data-i18n="index.teaser.sponsors.text">On cherche des partenaires — du fabricant écossais aux commerces de notre village — pour finir de préparer Azurite avant le départ.</p>
-        </div>
-      </li>
-    </ul>
+
+    <div class="portrait">
+      <figure class="portrait-figure" style="margin:0;">
+        <img src="assets/img/mat-voiles.jpg" alt="Le mât et les voiles d'Azurite, vus depuis le pont" loading="lazy" data-i18n-alt="index.boatBlock.imgAlt">
+      </figure>
+      <div>
+        <h2 data-i18n="index.boatBlock.title">Azurite, notre First 375</h2>
+        <p data-i18n="index.boatBlock.text">Notre maison fait 11 mètres : un voilier de 1988 que nous avons refait de nos mains — électronique, moteur, sécurité hauturière — pour sept mois de navigation en famille.</p>
+        <a href="bateau.html" class="link-underline" data-i18n="index.boatBlock.cta">Découvrir le bateau</a>
+      </div>
+    </div>
+
+    <div class="portrait reverse">
+      <figure class="portrait-figure" style="margin:0;">
+        <img src="assets/img/gaston-etrave.jpg" alt="Gaston à l'étrave d'Azurite" loading="lazy" data-i18n-alt="index.crewBlock.imgAlt">
+      </figure>
+      <div>
+        <h2 data-i18n="index.crewBlock.title">Une famille, quatre façons de vivre le voyage</h2>
+        <p data-i18n="index.crewBlock.text">À bord, chacun trouve sa place : navigation, école, pêche, cuisine, bricolage et beaucoup d'adaptation.</p>
+        <a href="equipage.html" class="link-underline" data-i18n="index.crewBlock.cta">Rencontrer l'équipage</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <span class="eyebrow-tag" data-i18n="index.routeBlock.eyebrow">Le trajet</span>
+    <h2 data-i18n="index.routeBlock.title">De la Vendée au 60e parallèle.</h2>
+    <p class="lead" data-i18n="index.routeBlock.lead">Bretagne → Anglo-Normandes → Scilly → mer d'Irlande → Hébrides → Orkney → Shetland → Loch Ness.</p>
+    <p data-i18n="index.routeBlock.text">Une ligne directrice, jamais un programme rigide : la météo aura toujours le dernier mot.</p>
+    <a href="trajet.html" class="link-underline" data-i18n="index.routeBlock.cta">Explorer le trajet</a>
   </div>
 </section>
 

@@ -545,3 +545,43 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 @media (prefers-reduced-motion: reduce){
   .site-header, .logo-swap, .logo-swap img{ transition: none; }
 }
+
+/* =========================================================
+   Photo de coupure pleine largeur (page Accueil)
+   ========================================================= */
+.photo-break{
+  position: relative;
+  margin: 0;
+}
+.photo-break img{
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  display: block;
+}
+.photo-break figcaption{
+  position: absolute;
+  left: var(--gap); bottom: 1.2rem;
+  color: var(--foam);
+  font-size: 0.9rem;
+  background: rgba(30,47,61,0.6);
+  padding: 0.3rem 0.8rem;
+}
+
+/* =========================================================
+   Nav : lien "Partenaires" traité en bouton pilule
+   ========================================================= */
+.nav-links a.nav-cta{
+  border: 1px solid rgba(243,246,242,0.5);
+  border-bottom: 1px solid rgba(243,246,242,0.5);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+}
+.nav-links a.nav-cta:hover, .nav-links a.nav-cta:focus-visible, .nav-links a.nav-cta[aria-current="page"]{
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+/* Zoom léger au survol des logos sponsors, pour mieux les voir */
+.logo-filled img{ transition: transform .25s ease; }
+.logo-filled:hover img, .logo-filled:focus-within img{ transform: scale(1.15); }
