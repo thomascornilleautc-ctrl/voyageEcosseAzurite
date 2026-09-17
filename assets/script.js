@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
 // d'un .container, dans n'importe quelle section hors hero et hors toute
 // première section de page (déjà visible au chargement, inutile de la faire
 // apparaître). Elle s'applique donc automatiquement à tout nouveau contenu,
-// même si la mise en page d'une section change plus tard — les groupes
+// même si la mise en page d'une section change plus tard, les groupes
 // structurels ci-dessus (colonnes, listes, portraits...) gardent un rendu
 // plus fin, item par item.
 document.addEventListener('DOMContentLoaded', function () {

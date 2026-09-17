@@ -1,4 +1,4 @@
-/* i18n — charge assets/i18n.json et applique la langue choisie.
+/* i18n : charge assets/i18n.json et applique la langue choisie.
    Toute page qui veut être traduisible pose des attributs data-i18n(-*)
    sur ses éléments ; ce script se charge du reste et branche les
    boutons .lang-btn (FR / EN) du header. */
