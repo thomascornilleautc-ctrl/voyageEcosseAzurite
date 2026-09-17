@@ -55,8 +55,8 @@
       "discoverEyebrow": "À découvrir",
       "boatBlock": {
         "imgAlt": "Le mât et les voiles d'Azurite, vus depuis le pont",
-        "title": "Azurite, notre First 375",
-        "text": "Notre maison fait 11 mètres : un voilier de 1988 que nous avons refait de nos mains — électronique, moteur, sécurité hauturière — pour sept mois de navigation en famille.",
+        "title": "Notre maison fait 11 mètres",
+        "text": "Azurite, notre First 375 : un voilier de 1988 que nous avons refait de nos mains — électronique, moteur, sécurité hauturière — pour sept mois de navigation en famille.",
         "cta": "Découvrir le bateau"
       },
       "crewBlock": {
@@ -67,6 +67,7 @@
       },
       "routeBlock": {
         "eyebrow": "Le trajet",
+        "imgAlt": "Le spi arc-en-ciel d'Azurite gonflé au large",
         "title": "De la Vendée au 60e parallèle.",
         "lead": "Bretagne → Anglo-Normandes → Scilly → mer d'Irlande → Hébrides → Orkney → Shetland → Loch Ness.",
         "text": "Une ligne directrice, jamais un programme rigide : la météo aura toujours le dernier mot.",
@@ -147,7 +148,9 @@
       "todoText": "<strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie — c'est justement pour ça qu'on recherche des sponsors.",
       "todoCta": "Voir la page Sponsors",
       "planEyebrow": "Le plan de vie",
-      "planTitle": "À l'intérieur d'Azurite",
+      "planTitle": "Petit espace, beaucoup de fonctions.",
+      "planText1": "Deux cabines, un carré, une cuisine, une table à carte et chaque recoin qui finit par avoir une mission. Pendant sept mois, chaque objet devra mériter sa place.",
+      "planText2": "Notre préparation ne concerne donc pas uniquement la navigation : il faut aussi penser au stockage de nourriture, aux vêtements humides, à l'école des enfants et à la capacité de chacun à trouver un peu de calme.",
       "planImgAlt": "Plan illustré de l'aménagement intérieur d'Azurite : cabines, Grand Carré, cuisine, salle de la machine, table à carte"
     },
     "equipage": {
@@ -233,7 +236,7 @@
       "eyebrow": "Sponsors",
       "title": "Bien plus qu'un tour en famille",
       "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
-      "pitch": "Nous cherchons quelques partenaires cohérents avec le projet.",
+      "pitch": "On a besoin de vous pour prendre le large.",
       "benefitsTitle": "Ce que vous gagnez en nous soutenant",
       "benefits": [
         "Votre logo affiché sur la coque d'Azurite pendant les 7 mois de navigation",
@@ -305,8 +308,8 @@
       "discoverEyebrow": "Explore",
       "boatBlock": {
         "imgAlt": "Azurite's mast and sails, seen from the deck",
-        "title": "Azurite, our First 375",
-        "text": "Our home is 11 metres long: a 1988 sailboat we rebuilt with our own hands — electronics, engine, offshore safety gear — for seven months of family sailing.",
+        "title": "Our home is 11 metres long",
+        "text": "Azurite, our First 375: a 1988 sailboat we rebuilt with our own hands — electronics, engine, offshore safety gear — for seven months of family sailing.",
         "cta": "Discover the boat"
       },
       "crewBlock": {
@@ -317,6 +320,7 @@
       },
       "routeBlock": {
         "eyebrow": "The route",
+        "imgAlt": "Azurite's rainbow spinnaker filled with wind offshore",
         "title": "From Vendée to the 60th parallel.",
         "lead": "Brittany → Channel Islands → Scilly → Irish Sea → Hebrides → Orkney → Shetland → Loch Ness.",
         "text": "A guiding line, never a rigid schedule: the weather always gets the final say.",
@@ -398,7 +402,9 @@
       "todoText": "<strong>Still on the list before we leave:</strong> replace the headsail (genoa) and service our survival gear — which is exactly why we're looking for sponsors.",
       "todoCta": "See the Sponsors page",
       "planEyebrow": "Layout",
-      "planTitle": "Inside Azurite",
+      "planTitle": "A small space, packed with purpose.",
+      "planText1": "Two cabins, a saloon, a galley, a chart table, and every corner ends up with a job to do. For seven months, every object will have to earn its place.",
+      "planText2": "So our preparation isn't just about sailing: we also have to think about food storage, wet clothes, the children's schooling, and everyone's ability to find a bit of quiet.",
       "planImgAlt": "Illustrated plan of Azurite's interior layout: cabins, main saloon, galley, engine room, chart table"
     },
     "equipage": {
@@ -484,7 +490,7 @@
       "eyebrow": "Sponsors",
       "title": "Much more than a family trip",
       "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with our commune's two schools through a co-built educational project and regular live calls hosted by our children. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
-      "pitch": "We're looking for a few partners who fit naturally with the project.",
+      "pitch": "We need your help to set sail.",
       "benefitsTitle": "What you get by supporting us",
       "benefits": [
         "Your logo displayed on Azurite's hull throughout the 7 months of sailing",
