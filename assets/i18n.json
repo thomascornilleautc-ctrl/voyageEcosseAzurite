@@ -76,7 +76,7 @@
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
       "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des lives présentés par nos enfants pour les deux écoles de notre village.",
-      "followLink": "Voir notre étape de cet été jusqu'aux Scilly sur PolarStep",
+      "followLink": "Voir notre étape de cet été jusqu'à Guernesey sur PolarStep",
       "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
       "quoteAuthor": "— Philippe Poupon, croisé cet été à l'Aber Wrac'h",
       "helpTitle": "Vous pouvez nous aider",
@@ -104,8 +104,7 @@
         "capacity": "Habitabilité",
         "capacityVal": "6 à 8 personnes",
         "rig": "Gréement",
-        "rigVal": "Sloop fractionné",
-        "note": "Cotes précises (largeur, tirant d'eau exact, déplacement) à confirmer avec les papiers du bord."
+        "rigVal": "Sloop"
       },
       "photoAlt": "Vue depuis le pont d'Azurite, voiles gonflées, mât en contre-jour",
       "refitEyebrow": "Le refit",
@@ -216,7 +215,7 @@
       "prepTitle": "On ne part pas à l'aventure au hasard",
       "prepText": "Ce voyage n'est pas un coup de tête : on s'y prépare depuis qu'on a Azurite, en février 2025. Depuis que nous l'avons, nous avons déjà parcouru plus de 1500 milles nautiques, dont un aller-retour jusqu'à Guernesey — et on a appris à composer avec la météo plutôt qu'à s'y opposer.",
       "prepPhotoAlt": "Soir sur une plage de galets, face aux voiliers au mouillage",
-      "prepPhotoCaption": "Fin de journée, cet été, avant l'Écosse.",
+      "prepPhotoCaption": "Fin de journée, cet été.",
       "scillyTitle": "Exemple concret : le cap sur les Scilly, version réalité",
       "scillyText": "On voulait initialement rejoindre les Scilly depuis l'Aber Wrac'h. Faute de fenêtre météo avec un vent de nord favorable, on a changé de plan et remonté la Manche vers les îles Anglo-Normandes à la place. C'est ce genre de décision qu'on retrouvera tout au long des sept mois vers l'Écosse — s'adapter plutôt que forcer.",
       "learnedTitle": "Ce qu'on a appris cet été, qui nous servira en Écosse",
@@ -232,7 +231,7 @@
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
       "followIntro": "Nous partageons notre navigation sur PolarStep.",
-      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">Notre étape de cet été jusqu'aux Scilly est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse."
+      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">Notre étape de cet été jusqu'à Guernesey est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse."
     },
     "sponsors": {
       "eyebrow": "Sponsors",
@@ -332,7 +331,7 @@
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
       "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and live calls hosted by our children for the two schools in our village.",
-      "followLink": "See this summer's leg to the Scillies on PolarStep",
+      "followLink": "See this summer's leg to Guernsey on PolarStep",
       "quote": "\"Go for it, you have to do it, it's magnificent.\"",
       "quoteAuthor": "— Philippe Poupon, met this summer at Aber Wrac'h",
       "helpTitle": "You can help us",
@@ -360,8 +359,7 @@
         "capacity": "Berths",
         "capacityVal": "6 to 8 people",
         "rig": "Rig",
-        "rigVal": "Fractional sloop",
-        "note": "Exact figures (beam, precise draught, displacement) to be confirmed against the boat's papers."
+        "rigVal": "Fractional sloop"
       },
       "photoAlt": "View from Azurite's deck, sails filled, mast backlit",
       "refitEyebrow": "The refit",
@@ -472,7 +470,7 @@
       "prepTitle": "This isn't a leap into the unknown",
       "prepText": "This voyage isn't a spur-of-the-moment idea: we've been preparing for it ever since we got Azurite, in February 2025. Since then we've logged over 1,500 nautical miles, including a return trip to Guernsey — and we've learned to work with the weather rather than fight it.",
       "prepPhotoAlt": "Evening on a pebble beach, facing the sailboats at anchor",
-      "prepPhotoCaption": "End of the day, this summer, before Scotland.",
+      "prepPhotoCaption": "End of the day, this summer.",
       "scillyTitle": "A real example: the Scilly passage, as it actually happened",
       "scillyText": "We'd originally planned to reach the Scillies from Aber Wrac'h. With no weather window offering a favourable northerly, we changed plan and headed up the Channel to the Channel Islands instead. That's the kind of call we'll be making throughout the seven months to Scotland — adapting rather than forcing it.",
       "learnedTitle": "What we learned this summer that will serve us in Scotland",
@@ -488,7 +486,7 @@
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
       "followIntro": "We share our navigation live on PolarStep.",
-      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">This summer's leg to the Scillies is already online</a>. The same tracking will be used throughout the seven-month voyage to Scotland."
+      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">This summer's leg to Guernsey is already online</a>. The same tracking will be used throughout the seven-month voyage to Scotland."
     },
     "sponsors": {
       "eyebrow": "Sponsors",
