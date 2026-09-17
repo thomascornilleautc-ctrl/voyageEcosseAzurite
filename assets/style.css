@@ -275,36 +275,6 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   .help-logo img{ max-width: 220px; }
 }
 
-/* Teaser links to the four sections (homepage) */
-.teaser-list{ list-style: none; margin: 0; padding: 0; }
-.teaser-list li{
-  border-top: 1px solid rgba(11,36,54,0.15);
-  padding: 1.6rem 0;
-  display: grid; grid-template-columns: 7rem 1fr; gap: 1.5rem;
-  align-items: start;
-}
-.teaser-list li:last-child{ border-bottom: 1px solid rgba(11,36,54,0.15); }
-.teaser-media{ display: flex; flex-direction: column; gap: 0.5rem; }
-.teaser-media img{
-  width: 7rem; height: 7rem; object-fit: cover;
-  border-radius: 2px;
-  filter: grayscale(0.15) saturate(1.05);
-  transition: transform .4s ease, filter .4s ease;
-}
-.teaser-list li:hover .teaser-media img,
-.teaser-list li:focus-within .teaser-media img{
-  transform: scale(1.04);
-  filter: grayscale(0) saturate(1.15);
-}
-.teaser-media .coord{
-  font-family: var(--font-body); font-size: 0.8rem; color: var(--heather);
-}
-@media (max-width: 40rem){
-  .teaser-list li{ grid-template-columns: 1fr; gap: 0.8rem; }
-  .teaser-media{ flex-direction: row; align-items: center; }
-  .teaser-media img{ width: 4.5rem; height: 4.5rem; }
-}
-
 /* =========================================================
    Waypoints (page Trajet) — vraie séquence, donc numérotée
    ========================================================= */
@@ -327,55 +297,6 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 }
 .waypoints li.leg-end::before{ background: var(--brass); }
 .waypoints .leg-num{ color: var(--heather); font-size: 0.85rem; }
-
-.waypoint-btn{
-  display: block; width: 100%; text-align: left;
-  background: none; border: none; padding: 0;
-  font-family: var(--font-body); font-size: 1rem; color: var(--ink);
-  cursor: pointer;
-}
-.waypoint-btn:hover, .waypoint-btn:focus-visible{ color: var(--brass); }
-
-/* =========================================================
-   Carte interactive du trajet (Leaflet)
-   ========================================================= */
-.trajet-map-wrap{
-  display: grid; grid-template-columns: 1fr 1.3fr; gap: var(--gap);
-  align-items: start;
-}
-@media (max-width: 50rem){ .trajet-map-wrap{ grid-template-columns: 1fr; } }
-
-#route-map{
-  height: 480px;
-  border: 1px solid rgba(180,129,63,0.4);
-  background: var(--seaglass);
-}
-@media (max-width: 50rem){ #route-map{ height: 340px; order: -1; } }
-
-.route-list-scroll{
-  max-height: 480px; overflow-y: auto;
-  padding-right: 0.5rem;
-}
-
-/* teinte la carte pour rester dans la palette du site plutôt que
-   les couleurs par défaut d'OpenStreetMap/CARTO */
-.leaflet-tile-pane{ filter: sepia(0.25) hue-rotate(170deg) saturate(1.25) brightness(0.98); }
-
-.route-marker span{
-  display: block; width: 100%; height: 100%; border-radius: 50%;
-  background: var(--foam); border: 2px solid var(--brass);
-}
-.route-marker--end span{ background: var(--brass); border-color: var(--ink); }
-
-.leaflet-popup-content-wrapper{
-  background: var(--ink); color: var(--foam);
-  border-radius: 2px;
-}
-.leaflet-popup-tip{ background: var(--ink); }
-.leaflet-popup-content{ font-family: var(--font-body); font-size: 0.9rem; margin: 0.7rem 0.9rem; }
-.leaflet-popup-content strong{ font-family: var(--font-display); }
-.leaflet-container a.leaflet-popup-close-button{ color: var(--foam); }
-.leaflet-control-attribution{ font-size: 0.7rem; }
 
 /* =========================================================
    Apparition douce au scroll
@@ -434,30 +355,9 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   .portrait.reverse .portrait-figure{ order: 0; }
 }
 
-.placeholder-card{
-  border: 1px dashed rgba(11,36,54,0.3);
-  padding: 1.6rem;
-  color: var(--heather);
-  font-style: italic;
-}
-
 /* =========================================================
    Sponsors
    ========================================================= */
-.sponsor-split{
-  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
-  border: 1px solid rgba(180,129,63,0.4);
-}
-.sponsor-panel{ padding: clamp(1.6rem, 4vw, 2.6rem); }
-.sponsor-panel + .sponsor-panel{ border-left: 1px solid rgba(180,129,63,0.4); }
-@media (max-width: 46rem){
-  .sponsor-split{ grid-template-columns: 1fr; }
-  .sponsor-panel + .sponsor-panel{ border-left: none; border-top: 1px solid rgba(180,129,63,0.4); }
-}
-.sponsor-panel h3{ margin-bottom: 0.3rem; }
-.sponsor-panel .kicker{ color: var(--rust); font-size: 0.85rem; display: block; margin-bottom: 0.6rem; }
-.sponsor-panel ul{ padding-left: 1.1rem; }
-
 .logo-slot{
   border: 1px dashed rgba(11,36,54,0.25);
   height: 4.5rem;
