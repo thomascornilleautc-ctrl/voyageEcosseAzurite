@@ -1,0 +1,494 @@
+/* =========================================================
+   AZURITE — Voyage en famille vers l'Écosse
+   Design tokens
+   ========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Public+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+  /* Palette — inspirée de l'affiche "Tour d'Écosse à bord d'Azurite" */
+  --ink:      #1E2F3D; /* titre de l'affiche / ciel du soir, fond sombre principal */
+  --sea:      #3E6A80; /* l'eau du loch */
+  --brass:    #A9713F; /* le mât et la bôme en bois */
+  --seaglass: #E3E8ED; /* le ciel nuageux, pâle et bleuté */
+  --heather:  #8C6E8F; /* la bruyère sur la colline */
+  --rust:     #5B6B46; /* les collines vertes des Highlands */
+  --foam:     #F4F6F3; /* texte clair sur fond sombre */
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  --measure: 42ch;
+  --gap: clamp(1.25rem, 3vw, 2.5rem);
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior: auto; }
+  *, *::before, *::after{ animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+}
+
+body{
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--foam);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+img{ max-width: 100%; display: block; }
+
+h1, h2, h3{
+  font-family: var(--font-display);
+  font-weight: 500;
+  line-height: 1.1;
+  margin: 0 0 0.5em;
+}
+
+h1{ font-size: clamp(2.2rem, 5vw, 3.6rem); font-weight: 600; }
+h2{ font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+h3{ font-size: 1.25rem; }
+
+p{ margin: 0 0 1em; max-width: var(--measure); }
+
+a{ color: var(--brass); text-decoration: none; }
+
+.link-underline{
+  position: relative;
+  display: inline-block;
+  color: inherit;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
+}
+.link-underline::after{
+  content: "";
+  position: absolute; left: 0; right: 0; bottom: -1px;
+  height: 2px; background: var(--brass);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .25s ease;
+}
+.link-underline:hover::after,
+.link-underline:focus-visible::after{ transform: scaleX(1); }
+
+:focus-visible{
+  outline: 2px solid var(--brass);
+  outline-offset: 3px;
+}
+
+.container{
+  max-width: 68rem;
+  margin: 0 auto;
+  padding: 0 var(--gap);
+}
+
+/* =========================================================
+   Header / navigation
+   ========================================================= */
+.site-header{
+  position: sticky; top: 0; z-index: 20;
+  background: rgba(11,36,54,0.94);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid rgba(180,129,63,0.35);
+}
+.site-header .container{
+  display: flex; align-items: center; justify-content: space-between;
+  padding-top: 0.9rem; padding-bottom: 0.9rem;
+}
+.wordmark{
+  font-family: var(--font-display);
+  font-size: 1.35rem; font-weight: 600;
+  color: var(--foam); letter-spacing: 0.02em;
+}
+.wordmark span{ color: var(--brass); font-size: 0.65em; margin-left: 0.1em; vertical-align: super; }
+
+.nav-links{
+  display: flex; gap: clamp(1rem, 2vw, 1.8rem);
+  list-style: none; margin: 0; padding: 0;
+}
+.nav-links a{
+  color: var(--foam); font-size: 0.95rem;
+  border-bottom: 1px solid transparent;
+}
+.nav-links a:hover, .nav-links a:focus-visible, .nav-links a[aria-current="page"]{
+  border-bottom-color: var(--brass);
+}
+
+.lang-toggle{
+  display: flex; align-items: center; gap: 0.5rem;
+  font-size: 0.85rem;
+}
+.lang-btn{
+  background: none; border: none; padding: 0 0 1px;
+  font-family: var(--font-body); font-size: 0.85rem;
+  color: rgba(243,246,242,0.45);
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.lang-btn:hover{ color: var(--foam); }
+.lang-btn[aria-pressed="true"]{
+  color: var(--brass); border-bottom-color: var(--brass);
+  cursor: default;
+}
+
+.nav-toggle{
+  display: none;
+  background: none; border: 1px solid rgba(243,246,242,0.4);
+  color: var(--foam); border-radius: 4px;
+  padding: 0.4rem 0.6rem; font-size: 0.9rem;
+}
+
+@media (max-width: 46rem){
+  .nav-toggle{ display: inline-flex; }
+  .nav-links{
+    position: absolute; top: 100%; left: 0; right: 0;
+    flex-direction: column; gap: 0;
+    background: var(--ink);
+    border-bottom: 1px solid rgba(180,129,63,0.35);
+    max-height: 0; overflow: hidden;
+    transition: max-height .25s ease;
+  }
+  .nav-links.open{ max-height: 20rem; }
+  .nav-links li{ padding: 0.8rem var(--gap); border-top: 1px solid rgba(243,246,242,0.08); }
+}
+
+/* =========================================================
+   Hero
+   ========================================================= */
+.hero{
+  position: relative;
+  min-height: min(88vh, 720px);
+  display: flex; align-items: flex-end;
+  background: var(--ink);
+  overflow: hidden;
+}
+/* La photo (960×1280, portrait) est bien plus haute que large : en plein
+   cadre "cover" sur un écran large, l'essentiel de l'image sortait du cadre.
+   On affiche donc la photo entière ("contain"), sur un fond flouté agrandi
+   de la même image pour combler les côtés — elle reste lisible à toutes
+   les largeurs plutôt que rognée au hasard. */
+.hero-backdrop{
+  position: absolute; inset: -60px;
+  background: url('img/hero-spi.jpg') center 30% / cover no-repeat;
+  filter: blur(55px) saturate(1.05) brightness(0.4);
+  transform: scale(1.15);
+}
+.hero-photo{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  object-fit: contain;
+  object-position: center 15%;
+}
+.hero-scrim{
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(30,47,61,0.2) 0%, rgba(30,47,61,0.45) 50%, rgba(30,47,61,0.92) 100%);
+}
+.hero-content{
+  position: relative; z-index: 1;
+  padding: 3rem var(--gap) 3.2rem;
+  max-width: 42rem;
+  color: var(--foam);
+}
+@media (max-width: 46rem){
+  /* En portrait mobile le cadre se rapproche déjà du ratio de la photo :
+     autant remplir tout l'écran plutôt que garder le fond flouté. */
+  .hero-backdrop{ display: none; }
+  .hero-photo{ object-fit: cover; object-position: center 40%; }
+}
+.hero-kicker{
+  font-family: var(--font-body); font-weight: 600;
+  color: var(--brass); font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+.hero h1{ color: var(--foam); }
+.hero p{ color: rgba(243,246,242,0.9); max-width: 34rem; }
+
+.hero-route{
+  position: absolute; inset: 0; z-index: 1;
+  width: 100%; height: 100%;
+  pointer-events: none;
+}
+.hero-route path{
+  fill: none;
+  stroke: var(--foam);
+  stroke-width: 2;
+  stroke-dasharray: 6 8;
+  opacity: 0.55;
+  stroke-dashoffset: 1200;
+  animation: draw-route 2.6s ease-out 0.2s forwards;
+}
+@keyframes draw-route{ to{ stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce){
+  .hero-route path{ stroke-dashoffset: 0; animation: none; }
+}
+
+/* =========================================================
+   Sections générales
+   ========================================================= */
+section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
+.section-dark{ background: var(--ink); color: var(--foam); }
+.section-dark h2{ color: var(--foam); }
+.section-dark p{ color: rgba(243,246,242,0.85); }
+.section-sea{ background: var(--sea); color: var(--foam); }
+.section-sea h2{ color: var(--foam); }
+.section-sea p{ color: rgba(243,246,242,0.88); }
+
+.eyebrow-tag{
+  display: inline-block;
+  font-size: 0.8rem;
+  color: var(--rust);
+  border-bottom: 1px solid var(--rust);
+  padding-bottom: 2px;
+  margin-bottom: 0.9rem;
+}
+
+.two-col{
+  display: grid; gap: var(--gap);
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: start;
+}
+@media (max-width: 46rem){ .two-col{ grid-template-columns: 1fr; } }
+
+.pull-figure{
+  border-left: 2px solid var(--brass);
+  padding-left: 1.2rem;
+}
+.pull-figure .num{
+  font-family: var(--font-display); font-size: 2.4rem;
+  display: block; line-height: 1;
+}
+
+/* Bandeau "Vous pouvez nous aider" — badge Azurite en grand à côté du texte */
+.help-block{ align-items: center; }
+.help-logo{
+  display: flex; justify-content: center; align-items: center;
+}
+.help-logo img{
+  width: 100%;
+  max-width: 320px;
+  border-radius: 50%;
+  box-shadow: 0 14px 34px rgba(0,0,0,0.35);
+}
+@media (max-width: 46rem){
+  .help-logo{ margin-top: 0.5rem; }
+  .help-logo img{ max-width: 220px; }
+}
+
+/* =========================================================
+   Waypoints (page Trajet) — vraie séquence, donc numérotée
+   ========================================================= */
+.waypoints{
+  list-style: none; margin: 0; padding: 0;
+  position: relative;
+  border-left: 2px solid rgba(180,129,63,0.4);
+  margin-left: 0.6rem;
+}
+.waypoints li{
+  position: relative;
+  padding: 0 0 1.6rem 1.6rem;
+}
+.waypoints li::before{
+  content: "";
+  position: absolute; left: -6.5px; top: 0.35rem;
+  width: 11px; height: 11px; border-radius: 50%;
+  background: var(--foam);
+  border: 2px solid var(--brass);
+}
+.waypoints li.leg-end::before{ background: var(--brass); }
+.waypoints .leg-num{ color: var(--heather); font-size: 0.85rem; }
+
+/* =========================================================
+   Apparition douce au scroll
+   ========================================================= */
+.reveal{
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.is-visible{
+  opacity: 1;
+  transform: none;
+}
+
+/* =========================================================
+   Fiche technique (page Bateau)
+   ========================================================= */
+.spec-plate{
+  border: 1px solid rgba(180,129,63,0.5);
+  padding: clamp(1.4rem, 3vw, 2.2rem);
+  background: rgba(180,129,63,0.06);
+}
+.spec-plate dl{
+  display: grid; grid-template-columns: auto 1fr; gap: 0.5rem 1.2rem;
+  margin: 0;
+}
+.spec-plate dt{ color: var(--heather); font-size: 0.9rem; }
+.spec-plate dd{ margin: 0; font-weight: 600; }
+
+.refit-grid{
+  display: grid; gap: var(--gap);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+}
+@media (max-width: 50rem){ .refit-grid{ grid-template-columns: 1fr; } }
+.refit-grid h3{ border-bottom: 1px solid rgba(11,36,54,0.15); padding-bottom: 0.5rem; }
+.refit-grid ul{ padding-left: 1.1rem; margin: 0; }
+.refit-grid li{ margin-bottom: 0.5rem; }
+
+/* =========================================================
+   Portraits (page Équipage)
+   ========================================================= */
+.portrait{
+  display: grid; grid-template-columns: 1fr 1.4fr; gap: var(--gap);
+  align-items: center;
+  padding: clamp(2rem, 5vw, 3rem) 0;
+  border-top: 1px solid rgba(11,36,54,0.12);
+}
+.portrait:first-of-type{ border-top: none; }
+.portrait.reverse{ grid-template-columns: 1.4fr 1fr; }
+.portrait.reverse .portrait-figure{ order: 2; }
+.portrait-figure img{ border-radius: 2px; }
+.portrait-name{ color: var(--heather); font-size: 0.95rem; margin-bottom: 0.2rem; display:block; }
+@media (max-width: 46rem){
+  .portrait, .portrait.reverse{ grid-template-columns: 1fr; }
+  .portrait.reverse .portrait-figure{ order: 0; }
+}
+
+/* =========================================================
+   Sponsors
+   ========================================================= */
+.logo-slot{
+  border: 1px dashed rgba(11,36,54,0.25);
+  height: 4.5rem;
+  display: flex; align-items: center; justify-content: center;
+  color: rgba(11,36,54,0.4); font-size: 0.85rem;
+}
+.logo-filled{
+  height: 4.5rem;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  transition: transform .25s ease, box-shadow .25s ease, overflow .25s;
+}
+.logo-filled img{
+  width: 100%; height: 100%;
+  object-fit: contain;
+}
+.logo-filled:hover, .logo-filled:focus-within{
+  transform: scale(1.7);
+  overflow: visible;
+  z-index: 5;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.4);
+  background: var(--ink);
+}
+.logo-wall{
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+  gap: 1rem; margin-top: 1.5rem;
+}
+
+.btn{
+  display: inline-block;
+  font-family: var(--font-body); font-weight: 600;
+  padding: 0.75rem 1.4rem;
+  background: var(--brass); color: var(--ink);
+  border: 1px solid var(--brass);
+}
+.btn:hover, .btn:focus-visible{ background: transparent; color: var(--ink); }
+.section-dark .btn:hover, .section-dark .btn:focus-visible,
+.section-sea .btn:hover, .section-sea .btn:focus-visible{ color: var(--foam); }
+
+/* =========================================================
+   Footer
+   ========================================================= */
+.site-footer{
+  background: var(--ink); color: rgba(243,246,242,0.75);
+  padding: 2.4rem 0; font-size: 0.9rem;
+}
+.site-footer a{ color: var(--foam); }
+.footer-grid{
+  display: flex; flex-wrap: wrap; gap: 1.5rem 3rem;
+  justify-content: space-between;
+}
+
+/* =========================================================
+   Vidéo du tracé (page Trajet) — remplace la carte interactive
+   ========================================================= */
+.route-video-wrap{
+  max-width: 480px; margin: 0 auto;
+  border: 1px solid rgba(180,129,63,0.4);
+  background: var(--ink);
+}
+.route-video-wrap video{ display: block; width: 100%; height: auto; }
+
+/* =========================================================
+   Cadre affiche (page Accueil)
+   ========================================================= */
+.poster-frame{
+  max-width: 460px; margin: 0 auto;
+  border: 6px solid var(--foam);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+.poster-frame img{ display: block; width: 100%; height: auto; }
+
+/* =========================================================
+   Logo qui rétrécit au scroll
+   ========================================================= */
+.site-header{ transition: padding .3s ease; }
+
+.logo-swap{
+  display: block;
+  height: 72px;
+  transition: height .3s ease;
+}
+.logo-swap img{
+  display: block;
+  height: 100%; width: auto;
+  border-radius: 50%;
+}
+
+.site-header.is-scrolled .container{ padding-top: 0.4rem; padding-bottom: 0.4rem; }
+.site-header.is-scrolled .logo-swap{ height: 38px; }
+
+@media (prefers-reduced-motion: reduce){
+  .site-header, .logo-swap, .logo-swap img{ transition: none; }
+}
+
+/* =========================================================
+   Photo de coupure pleine largeur (page Accueil)
+   ========================================================= */
+.photo-break{
+  position: relative;
+  margin: 0;
+}
+.photo-break img{
+  width: 100%;
+  max-height: 60vh;
+  object-fit: cover;
+  display: block;
+}
+.photo-break figcaption{
+  position: absolute;
+  left: var(--gap); bottom: 1.2rem;
+  color: var(--foam);
+  font-size: 0.9rem;
+  background: rgba(30,47,61,0.6);
+  padding: 0.3rem 0.8rem;
+}
+
+/* =========================================================
+   Nav : lien "Partenaires" traité en bouton pilule
+   ========================================================= */
+.nav-links a.nav-cta{
+  border: 1px solid rgba(243,246,242,0.5);
+  border-bottom: 1px solid rgba(243,246,242,0.5);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+}
+.nav-links a.nav-cta:hover, .nav-links a.nav-cta:focus-visible, .nav-links a.nav-cta[aria-current="page"]{
+  border-color: var(--brass);
+  color: var(--brass);
+}
+
+/* Zoom sur les logos sponsors : voir la note plus haut dans .logo-filled */

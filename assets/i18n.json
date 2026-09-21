@@ -1,0 +1,511 @@
+{
+  "fr": {
+    "meta": {
+      "index": {
+        "title": "Cap sur l'Écosse, en famille",
+        "description": "Mars à septembre 2027 : sept mois de navigation en famille de La Faute-sur-Mer jusqu'aux Shetland, à bord d'Azurite, notre First 375 de 1988."
+      },
+      "bateau": {
+        "title": "Le bateau",
+        "description": "Azurite, un First 375 de 1988 entièrement refait par la famille : électronique, sécurité hauturière, confort de vie à bord."
+      },
+      "equipage": {
+        "title": "L'équipage",
+        "description": "Thomas, Morgane, Gaston et Rose : l'équipage d'Azurite, en route vers l'Écosse."
+      },
+      "trajet": {
+        "title": "Le trajet",
+        "description": "Sept mois de navigation en famille : de La Faute-sur-Mer aux Shetland, et retour."
+      },
+      "sponsors": {
+        "title": "Sponsors",
+        "description": "Devenir sponsor du voyage d'Azurite : visibilité, histoire authentique, ancrage local."
+      }
+    },
+    "nav": {
+      "home": "Le projet",
+      "boat": "Le bateau",
+      "crew": "L'équipage",
+      "route": "L'itinéraire",
+      "sponsors": "Partenaires",
+      "menuToggle": "Menu",
+      "menuAria": "Ouvrir le menu",
+      "logoAria": "Accueil"
+    },
+    "footer": {
+      "tagline": "Azurite : Voyage en famille, mars-septembre 2027",
+      "polarsteps": "Suivre sur PolarStep",
+      "sponsorCta": "Devenir sponsor"
+    },
+    "index": {
+      "heroImgAlt": "Le spi arc-en-ciel d'Azurite gonflé au large des côtes bretonnes",
+      "heroKicker": "Mars → Septembre 2027",
+      "heroTitle": "Cap sur<br>l'Écosse.",
+      "heroText": "Sept mois. Quatre personnes. Un First 375 de 1988. On est des enfants des années 90, et on part à l'aventure avec nos propres enfants, à la voile, jusqu'aux Shetland et retour, sur un bateau qu'on a refait de nos mains.",
+      "projectEyebrow": "Le projet",
+      "projectTitle": "Une parenthèse de sept mois, pas une course.",
+      "projectText1": "Beaucoup rêvent de ce genre de projet. Peu s'y lancent vraiment. Et encore moins se donnent les moyens de le faire : l'investissement financier, l'investissement personnel, et des centaines d'heures passées à préparer le bateau plutôt qu'à en rêver.",
+      "projectText2": "On l'a fait. Ou plutôt : on est en train de le faire.",
+      "pullNum": "1500+",
+      "pullText": "milles nautiques déjà parcourus avec Azurite depuis février 2025, dont un aller-retour jusqu'à Guernesey cet été, notre entraînement avant l'Écosse.",
+      "photoBreak": {
+        "imgAlt": "La famille sur un sentier côtier, au crépuscule, avec les voiliers au mouillage en contrebas",
+        "caption": "Thomas, Morgane, Gaston et Rose."
+      },
+      "discoverEyebrow": "À découvrir",
+      "boatBlock": {
+        "imgAlt": "Thomas au gréement, à l'étrave d'Azurite au mouillage",
+        "title": "Notre maison fait 11 mètres",
+        "text": "Azurite, notre First 375 : un voilier de 1988 que nous avons refait de nos mains : électronique, moteur, sécurité hauturière, pour sept mois de navigation en famille.",
+        "cta": "Découvrir le bateau"
+      },
+      "crewBlock": {
+        "imgAlt": "Gaston à l'étrave d'Azurite",
+        "title": "Une famille, quatre façons de vivre le voyage",
+        "text": "À bord, chacun trouve sa place : navigation, école, pêche, cuisine, bricolage et beaucoup d'adaptation.",
+        "cta": "Rencontrer l'équipage"
+      },
+      "routeBlock": {
+        "eyebrow": "L'itinéraire",
+        "imgAlt": "Vue en hauteur sur un mouillage de voiliers entre les falaises, lors de notre navigation d'entraînement",
+        "title": "De la Vendée au 60e parallèle.",
+        "lead": "Bretagne → Anglo-Normandes → Scilly → mer d'Irlande → Hébrides → Orkney → Shetland → Loch Ness.",
+        "text": "Une ligne directrice, jamais un programme rigide : la météo aura toujours le dernier mot.",
+        "cta": "Explorer le trajet"
+      },
+      "followEyebrow": "Nous suivre",
+      "followTitle": "Le voyage, en direct",
+      "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des lives présentés par nos enfants pour les deux écoles de notre village.",
+      "followLink": "Voir notre étape de cet été jusqu'à Guernesey sur PolarStep",
+      "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
+      "quoteAuthor": "Philippe Poupon, croisé cet été à l'Aber Wrac'h",
+      "helpTitle": "Vous pouvez nous aider",
+      "helpText": "Il nous reste à finaliser notre équipement avant le départ. Si vous représentez une marque, un commerce local ou une association, notre page Sponsors explique concrètement ce qu'on propose en échange.",
+      "helpCta": "Devenir sponsor",
+      "helpLogoAlt": "Le badge Azurite, Écosse 2027"
+    },
+    "bateau": {
+      "eyebrow": "Le bateau",
+      "title": "Azurite, notre First 375",
+      "intro1": "Azurite est un First 375 construit par Bénéteau en 1988, dessiné par l'architecte naval Jean Berret. Le bateau a été immatriculé le 17 juin 1988, exactement deux ans avant la naissance de Thomas, le 17 juin 1990, Azurite et Thomas sont nés le même jour.",
+      "intro2": "Nous possédons Azurite depuis février 2025. Depuis, nous avons déjà parcouru plus de 1500 milles nautiques ensemble, dont un aller-retour jusqu'à Guernesey cet été, et navigué dans des conditions musclées jusqu'à 35 kts au portant.",
+      "spec": {
+        "title": "Fiche technique",
+        "yard": "Chantier",
+        "yardVal": "Bénéteau",
+        "architect": "Architecte",
+        "architectVal": "Jean Berret",
+        "year": "Année",
+        "yearVal": "1988",
+        "length": "Longueur",
+        "lengthVal": "≈ 11,3 m",
+        "version": "Version",
+        "versionVal": "Petit tirant d'eau",
+        "capacity": "Habitabilité",
+        "capacityVal": "6 à 8 personnes",
+        "rig": "Gréement",
+        "rigVal": "Sloop"
+      },
+      "photoAlt": "Vue depuis le pont d'Azurite, voiles gonflées, mât en contre-jour",
+      "refitEyebrow": "Le refit",
+      "refitTitle": "Un bateau que nous connaissons par cœur",
+      "refitIntro": "Nous avons réalisé nous-mêmes l'essentiel du refit d'Azurite, avec un objectif simple : un bateau fiable et autonome pour sept mois de navigation en famille.",
+      "refit": {
+        "electronics": {
+          "title": "Électronique &amp; énergie",
+          "items": [
+            "Raymarine complet : pilote automatique EV-200 voilier + afficheur i70",
+            "Installation AIS",
+            "Multiplexeur : toutes les données de navigation sur tablette",
+            "Remise en route du radar Furuno d'origine",
+            "Panneaux solaires + batterie gel + chargeur MPPT sur portique",
+            "Convertisseur 12-220V",
+            "Chauffage stationnaire Webasto au gazole"
+          ]
+        },
+        "safety": {
+          "title": "Sécurité &amp; fiabilité",
+          "items": [
+            "Révision moteur complète",
+            "Refit complet du safran, jeu du tube de jaumière repris",
+            "Révision du gréement",
+            "Réserve d'eau propre rigide",
+            "Équipement de sécurité hauturière remis aux normes : EPIRB, extincteurs, radeau de survie, gilets"
+          ]
+        },
+        "comfort": {
+          "title": "Confort &amp; vie à bord",
+          "items": [
+            "Plage arrière créée pour l'accès annexe, la baignade et remonter le poisson pêché",
+            "Cockpit optimisé : bimini et capote de descente refaite",
+            "Table de cockpit amovible, support tablette et porte-gobelet",
+            "Carré convertible en canapé",
+            "Espace télétravail à la table à carte, double écran"
+          ]
+        }
+      },
+      "todoText": "<strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie, c'est justement pour ça qu'on recherche des sponsors.",
+      "todoCta": "Voir la page Sponsors",
+      "planEyebrow": "Le plan de vie",
+      "planTitle": "Petit espace, beaucoup de fonctions.",
+      "planText1": "Deux cabines, un carré, une cuisine, une table à carte et chaque recoin qui finit par avoir une mission. Pendant sept mois, chaque objet devra mériter sa place.",
+      "planText2": "Notre préparation ne concerne donc pas uniquement la navigation : il faut aussi penser au stockage de nourriture, aux vêtements humides, à l'école des enfants et à la capacité de chacun à trouver un peu de calme.",
+      "planImgAlt": "Plan illustré de l'aménagement intérieur d'Azurite : cabines, Grand Carré, cuisine, salle de la machine, table à carte"
+    },
+    "equipage": {
+      "eyebrow": "L'équipage",
+      "title": "Nous sommes une famille de quatre",
+      "intro": "À bord, chacun a sa place, même si les rôles s'échangent selon l'humeur et la météo. Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau.",
+      "groupPhotoAlt": "Thomas, Morgane, Gaston et Rose en randonnée sur la côte, avec des voiliers au mouillage en arrière-plan",
+      "thomas": {
+        "imgAlt": "Thomas, un maquereau tout juste pêché coincé dans la barbe, à bord d'Azurite",
+        "name": "Thomas, 36 ans",
+        "role": "Le capitaine, « Capt'ain Barbe Douce »",
+        "p1": "Skipper, chef mécano et spécialiste électronique du bord : c'est Thomas qui gère la navigation avant, pendant et après chaque étape. Docteur en chimie organique reconverti ingénieur développeur logiciel, il a mis sa rigueur scientifique et son goût du bricolage au service du refit complet d'Azurite.",
+        "p2": "Surfeur passionné, c'est aussi lui qui rêve des vagues mythiques d'Écosse depuis le début du projet. Une anecdote, pour ceux qui doutent encore de son sang-froid : il s'est déjà baigné en pleine navigation... et a perdu son calçon quand le bateau a dépassé les 5 nœuds."
+      },
+      "morgane": {
+        "imgAlt": "Morgane sur le pont d'Azurite, au large de la Bretagne",
+        "name": "Morgane, 36 ans",
+        "role": "Équipière en second",
+        "p1": "Morgane vient en soutien sur les manœuvres, les quarts, et participe à l'étude et à la validation des itinéraires. Mais avant tout, elle est là pour partager le plaisir d'être en mer avec son mari et ses enfants.",
+        "p2": "À bord, elle gère aussi la vie quotidienne : repas, logistique, activités pour les enfants, et la continuité pédagogique pendant les sept mois de voyage. Ce qu'elle aime dans ce petit cocon flottant : se recentrer sur la famille, une charge mentale bien plus légère qu'à terre, et passer du temps dehors à lire ou observer la mer : en particulier guetter les dauphins, ses compagnons préférés.",
+        "p3": "Le reste de l'année, Morgane travaille à l'accueil de la mairie du village, un métier qu'elle aime, varié et au contact du public, mais parfois éprouvant. Partir en mer est son exutoire, et elle attend ce voyage avec impatience : de quoi resserrer encore les liens familiaux, même si quelques frictions sont sûrement à prévoir à quatre dans un espace aussi restreint."
+      },
+      "gaston": {
+        "imgAlt": "Gaston debout sur un rocher, face à une eau turquoise et transparente",
+        "name": "Gaston, 9 ans",
+        "role": "Le pêcheur du bord",
+        "p1": "Dorade, maquereau, vieille, bonite, bar... rien ne lui résiste. Gaston fournit assez de poisson pour que la famille n'ait pas besoin d'en acheter. Curieux et observateur, il participe aux manœuvres et à la vie à bord à sa mesure, et on l'a déjà vu à la manœuvre en pleine mer, bien concentré."
+      },
+      "rose": {
+        "imgAlt": "Un enfant coiffé d'un bonnet à motifs, allongé sur le pont en train de lire",
+        "name": "Rose, 6 ans",
+        "role": "La plus jeune, pas la plus timide",
+        "p1": "Rose n'a pas froid aux yeux ni au corps : elle passerait des heures dans l'eau à se baigner et jouer. Elle participe aussi aux manœuvres, et adore particulièrement tenir la barre. Studieuse, elle est toujours la première à s'installer pour les devoirs et l'école à bord. Et si quelque chose ne lui convient pas, elle sait très bien se faire entendre."
+      },
+      "rolesTitle": "Rien n'est figé à bord",
+      "rolesText": "Thomas gère la navigation, Morgane s'occupe de l'école des enfants et de l'approvisionnement, et Gaston comme Rose participent aux manœuvres et à la vie quotidienne à leur niveau. Mais les rôles ne sont pas figés : ils s'échangent selon l'humeur de chacun et les conditions météo."
+    },
+    "trajet": {
+      "eyebrow": "Le trajet",
+      "title": "Sept mois vers les Shetland, et retour",
+      "intro": "Mars à septembre 2027 : sept mois de navigation en famille, de notre port d'attache jusqu'aux confins nord de l'Écosse.",
+      "videoCaption": "Tracé animé de notre itinéraire prévisionnel.",
+      "videoFallback": "Votre navigateur ne supporte pas la lecture vidéo.",
+      "videoDownload": "Télécharger la vidéo",
+      "waypoints": {
+        "1": { "legNum": "Étape 1", "name": "Départ de La Faute-sur-Mer" },
+        "2": { "legNum": "Étape 2", "name": "Contournement de la Bretagne" },
+        "3": { "legNum": "Étape 3", "name": "Remontée de la Manche jusqu'à Paimpol" },
+        "4": { "legNum": "Étape 4", "name": "Traversée vers les îles Anglo-Normandes" },
+        "5": { "legNum": "Étape 5", "name": "Remontée de la côte sud de l'Angleterre jusqu'aux Scilly" },
+        "6": { "legNum": "Étape 6", "name": "Remontée vers l'Écosse via la mer d'Irlande et l'île de Man" },
+        "7": { "legNum": "Étape 7", "name": "Passage à Glasgow" },
+        "8": { "legNum": "Étape 8", "name": "Les Hébrides" },
+        "9": { "legNum": "Étape 9", "name": "Cap sur Thurso, à la pointe nord de l'Écosse" },
+        "10": { "legNum": "Étape 10", "name": "Les Orkney" },
+        "11": { "legNum": "Étape 11, point le plus au nord", "name": "Les Shetland" },
+        "12": { "legNum": "Étape 12", "name": "Redescente vers Inverness, traversée du Loch Ness" },
+        "13": { "legNum": "Étape 13", "name": "Retour par la mer d'Irlande et l'île d'Arran" },
+        "14": { "legNum": "Étape 14", "name": "Traversée de la Manche" },
+        "15": { "legNum": "Étape 15", "name": "Retour à La Faute-sur-Mer" }
+      },
+      "prepEyebrow": "La préparation",
+      "prepTitle": "On ne part pas à l'aventure au hasard",
+      "prepText": "Ce voyage n'est pas un coup de tête : on s'y prépare depuis qu'on a Azurite, en février 2025. Depuis que nous l'avons, nous avons déjà parcouru plus de 1500 milles nautiques, dont un aller-retour jusqu'à Guernesey, et on a appris à composer avec la météo plutôt qu'à s'y opposer.",
+      "prepPhotoAlt": "Soir sur une plage de galets, face aux voiliers au mouillage",
+      "prepPhotoCaption": "Fin de journée, cet été.",
+      "scillyTitle": "Exemple concret : le cap sur les Scilly, version réalité",
+      "scillyText": "On voulait initialement rejoindre les Scilly depuis l'Aber Wrac'h. Faute de fenêtre météo avec un vent de nord favorable, on a changé de plan et remonté la Manche vers les îles Anglo-Normandes à la place. C'est ce genre de décision qu'on retrouvera tout au long des sept mois vers l'Écosse, s'adapter plutôt que forcer.",
+      "learnedTitle": "Ce qu'on a appris cet été, qui nous servira en Écosse",
+      "learnedItems": [
+        "Exploiter au mieux Azurite : réglages de voile, routes préparées la veille",
+        "Naviguer dans les courants et le fort marnage de la Manche",
+        "Naviguer en sécurité au milieu des cailloux",
+        "Garder son sang-froid et le sens de l'humour"
+      ],
+      "encounterEyebrow": "La rencontre",
+      "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
+      "quoteAuthor": "Philippe Poupon, croisé à bord de son voilier Fleur Australe lors d'une escale à l'Aber Wrac'h. On lui a parlé du projet Écosse ; sa réponse a fini de nous convaincre.",
+      "followEyebrow": "Nous suivre",
+      "followTitle": "Le voyage, en direct",
+      "followIntro": "Nous partageons notre navigation sur PolarStep.",
+      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">Notre étape de cet été jusqu'à Guernesey est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse."
+    },
+    "sponsors": {
+      "eyebrow": "Sponsors",
+      "title": "Bien plus qu'un tour en famille",
+      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
+      "pitch": "On a besoin de vous pour prendre le large.",
+      "benefitsTitle": "Ce que vous gagnez en nous soutenant",
+      "benefits": [
+        "Votre logo affiché sur la coque d'Azurite pendant les 7 mois de navigation",
+        "Une présence sur notre suivi PolarStep",
+        "Une visibilité pendant les lives réalisés avec les écoles",
+        "Vos produits mis en situation dans les décors magnifiques d'Écosse",
+        "Une histoire authentique, pas juste une publicité"
+      ],
+      "logosTitle": "Ils nous accompagnent déjà",
+      "logoSlot": "Votre logo",
+      "contactTitle": "Nous contacter",
+      "contactText": "Pour discuter d'un partenariat, écrivez-nous : nous répondons à chaque message.",
+      "contactCta": "Nous écrire"
+    }
+  },
+  "en": {
+    "meta": {
+      "index": {
+        "title": "Bound for Scotland, as a family",
+        "description": "March to September 2027: seven months of family sailing from La Faute-sur-Mer to Shetland, aboard Azurite, our 1988 First 375."
+      },
+      "bateau": {
+        "title": "The boat",
+        "description": "Azurite, a 1988 First 375 entirely refitted by the family: electronics, offshore safety gear, comfortable life aboard."
+      },
+      "equipage": {
+        "title": "The crew",
+        "description": "Thomas, Morgane, Gaston and Rose: Azurite's crew, bound for Scotland."
+      },
+      "trajet": {
+        "title": "The route",
+        "description": "Seven months of family sailing: from La Faute-sur-Mer to Shetland, and back."
+      },
+      "sponsors": {
+        "title": "Sponsors",
+        "description": "Become a sponsor of Azurite's voyage: visibility, an authentic story, local roots."
+      }
+    },
+    "nav": {
+      "home": "The project",
+      "boat": "The boat",
+      "crew": "The crew",
+      "route": "The route",
+      "sponsors": "Partners",
+      "menuToggle": "Menu",
+      "menuAria": "Open menu",
+      "logoAria": "Home"
+    },
+    "footer": {
+      "tagline": "Azurite: A family voyage, March–September 2027",
+      "polarsteps": "Follow on PolarStep",
+      "sponsorCta": "Become a sponsor"
+    },
+    "index": {
+      "heroImgAlt": "Azurite's rainbow spinnaker filled with wind off the Breton coast",
+      "heroKicker": "March → September 2027",
+      "heroTitle": "Bound for<br>Scotland.",
+      "heroText": "Seven months. Four people. A 1988 First 375. We're kids of the nineties, setting off on an adventure with our own kids, under sail, all the way to Shetland and back, on a boat we rebuilt with our own hands.",
+      "projectEyebrow": "The project",
+      "projectTitle": "A seven-month pause, not a race.",
+      "projectText1": "Plenty of people dream of a project like this. Few actually commit to it. And even fewer give themselves the means to do it: the money, the personal investment, and hundreds of hours spent preparing the boat instead of just dreaming about it.",
+      "projectText2": "We did it. Or rather: we're doing it.",
+      "pullNum": "1500+",
+      "pullText": "nautical miles already logged with Azurite since February 2025, including a return trip to Guernsey this summer, our training run before Scotland.",
+      "photoBreak": {
+        "imgAlt": "The family on a coastal path at dusk, with sailboats at anchor below",
+        "caption": "Thomas, Morgane, Gaston and Rose."
+      },
+      "discoverEyebrow": "Explore",
+      "boatBlock": {
+        "imgAlt": "Thomas at the rigging, at Azurite's bow, at anchor",
+        "title": "Our home is 11 metres long",
+        "text": "Azurite, our First 375: a 1988 sailboat we rebuilt with our own hands: electronics, engine, offshore safety gear, for seven months of family sailing.",
+        "cta": "Discover the boat"
+      },
+      "crewBlock": {
+        "imgAlt": "Gaston at Azurite's bow",
+        "title": "One family, four ways of living the voyage",
+        "text": "Aboard, everyone finds their place: navigation, schooling, fishing, cooking, tinkering, and plenty of adapting.",
+        "cta": "Meet the crew"
+      },
+      "routeBlock": {
+        "eyebrow": "The route",
+        "imgAlt": "An elevated view over a sailboat anchorage between the cliffs, during our training sail",
+        "title": "From Vendée to the 60th parallel.",
+        "lead": "Brittany → Channel Islands → Scilly → Irish Sea → Hebrides → Orkney → Shetland → Loch Ness.",
+        "text": "A guiding line, never a rigid schedule: the weather always gets the final say.",
+        "cta": "Explore the route"
+      },
+
+      "followEyebrow": "Follow along",
+      "followTitle": "The voyage, live",
+      "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and live calls hosted by our children for the two schools in our village.",
+      "followLink": "See this summer's leg to Guernsey on PolarStep",
+      "quote": "\"Go for it, you have to do it, it's magnificent.\"",
+      "quoteAuthor": "Philippe Poupon, met this summer at Aber Wrac'h",
+      "helpTitle": "You can help us",
+      "helpText": "We still have equipment to finalise before we leave. If you represent a brand, a local business or an association, our Sponsors page explains exactly what we offer in return.",
+      "helpCta": "Become a sponsor",
+      "helpLogoAlt": "The Azurite badge, Scotland 2027"
+    },
+    "bateau": {
+      "eyebrow": "The boat",
+      "title": "Azurite, our First 375",
+      "intro1": "Azurite is a First 375 built by Bénéteau in 1988, designed by naval architect Jean Berret. The boat was registered on 17 June 1988, exactly two years before Thomas was born, on 17 June 1990, Azurite and Thomas share a birthday.",
+      "intro2": "We've owned Azurite since February 2025. Since then we've already logged over 1,500 nautical miles together, including a return trip to Guernsey this summer, and sailed in rough conditions with gusts up to 35 knots downwind.",
+      "spec": {
+        "title": "Specifications",
+        "yard": "Builder",
+        "yardVal": "Bénéteau",
+        "architect": "Architect",
+        "architectVal": "Jean Berret",
+        "year": "Year",
+        "yearVal": "1988",
+        "length": "Length",
+        "lengthVal": "≈ 11.3 m (37 ft)",
+        "version": "Version",
+        "versionVal": "Shoal draught",
+        "capacity": "Berths",
+        "capacityVal": "6 to 8 people",
+        "rig": "Rig",
+        "rigVal": "Fractional sloop"
+      },
+      "photoAlt": "View from Azurite's deck, sails filled, mast backlit",
+      "refitEyebrow": "The refit",
+      "refitTitle": "A boat we know inside out",
+      "refitIntro": "We carried out most of Azurite's refit ourselves, with one simple goal: a reliable, self-sufficient boat for seven months of family sailing.",
+      "refit": {
+        "electronics": {
+          "title": "Electronics &amp; power",
+          "items": [
+            "Full Raymarine setup: EV-200 sail autopilot + i70 display",
+            "AIS installed",
+            "Multiplexer: all navigation data available on tablet",
+            "Original Furuno radar brought back into service",
+            "Solar panels + gel battery + MPPT charge controller on the arch",
+            "12-220V converter",
+            "Webasto diesel stationary heater"
+          ]
+        },
+        "safety": {
+          "title": "Safety &amp; reliability",
+          "items": [
+            "Full engine overhaul",
+            "Complete rudder refit, rudder tube play taken up",
+            "Standing rigging inspection and overhaul",
+            "Rigid fresh water tank",
+            "Offshore safety gear brought up to standard: EPIRB, fire extinguishers, life raft, lifejackets"
+          ]
+        },
+        "comfort": {
+          "title": "Comfort &amp; life aboard",
+          "items": [
+            "New rear bathing platform for dinghy access, swimming and hauling in the catch",
+            "Cockpit optimised: bimini and new companionway hood",
+            "Removable cockpit table with tablet mount and cup holders",
+            "Saloon convertible into a sofa",
+            "Remote-work setup at the chart table, dual screen"
+          ]
+        }
+      },
+      "todoText": "<strong>Still on the list before we leave:</strong> replace the headsail (genoa) and service our survival gear, which is exactly why we're looking for sponsors.",
+      "todoCta": "See the Sponsors page",
+      "planEyebrow": "Layout",
+      "planTitle": "A small space, packed with purpose.",
+      "planText1": "Two cabins, a saloon, a galley, a chart table, and every corner ends up with a job to do. For seven months, every object will have to earn its place.",
+      "planText2": "So our preparation isn't just about sailing: we also have to think about food storage, wet clothes, the children's schooling, and everyone's ability to find a bit of quiet.",
+      "planImgAlt": "Illustrated plan of Azurite's interior layout: cabins, main saloon, galley, engine room, chart table"
+    },
+    "equipage": {
+      "eyebrow": "The crew",
+      "title": "We're a family of four",
+      "intro": "Aboard, everyone has their place, though roles shift depending on mood and weather. Thomas handles navigation, Morgane takes care of the children's schooling and provisioning, and both Gaston and Rose pitch in on manoeuvres and daily life at their own level.",
+      "groupPhotoAlt": "Thomas, Morgane, Gaston and Rose hiking along the coast, with sailboats at anchor in the background",
+      "thomas": {
+        "imgAlt": "Thomas, with a freshly caught mackerel tucked in his beard, aboard Azurite",
+        "name": "Thomas, 36",
+        "role": "The captain, \"Cap'n Soft Beard\"",
+        "p1": "Skipper, chief mechanic and onboard electronics specialist: Thomas handles navigation before, during and after every leg. A PhD in organic chemistry turned software engineer, he's put his scientific rigour and love of tinkering to work on Azurite's full refit.",
+        "p2": "A keen surfer, he's also the one who's dreamed of Scotland's legendary waves since day one of this project. One anecdote for anyone still doubting his composure: he's already gone for a swim mid-passage... and lost his swim trunks when the boat topped 5 knots."
+      },
+      "morgane": {
+        "imgAlt": "Morgane on Azurite's deck, off the coast of Brittany",
+        "name": "Morgane, 36",
+        "role": "First mate",
+        "p1": "Morgane backs up manoeuvres and watches, and helps study and sign off on routes. But above all, she's there to share the pleasure of being at sea with her husband and children.",
+        "p2": "Aboard, she also runs day-to-day life: meals, logistics, activities for the kids, and keeping up their schoolwork through the seven-month voyage. What she loves about this little floating cocoon: refocusing on family, a mental load far lighter than on land, and time outdoors reading or watching the sea: especially keeping an eye out for dolphins, her favourite companions.",
+        "p3": "The rest of the year, Morgane works at the village town hall's front desk, a job she loves, varied and people-facing, though sometimes draining. Getting out to sea is her release, and she can't wait for this voyage: a chance to bring the family even closer, even if a few frictions are bound to crop up with four of them in such a tight space."
+      },
+      "gaston": {
+        "imgAlt": "Gaston standing on a rock, facing clear turquoise water",
+        "name": "Gaston, 9",
+        "role": "The ship's fisherman",
+        "p1": "Sea bream, mackerel, wrasse, bonito, sea bass... nothing gets past him. Gaston catches enough fish that the family never needs to buy any. Curious and observant, he pitches in on manoeuvres and life aboard at his own level: we've already seen him hard at work on deck, deep in concentration, mid-passage."
+      },
+      "rose": {
+        "imgAlt": "A child wearing a patterned beanie, lying on deck reading",
+        "name": "Rose, 6",
+        "role": "The youngest, not the shyest",
+        "p1": "Rose is fearless, in and out of the water: she'd happily spend hours swimming and playing. She also joins in on manoeuvres, and especially loves taking the helm. Studious, she's always the first to sit down for homework and schoolwork aboard. And if something doesn't suit her, she has no trouble making herself heard."
+      },
+      "rolesTitle": "Nothing is set in stone aboard",
+      "rolesText": "Thomas handles navigation, Morgane takes care of the children's schooling and provisioning, and both Gaston and Rose pitch in on manoeuvres and daily life at their own level. But roles aren't fixed: they shift depending on everyone's mood and the weather."
+    },
+    "trajet": {
+      "eyebrow": "The route",
+      "title": "Seven months to Shetland, and back",
+      "intro": "March to September 2027: seven months of family sailing, from our home port to the northernmost reaches of Scotland.",
+      "videoCaption": "Animated preview of our planned route.",
+      "videoFallback": "Your browser does not support video playback.",
+      "videoDownload": "Download the video",
+      "waypoints": {
+        "1": { "legNum": "Step 1", "name": "Departure from La Faute-sur-Mer" },
+        "2": { "legNum": "Step 2", "name": "Rounding Brittany" },
+        "3": { "legNum": "Step 3", "name": "Up the Channel to Paimpol" },
+        "4": { "legNum": "Step 4", "name": "Crossing to the Channel Islands" },
+        "5": { "legNum": "Step 5", "name": "Up the south coast of England to the Isles of Scilly" },
+        "6": { "legNum": "Step 6", "name": "North to Scotland via the Irish Sea and the Isle of Man" },
+        "7": { "legNum": "Step 7", "name": "Stopover in Glasgow" },
+        "8": { "legNum": "Step 8", "name": "The Hebrides" },
+        "9": { "legNum": "Step 9", "name": "Heading for Thurso, at the northern tip of Scotland" },
+        "10": { "legNum": "Step 10", "name": "Orkney" },
+        "11": { "legNum": "Step 11, northernmost point", "name": "Shetland" },
+        "12": { "legNum": "Step 12", "name": "Heading back down to Inverness, crossing Loch Ness" },
+        "13": { "legNum": "Step 13", "name": "Return via the Irish Sea and the Isle of Arran" },
+        "14": { "legNum": "Step 14", "name": "Crossing the Channel" },
+        "15": { "legNum": "Step 15", "name": "Return to La Faute-sur-Mer" }
+      },
+      "prepEyebrow": "Preparation",
+      "prepTitle": "This isn't a leap into the unknown",
+      "prepText": "This voyage isn't a spur-of-the-moment idea: we've been preparing for it ever since we got Azurite, in February 2025. Since then we've logged over 1,500 nautical miles, including a return trip to Guernsey, and we've learned to work with the weather rather than fight it.",
+      "prepPhotoAlt": "Evening on a pebble beach, facing the sailboats at anchor",
+      "prepPhotoCaption": "End of the day, this summer.",
+      "scillyTitle": "A real example: the Scilly passage, as it actually happened",
+      "scillyText": "We'd originally planned to reach the Scillies from Aber Wrac'h. With no weather window offering a favourable northerly, we changed plan and headed up the Channel to the Channel Islands instead. That's the kind of call we'll be making throughout the seven months to Scotland, adapting rather than forcing it.",
+      "learnedTitle": "What we learned this summer that will serve us in Scotland",
+      "learnedItems": [
+        "Getting the most out of Azurite: sail trim, routes planned the night before",
+        "Handling the currents and the big tidal range of the Channel",
+        "Navigating safely among the rocks",
+        "Keeping a cool head and a sense of humour"
+      ],
+      "encounterEyebrow": "The encounter",
+      "quote": "\"Go for it, you have to do it, it's magnificent.\"",
+      "quoteAuthor": "Philippe Poupon, met aboard his yacht Fleur Australe during a stopover at Aber Wrac'h. We told him about the Scotland project; his answer sealed the deal.",
+      "followEyebrow": "Follow along",
+      "followTitle": "The voyage, live",
+      "followIntro": "We share our navigation live on PolarStep.",
+      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">This summer's leg to Guernsey is already online</a>. The same tracking will be used throughout the seven-month voyage to Scotland."
+    },
+    "sponsors": {
+      "eyebrow": "Sponsors",
+      "title": "Much more than a family trip",
+      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with our commune's two schools through a co-built educational project and regular live calls hosted by our children. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
+      "pitch": "We need your help to set sail.",
+      "benefitsTitle": "What you get by supporting us",
+      "benefits": [
+        "Your logo displayed on Azurite's hull throughout the 7 months of sailing",
+        "A presence on our PolarStep tracking",
+        "Visibility during the live calls with the schools",
+        "Your products featured against Scotland's stunning scenery",
+        "An authentic story, not just an ad"
+      ],
+      "logosTitle": "Already backing us",
+      "logoSlot": "Your logo",
+      "contactTitle": "Get in touch",
+      "contactText": "To discuss a partnership, write to us: we reply to every message.",
+      "contactCta": "Write to us"
+    }
+  }
+}
