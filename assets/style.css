@@ -492,3 +492,19 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 }
 
 /* Zoom sur les logos sponsors : voir la note plus haut dans .logo-filled */
+
+/* Deux grands blocs thematiques sur la page Partenaires (sponsors / cagnotte) */
+.theme-split{
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  border: 1px solid rgba(180,129,63,0.4);
+}
+.theme-panel{ padding: clamp(1.6rem, 4vw, 2.6rem); }
+.theme-panel + .theme-panel{ border-left: 1px solid rgba(180,129,63,0.4); }
+@media (max-width: 46rem){
+  .theme-split{ grid-template-columns: 1fr; }
+  .theme-panel + .theme-panel{ border-left: none; border-top: 1px solid rgba(180,129,63,0.4); }
+}
+.theme-panel .kicker{ color: var(--brass); font-size: 0.85rem; display: block; margin-bottom: 0.6rem; }
+.theme-panel h2{ color: var(--foam); margin-bottom: 0.8rem; }
+.theme-panel ul{ padding-left: 1.1rem; }
+.theme-panel li{ margin-bottom: 0.5rem; color: rgba(243,246,242,0.85); }

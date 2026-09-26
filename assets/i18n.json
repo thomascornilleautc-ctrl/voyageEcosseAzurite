@@ -80,7 +80,8 @@
       "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
       "quoteAuthor": "Philippe Poupon, croisé cet été à l'Aber Wrac'h",
       "helpTitle": "Vous pouvez nous aider",
-      "helpText": "Il nous reste à finaliser notre équipement avant le départ. Si vous représentez une marque, un commerce local ou une association, notre page Sponsors explique concrètement ce qu'on propose en échange.",
+      "helpText": "Il nous reste à finaliser notre équipement avant le départ, à commencer par notre génois, la voile d'avant d'Azurite. Particulier ou entreprise, deux façons de nous soutenir.",
+      "cagnotteCta": "Participer à la cagnotte",
       "helpCta": "Devenir sponsor",
       "helpLogoAlt": "Le badge Azurite, Écosse 2027"
     },
@@ -144,7 +145,8 @@
           ]
         }
       },
-      "todoText": "<strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie, c'est justement pour ça qu'on recherche des sponsors.",
+      "todoText": "<strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie, c'est justement pour ça qu'on a lancé une cagnotte, et qu'on recherche des sponsors.",
+      "cagnotteCta": "Participer à la cagnotte",
       "todoCta": "Voir la page Sponsors",
       "planEyebrow": "Le plan de vie",
       "planTitle": "Petit espace, beaucoup de fonctions.",
@@ -238,7 +240,10 @@
       "title": "Bien plus qu'un tour en famille",
       "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
       "pitch": "On a besoin de vous pour prendre le large.",
-      "benefitsTitle": "Ce que vous gagnez en nous soutenant",
+      "panelSponsor": {
+        "kicker": "Entreprises",
+        "title": "Devenir sponsor"
+      },
       "benefits": [
         "Votre logo affiché sur la coque d'Azurite pendant les 7 mois de navigation",
         "Une présence sur notre suivi PolarStep",
@@ -246,10 +251,14 @@
         "Vos produits mis en situation dans les décors magnifiques d'Écosse",
         "Une histoire authentique, pas juste une publicité"
       ],
+      "panelCagnotte": {
+        "kicker": "Particuliers",
+        "title": "Financement participatif",
+        "text": "Il nous reste une pièce essentielle à financer avant le départ, le génois, la voile d'avant d'Azurite. En échange de votre participation, des contreparties : autocollants et carte postale envoyée depuis l'Écosse, ou un sac réalisé par nos soins dans la toile de notre ancien génois."
+      },
+      "cagnotteCta": "Participer à la cagnotte",
       "logosTitle": "Ils nous accompagnent déjà",
       "logoSlot": "Votre logo",
-      "contactTitle": "Nous contacter",
-      "contactText": "Pour discuter d'un partenariat, écrivez-nous : nous répondons à chaque message.",
       "contactCta": "Nous écrire"
     }
   },
@@ -335,7 +344,8 @@
       "quote": "\"Go for it, you have to do it, it's magnificent.\"",
       "quoteAuthor": "Philippe Poupon, met this summer at Aber Wrac'h",
       "helpTitle": "You can help us",
-      "helpText": "We still have equipment to finalise before we leave. If you represent a brand, a local business or an association, our Sponsors page explains exactly what we offer in return.",
+      "helpText": "We still have equipment to finalise before we leave, starting with our genoa, Azurite's headsail. Whether you're an individual or a business, there are two ways to support us.",
+      "cagnotteCta": "Support the fund",
       "helpCta": "Become a sponsor",
       "helpLogoAlt": "The Azurite badge, Scotland 2027"
     },
@@ -399,7 +409,8 @@
           ]
         }
       },
-      "todoText": "<strong>Still on the list before we leave:</strong> replace the headsail (genoa) and service our survival gear, which is exactly why we're looking for sponsors.",
+      "todoText": "<strong>Still on the list before we leave:</strong> replace the headsail (genoa) and service our survival gear, which is exactly why we've launched a fundraiser, and why we're looking for sponsors.",
+      "cagnotteCta": "Support the fund",
       "todoCta": "See the Sponsors page",
       "planEyebrow": "Layout",
       "planTitle": "A small space, packed with purpose.",
@@ -493,7 +504,10 @@
       "title": "Much more than a family trip",
       "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with our commune's two schools through a co-built educational project and regular live calls hosted by our children. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
       "pitch": "We need your help to set sail.",
-      "benefitsTitle": "What you get by supporting us",
+      "panelSponsor": {
+        "kicker": "Businesses",
+        "title": "Become a sponsor"
+      },
       "benefits": [
         "Your logo displayed on Azurite's hull throughout the 7 months of sailing",
         "A presence on our PolarStep tracking",
@@ -501,10 +515,14 @@
         "Your products featured against Scotland's stunning scenery",
         "An authentic story, not just an ad"
       ],
+      "panelCagnotte": {
+        "kicker": "Individuals",
+        "title": "Crowdfunding",
+        "text": "One essential piece is still left to fund before we leave, the genoa, Azurite's headsail. In exchange for your support, we're offering rewards: stickers and a postcard sent from Scotland, or a bag we make ourselves from the sailcloth of our old genoa."
+      },
+      "cagnotteCta": "Support the fund",
       "logosTitle": "Already backing us",
       "logoSlot": "Your logo",
-      "contactTitle": "Get in touch",
-      "contactText": "To discuss a partnership, write to us: we reply to every message.",
       "contactCta": "Write to us"
     }
   }
