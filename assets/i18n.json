@@ -34,7 +34,7 @@
     },
     "footer": {
       "tagline": "Azurite : Voyage en famille, mars-septembre 2027",
-      "polarsteps": "Suivre sur PolarStep",
+      "polarsteps": "Accès privilégié à notre carnet de bord",
       "sponsorCta": "Soutenez-nous"
     },
     "index": {
@@ -76,7 +76,8 @@
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
       "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des échanges réguliers avec les enfants scolarisés à L'Aiguillon-la-Presqu'île, dans le cadre d'un projet pédagogique.",
-      "followLink": "Voir notre étape de cet été jusqu'à Guernesey sur PolarStep",
+      "followLink": "Accès privilégié à notre carnet de bord",
+      "followAccess": "Le lien d'accès privilégié vers notre carnet de bord est offert aux personnes qui participent à la <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">cagnotte</a>, dès le coup de pouce.",
       "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
       "quoteAuthor": "Philippe Poupon, croisé cet été à l'Aber Wrac'h",
       "helpTitle": "Vous pouvez nous aider",
@@ -232,13 +233,13 @@
       "quoteAuthor": "Philippe Poupon, croisé à bord de son voilier Fleur Australe lors d'une escale à l'Aber Wrac'h. On lui a parlé du projet Écosse ; sa réponse a fini de nous convaincre.",
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
-      "followIntro": "Nous partageons notre navigation sur PolarStep.",
-      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">Notre étape de cet été jusqu'à Guernesey est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse."
+      "followIntro": "Nous tiendrons notre carnet de bord de navigation sur PolarStep.",
+      "followText": "Un lien d'accès privilégié vers ce carnet de bord est offert aux personnes qui participent à la <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">cagnotte</a>, dès le coup de pouce. <a href=\"https://www.polarsteps.com/ThomasCornilleau/29291431-azurite-en-ecosse?mode=plan\" class=\"link-underline\">Accès privilégié à notre carnet de bord</a>."
     },
     "sponsors": {
       "eyebrow": "Cherche partenaires particulier(e)s",
       "title": "Bien plus qu'un tour en famille",
-      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les enfants scolarisés à L'Aiguillon-la-Presqu'île grâce à un projet pédagogique co-construit et des échanges réguliers avec eux. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
+      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les enfants scolarisés à L'Aiguillon-la-Presqu'île grâce à un projet pédagogique co-construit et des échanges réguliers avec eux. Notre progression sera aussi suivie en direct sur PolarStep, avec un lien d'accès privilégié offert aux personnes qui participent à notre cagnotte.",
       "pitch": "On a besoin de vous pour prendre le large.",
       "panelSponsor": {
         "kicker": "Entreprises",
@@ -253,7 +254,7 @@
       "panelCagnotte": {
         "kicker": "Particuliers",
         "title": "Financement participatif",
-        "text": "Il nous reste une pièce essentielle à financer avant le départ, le génois, la voile d'avant d'Azurite. En échange de votre participation, des contreparties : autocollants et carte postale envoyée depuis l'Écosse, ou un sac réalisé par nos soins dans la toile d'anciennes voiles."
+        "text": "Il nous reste une pièce essentielle à financer avant le départ, le génois, la voile d'avant d'Azurite. En échange de votre participation, des contreparties : autocollants et carte postale envoyée depuis l'Écosse, ou un sac réalisé par nos soins dans la toile d'anciennes voiles. Dès la première contrepartie (le coup de pouce), vous recevez aussi un lien d'accès privilégié vers notre carnet de bord de navigation."
       },
       "cagnotteCta": "Participer à la cagnotte",
       "logosTitle": "Ils nous accompagnent déjà",
@@ -296,7 +297,7 @@
     },
     "footer": {
       "tagline": "Azurite: A family voyage, March–September 2027",
-      "polarsteps": "Follow on PolarStep",
+      "polarsteps": "Privileged access to our logbook",
       "sponsorCta": "Become a sponsor"
     },
     "index": {
@@ -339,7 +340,8 @@
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
       "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and regular exchanges with the schoolchildren of L'Aiguillon-la-Presqu'île as part of an educational project.",
-      "followLink": "See this summer's leg to Guernsey on PolarStep",
+      "followLink": "Privileged access to our logbook",
+      "followAccess": "The privileged access link to our logbook is offered to people who support the <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">fundraiser</a>, starting with the first reward tier (the coup de pouce).",
       "quote": "\"Go for it, you have to do it, it's magnificent.\"",
       "quoteAuthor": "Philippe Poupon, met this summer at Aber Wrac'h",
       "helpTitle": "You can help us",
@@ -495,13 +497,13 @@
       "quoteAuthor": "Philippe Poupon, met aboard his yacht Fleur Australe during a stopover at Aber Wrac'h. We told him about the Scotland project; his answer sealed the deal.",
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
-      "followIntro": "We share our navigation live on PolarStep.",
-      "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">This summer's leg to Guernsey is already online</a>. The same tracking will be used throughout the seven-month voyage to Scotland."
+      "followIntro": "We'll keep our navigation logbook on PolarStep.",
+      "followText": "A privileged access link to this logbook is offered to people who support the <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">fundraiser</a>, starting with the first reward tier (the coup de pouce). <a href=\"https://www.polarsteps.com/ThomasCornilleau/29291431-azurite-en-ecosse?mode=plan\" class=\"link-underline\">Privileged access to our logbook</a>."
     },
     "sponsors": {
       "eyebrow": "Sponsors",
       "title": "Much more than a family trip",
-      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with the schoolchildren of L'Aiguillon-la-Presqu'île through a co-built educational project and regular exchanges with them. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
+      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with the schoolchildren of L'Aiguillon-la-Presqu'île through a co-built educational project and regular exchanges with them. Our progress will also be tracked live on PolarStep, with a privileged access link offered to those who support our fundraiser.",
       "pitch": "We need your help to set sail.",
       "panelSponsor": {
         "kicker": "Businesses",
@@ -516,7 +518,7 @@
       "panelCagnotte": {
         "kicker": "Individuals",
         "title": "Crowdfunding",
-        "text": "One essential piece is still left to fund before we leave, the genoa, Azurite's headsail. In exchange for your support, we're offering rewards: stickers and a postcard sent from Scotland, or a bag we make ourselves from the sailcloth of old sails."
+        "text": "One essential piece is still left to fund before we leave, the genoa, Azurite's headsail. In exchange for your support, we're offering rewards: stickers and a postcard sent from Scotland, or a bag we make ourselves from the sailcloth of old sails. From the very first reward tier (the coup de pouce), you also receive a privileged access link to our navigation logbook."
       },
       "cagnotteCta": "Support the fund",
       "logosTitle": "Already backing us",
