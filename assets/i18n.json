@@ -35,7 +35,7 @@
     "footer": {
       "tagline": "Azurite : Voyage en famille, mars-septembre 2027",
       "polarsteps": "Suivre sur PolarStep",
-      "sponsorCta": "Devenir sponsor"
+      "sponsorCta": "Soutenez-nous"
     },
     "index": {
       "heroImgAlt": "Le spi arc-en-ciel d'Azurite gonflé au large des côtes bretonnes",
@@ -82,7 +82,7 @@
       "helpTitle": "Vous pouvez nous aider",
       "helpText": "Il nous reste à finaliser notre équipement avant le départ, à commencer par notre génois, la voile d'avant d'Azurite. Particulier ou entreprise, deux façons de nous soutenir.",
       "cagnotteCta": "Participer à la cagnotte",
-      "helpCta": "Devenir sponsor",
+      "helpCta": "Soutenez-nous",
       "helpLogoAlt": "Le badge Azurite, Écosse 2027"
     },
     "bateau": {
@@ -147,7 +147,7 @@
       },
       "todoText": "<strong>Encore à faire avant le départ :</strong> changer la voile d'avant (génois) et réviser notre matériel de survie, c'est justement pour ça qu'on a lancé une cagnotte, et qu'on recherche des sponsors.",
       "cagnotteCta": "Participer à la cagnotte",
-      "todoCta": "Voir la page Sponsors",
+      "todoCta": "Voir la page Partenaires",
       "planEyebrow": "Le plan de vie",
       "planTitle": "Petit espace, beaucoup de fonctions.",
       "planText1": "Deux cabines, un carré, une cuisine, une table à carte et chaque recoin qui finit par avoir une mission. Pendant sept mois, chaque objet devra mériter sa place.",
@@ -236,7 +236,7 @@
       "followText": "<a href=\"https://www.polarsteps.com/ThomasCornilleau/27373153-azurite-au-scilly\" class=\"link-underline\">Notre étape de cet été jusqu'à Guernesey est déjà en ligne</a>. Le même suivi sera utilisé pendant les sept mois du voyage vers l'Écosse."
     },
     "sponsors": {
-      "eyebrow": "Sponsors",
+      "eyebrow": "Cherche partenaires particulier(e)s",
       "title": "Bien plus qu'un tour en famille",
       "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
       "pitch": "On a besoin de vous pour prendre le large.",
@@ -254,7 +254,7 @@
       "panelCagnotte": {
         "kicker": "Particuliers",
         "title": "Financement participatif",
-        "text": "Il nous reste une pièce essentielle à financer avant le départ, le génois, la voile d'avant d'Azurite. En échange de votre participation, des contreparties : autocollants et carte postale envoyée depuis l'Écosse, ou un sac réalisé par nos soins dans la toile de notre ancien génois."
+        "text": "Il nous reste une pièce essentielle à financer avant le départ, le génois, la voile d'avant d'Azurite. En échange de votre participation, des contreparties : autocollants et carte postale envoyée depuis l'Écosse, ou un sac réalisé par nos soins dans la toile d'anciennes voiles."
       },
       "cagnotteCta": "Participer à la cagnotte",
       "logosTitle": "Ils nous accompagnent déjà",
