@@ -75,7 +75,7 @@
       },
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
-      "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des lives présentés par nos enfants pour les deux écoles de notre village.",
+      "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des échanges réguliers avec les enfants scolarisés à L'Aiguillon-la-Presqu'île, dans le cadre d'un projet pédagogique.",
       "followLink": "Voir notre étape de cet été jusqu'à Guernesey sur PolarStep",
       "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
       "quoteAuthor": "Philippe Poupon, croisé cet été à l'Aber Wrac'h",
@@ -238,7 +238,7 @@
     "sponsors": {
       "eyebrow": "Cherche partenaires particulier(e)s",
       "title": "Bien plus qu'un tour en famille",
-      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les deux écoles de notre commune grâce à un projet pédagogique co-construit et des lives réguliers réalisés par nos enfants. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
+      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les enfants scolarisés à L'Aiguillon-la-Presqu'île grâce à un projet pédagogique co-construit et des échanges réguliers avec eux. Notre progression sera aussi suivie en direct sur PolarStep, ouvert à tous ceux qui voudront nous accompagner à distance.",
       "pitch": "On a besoin de vous pour prendre le large.",
       "panelSponsor": {
         "kicker": "Entreprises",
@@ -247,8 +247,7 @@
       "benefits": [
         "Votre logo affiché sur la coque d'Azurite pendant les 7 mois de navigation",
         "Une présence sur notre suivi PolarStep",
-        "Une visibilité pendant les lives réalisés avec les écoles",
-        "Vos produits mis en situation dans les décors magnifiques d'Écosse",
+        "Du contenu envoyé régulièrement, libre d'usage sur vos réseaux : photos de vos produits en situation dans les décors d'Écosse et extraits de notre carnet de bord",
         "Une histoire authentique, pas juste une publicité"
       ],
       "panelCagnotte": {
@@ -339,7 +338,7 @@
 
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
-      "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and live calls hosted by our children for the two schools in our village.",
+      "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and regular exchanges with the schoolchildren of L'Aiguillon-la-Presqu'île as part of an educational project.",
       "followLink": "See this summer's leg to Guernsey on PolarStep",
       "quote": "\"Go for it, you have to do it, it's magnificent.\"",
       "quoteAuthor": "Philippe Poupon, met this summer at Aber Wrac'h",
@@ -502,7 +501,7 @@
     "sponsors": {
       "eyebrow": "Sponsors",
       "title": "Much more than a family trip",
-      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with our commune's two schools through a co-built educational project and regular live calls hosted by our children. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
+      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with the schoolchildren of L'Aiguillon-la-Presqu'île through a co-built educational project and regular exchanges with them. Our progress will also be tracked live on PolarStep, open to anyone who wants to follow along from afar.",
       "pitch": "We need your help to set sail.",
       "panelSponsor": {
         "kicker": "Businesses",
@@ -511,14 +510,13 @@
       "benefits": [
         "Your logo displayed on Azurite's hull throughout the 7 months of sailing",
         "A presence on our PolarStep tracking",
-        "Visibility during the live calls with the schools",
-        "Your products featured against Scotland's stunning scenery",
+        "Content sent regularly, free to use on your social media: photos of your products in Scotland's landscapes and excerpts from our logbook",
         "An authentic story, not just an ad"
       ],
       "panelCagnotte": {
         "kicker": "Individuals",
         "title": "Crowdfunding",
-        "text": "One essential piece is still left to fund before we leave, the genoa, Azurite's headsail. In exchange for your support, we're offering rewards: stickers and a postcard sent from Scotland, or a bag we make ourselves from the sailcloth of our old genoa."
+        "text": "One essential piece is still left to fund before we leave, the genoa, Azurite's headsail. In exchange for your support, we're offering rewards: stickers and a postcard sent from Scotland, or a bag we make ourselves from the sailcloth of old sails."
       },
       "cagnotteCta": "Support the fund",
       "logosTitle": "Already backing us",
