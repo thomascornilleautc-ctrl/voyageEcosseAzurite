@@ -508,3 +508,106 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .theme-panel h2{ color: var(--foam); margin-bottom: 0.8rem; }
 .theme-panel ul{ padding-left: 1.1rem; }
 .theme-panel li{ margin-bottom: 0.5rem; color: rgba(243,246,242,0.85); }
+
+/* =========================================================
+   Page Sacs (contreparties de la cagnotte)
+   ========================================================= */
+.bags-cta-row{
+  display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 1.6rem;
+  margin-top: 1.4rem;
+}
+.bags-hero-figure{
+  position: relative; margin: 0 0 2.5rem;
+}
+.bags-hero-figure > img:first-child{
+  width: 100%; height: auto; border-radius: 2px;
+  box-shadow: 0 14px 34px rgba(30,47,61,0.22);
+}
+.bags-hero-inset{
+  position: absolute; right: -0.8rem; bottom: -2.5rem;
+  width: 30%; height: auto; aspect-ratio: 3 / 4; object-fit: cover; object-position: center 70%;
+  border: 5px solid var(--foam);
+  box-shadow: 0 10px 24px rgba(30,47,61,0.3);
+}
+@media (max-width: 46rem){
+  .bags-hero-inset{ right: 0.6rem; }
+}
+
+.bag-values{
+  list-style: none; margin: 2rem 0 0; padding: 0;
+  display: grid; gap: var(--gap);
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (max-width: 60rem){ .bag-values{ grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 30rem){ .bag-values{ grid-template-columns: 1fr; } }
+.bag-values li{ border-top: 1px solid rgba(243,246,242,0.3); padding-top: 1.1rem; }
+.bag-values svg{
+  width: 34px; height: 34px; margin-bottom: 0.7rem;
+  fill: none; stroke: var(--brass); stroke-width: 1.6;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.bag-values h3{ color: var(--foam); font-size: 1.15rem; }
+.bag-values p{ font-size: 0.95rem; }
+
+.bag-model{
+  display: grid; gap: var(--gap);
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+}
+.bag-model.reverse{ grid-template-columns: 0.85fr 1.15fr; }
+.bag-model.reverse .bag-gallery{ order: 2; }
+@media (max-width: 50rem){
+  .bag-model, .bag-model.reverse{ grid-template-columns: 1fr; }
+  .bag-model.reverse .bag-gallery{ order: 0; }
+}
+
+.bag-gallery{
+  display: grid; gap: 0.5rem;
+  grid-template-columns: 1.3fr 1fr 1fr;
+  grid-template-rows: repeat(2, minmax(9rem, 15rem));
+}
+.bag-gallery a{
+  display: block; overflow: hidden; border-radius: 2px;
+  background: var(--seaglass);
+}
+.bag-gallery .g-main{ grid-row: span 2; }
+.bag-gallery img{
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .4s ease;
+}
+.bag-gallery a:hover img, .bag-gallery a:focus-visible img{ transform: scale(1.05); }
+@media (max-width: 30rem){
+  .bag-gallery{ grid-template-columns: 1fr 1fr; grid-template-rows: 18rem repeat(2, 9rem); }
+  .bag-gallery .g-main{ grid-column: span 2; grid-row: auto; }
+}
+
+.bag-num{ color: var(--heather); font-size: 0.95rem; display: block; margin-bottom: 0.2rem; }
+.bag-specs{
+  display: grid; grid-template-columns: auto 1fr; gap: 0.45rem 1.2rem;
+  margin: 1.4rem 0 1.6rem; padding: 1.1rem 1.3rem;
+  border: 1px solid rgba(169,113,63,0.5);
+  background: rgba(169,113,63,0.06);
+}
+.bag-specs dt{ color: var(--heather); font-size: 0.9rem; }
+.bag-specs dd{ margin: 0; font-weight: 600; }
+
+/* Visionneuse photo */
+.lightbox{
+  border: none; padding: 0; background: transparent;
+  max-width: 100vw; max-height: 100vh; width: 100vw; height: 100vh;
+}
+.lightbox::backdrop{ background: rgba(20,30,40,0.92); }
+.lightbox[open]{ display: flex; align-items: center; justify-content: center; }
+.lightbox img{
+  max-width: min(92vw, 1600px); max-height: 88vh;
+  width: auto; height: auto; object-fit: contain;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+.lightbox button{
+  position: absolute; background: none; border: none; cursor: pointer;
+  color: var(--foam); font-size: 2.6rem; line-height: 1; padding: 0.6rem 1rem;
+}
+.lightbox-close{ top: 0.6rem; right: 0.8rem; }
+.lightbox-nav.prev{ left: 0.4rem; top: 50%; transform: translateY(-50%); }
+.lightbox-nav.next{ right: 0.4rem; top: 50%; transform: translateY(-50%); }
+.lightbox button:hover, .lightbox button:focus-visible{ color: var(--brass); }

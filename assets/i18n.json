@@ -20,6 +20,10 @@
       "sponsors": {
         "title": "Sponsors",
         "description": "Devenir sponsor du voyage d'Azurite : visibilité, histoire authentique, ancrage local."
+      },
+      "sacs": {
+        "title": "Nos sacs en toile de voile",
+        "description": "Sacs cabas et baluchon cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
       }
     },
     "nav": {
@@ -30,7 +34,8 @@
       "sponsors": "Partenaires",
       "menuToggle": "Menu",
       "menuAria": "Ouvrir le menu",
-      "logoAria": "Accueil"
+      "logoAria": "Accueil",
+      "bags": "Nos sacs"
     },
     "footer": {
       "tagline": "Azurite : Voyage en famille, mars-septembre 2027",
@@ -198,21 +203,66 @@
       "videoFallback": "Votre navigateur ne supporte pas la lecture vidéo.",
       "videoDownload": "Télécharger la vidéo",
       "waypoints": {
-        "1": { "legNum": "Étape 1", "name": "Départ de La Faute-sur-Mer" },
-        "2": { "legNum": "Étape 2", "name": "Contournement de la Bretagne" },
-        "3": { "legNum": "Étape 3", "name": "Remontée de la Manche jusqu'à Paimpol" },
-        "4": { "legNum": "Étape 4", "name": "Traversée vers les îles Anglo-Normandes" },
-        "5": { "legNum": "Étape 5", "name": "Remontée de la côte sud de l'Angleterre jusqu'aux Scilly" },
-        "6": { "legNum": "Étape 6", "name": "Remontée vers l'Écosse via la mer d'Irlande et l'île de Man" },
-        "7": { "legNum": "Étape 7", "name": "Passage à Glasgow" },
-        "8": { "legNum": "Étape 8", "name": "Les Hébrides" },
-        "9": { "legNum": "Étape 9", "name": "Cap sur Thurso, à la pointe nord de l'Écosse" },
-        "10": { "legNum": "Étape 10", "name": "Les Orkney" },
-        "11": { "legNum": "Étape 11, point le plus au nord", "name": "Les Shetland" },
-        "12": { "legNum": "Étape 12", "name": "Redescente vers Inverness, traversée du Loch Ness" },
-        "13": { "legNum": "Étape 13", "name": "Retour par la mer d'Irlande et l'île d'Arran" },
-        "14": { "legNum": "Étape 14", "name": "Traversée de la Manche" },
-        "15": { "legNum": "Étape 15", "name": "Retour à La Faute-sur-Mer" }
+        "1": {
+          "legNum": "Étape 1",
+          "name": "Départ de La Faute-sur-Mer"
+        },
+        "2": {
+          "legNum": "Étape 2",
+          "name": "Contournement de la Bretagne"
+        },
+        "3": {
+          "legNum": "Étape 3",
+          "name": "Remontée de la Manche jusqu'à Paimpol"
+        },
+        "4": {
+          "legNum": "Étape 4",
+          "name": "Traversée vers les îles Anglo-Normandes"
+        },
+        "5": {
+          "legNum": "Étape 5",
+          "name": "Remontée de la côte sud de l'Angleterre jusqu'aux Scilly"
+        },
+        "6": {
+          "legNum": "Étape 6",
+          "name": "Remontée vers l'Écosse via la mer d'Irlande et l'île de Man"
+        },
+        "7": {
+          "legNum": "Étape 7",
+          "name": "Passage à Glasgow"
+        },
+        "8": {
+          "legNum": "Étape 8",
+          "name": "Les Hébrides"
+        },
+        "9": {
+          "legNum": "Étape 9",
+          "name": "Cap sur Thurso, à la pointe nord de l'Écosse"
+        },
+        "10": {
+          "legNum": "Étape 10",
+          "name": "Les Orkney"
+        },
+        "11": {
+          "legNum": "Étape 11, point le plus au nord",
+          "name": "Les Shetland"
+        },
+        "12": {
+          "legNum": "Étape 12",
+          "name": "Redescente vers Inverness, traversée du Loch Ness"
+        },
+        "13": {
+          "legNum": "Étape 13",
+          "name": "Retour par la mer d'Irlande et l'île d'Arran"
+        },
+        "14": {
+          "legNum": "Étape 14",
+          "name": "Traversée de la Manche"
+        },
+        "15": {
+          "legNum": "Étape 15",
+          "name": "Retour à La Faute-sur-Mer"
+        }
       },
       "prepEyebrow": "La préparation",
       "prepTitle": "On ne part pas à l'aventure au hasard",
@@ -259,7 +309,101 @@
       "cagnotteCta": "Participer à la cagnotte",
       "logosTitle": "Ils nous accompagnent déjà",
       "logoSlot": "Votre logo",
-      "contactCta": "Nous écrire"
+      "contactCta": "Nous écrire",
+      "bagsLink": "Découvrir nos sacs en toile de voile"
+    },
+    "sacs": {
+      "eyebrow": "Financement participatif",
+      "title": "Une voile pour une voile",
+      "intro1": "Avant de partir pour l'Écosse, Azurite a besoin d'un nouveau génois. Plutôt que de jeter les vieilles voiles et les radeaux de survie arrivés en fin de validité, on leur donne une seconde vie : on les découpe, on les coud, et on en fait des sacs.",
+      "intro2": "Deux modèles, imaginés et fabriqués à La Faute-sur-Mer en partenariat avec <strong>Entre Sable &amp; Galets</strong>. Chaque sac est une contrepartie de notre cagnotte : en le recevant, vous financez directement la voile qui nous emmènera jusqu'aux Shetland.",
+      "cta": "Choisir mon sac sur la cagnotte",
+      "seeModels": "Voir les deux modèles",
+      "valuesEyebrow": "Pourquoi ces sacs",
+      "valuesTitle": "De la mer, pour la mer",
+      "values": [
+        {
+          "title": "Toile recyclée",
+          "text": "Des voiles de bateau usées et des radeaux de survie périmés, sauvés de la benne. Aucune toile neuve n'est produite pour les fabriquer."
+        },
+        {
+          "title": "Fabriqué à La Faute-sur-Mer",
+          "text": "Découpés et cousus à la main dans notre port d'attache, avec Entre Sable &amp; Galets. Circuit court, du ponton à votre épaule."
+        },
+        {
+          "title": "Résistant et imperméable",
+          "text": "Une toile pensée pour encaisser le vent, le sel et le soleil pendant des années. Pluie, plage, marché ou pont mouillé : elle ne craint rien."
+        },
+        {
+          "title": "Pièce unique",
+          "text": "Chaque voile a son histoire, ses coutures et ses marques : aucun sac n'est identique. Série limitée à 30 exemplaires par modèle."
+        }
+      ],
+      "cabas": {
+        "kicker": "Modèle n°1",
+        "title": "Le sac cabas",
+        "text1": "Le grand sac du quotidien : courses au marché, serviettes pour la plage, affaires de bord pour une journée de navigation. Sa bande jaune en diagonale rappelle une bordure de voile, et ses anses en cordage noir se portent aussi bien à la main qu'à l'épaule.",
+        "text2": "Les coutures en zigzag sont celles de la voile d'origine : on les a gardées, elles racontent son passé.",
+        "size": "40 × 39 cm, 22,5 cm de profondeur",
+        "handles": "Deux anses en cordage, main ou épaule",
+        "material": "Toile de voile recyclée, touche de toile jaune",
+        "cta": "Je veux le cabas"
+      },
+      "specs": {
+        "size": "Dimensions",
+        "handles": "Portage",
+        "material": "Matière",
+        "price": "Contrepartie",
+        "priceVal": "50 €, coup de pouce inclus"
+      },
+      "breakCaption": "Au port de La Faute-sur-Mer, là où tout commence.",
+      "baluchon": {
+        "kicker": "Modèle n°2",
+        "title": "Le sac baluchon",
+        "text1": "L'esprit du sac marin, en version légère. Il se ferme d'un coup de cordelette et se porte sur le dos ou à l'épaule : parfait pour le vélo, la rando sur le sentier côtier ou les affaires de rechange du bord.",
+        "text2": "Son fond octogonal jaune, plus épais, le fait tenir debout et protège ce qu'il y a dedans quand on le pose sur un pont mouillé.",
+        "size": "25 cm de large, 45 cm de haut",
+        "handles": "Cordelette coulissante, dos ou épaule",
+        "material": "Toile de voile recyclée, fond en toile jaune",
+        "cta": "Je veux le baluchon"
+      },
+      "reward": {
+        "kicker": "Pour 50 €",
+        "title": "Ce que vous recevez",
+        "items": [
+          "Le sac de votre choix, cabas ou baluchon, pièce unique",
+          "Deux autocollants d'Azurite en voyage en Écosse",
+          "Une carte postale envoyée depuis l'Écosse par Gaston et Rose",
+          "Un accès privilégié à notre carnet de bord sur Polarsteps"
+        ]
+      },
+      "goal": {
+        "kicker": "À quoi ça sert",
+        "title": "Un génois neuf pour Azurite",
+        "text": "Le génois, c'est la grande voile d'avant, celle qui travaille le plus. L'actuel a fait son temps, et c'est la dernière grosse pièce à financer avant le départ en mars 2027. Objectif de la cagnotte : 4 000 €.",
+        "text2": "Et quand il sera usé à son tour, il deviendra lui aussi des sacs."
+      },
+      "partner": {
+        "eyebrow": "En partenariat",
+        "title": "Avec Entre Sable &amp; Galets",
+        "text": "Ces sacs sont nés d'une collaboration avec Entre Sable &amp; Galets, à La Faute-sur-Mer. Ensemble, on a dessiné les deux modèles pour qu'ils soient beaux, solides et fidèles à la toile d'origine. Merci à eux de faire partie de l'aventure.",
+        "link": "Voir tous nos partenaires"
+      },
+      "alt": {
+        "heroCabas": "Sac cabas blanc en toile de voile, bande jaune en diagonale et anses en cordage noir, posé sur un ponton en bois",
+        "insetBaluchon": "Fond octogonal jaune du sac baluchon",
+        "cabasPortrait": "Le sac cabas posé à côté de Morgane, sur un banc au bord du port",
+        "cabasPonton": "Le sac cabas au soleil sur un ponton",
+        "cabasCouture": "Gros plan sur la couture zigzag d'origine de la voile et l'œillet de l'anse",
+        "cabasInterieur": "Vue de l'intérieur du sac cabas, spacieux",
+        "cabasBanc": "Le sac cabas porté à l'épaule, assise face au port",
+        "break": "Morgane assise au bord du port de La Faute-sur-Mer, le sac cabas à ses côtés",
+        "baluchonPorte": "Thomas porte le sac baluchon sur l'épaule, face au port",
+        "baluchonProduit": "Le sac baluchon debout, cordelette de serrage noire",
+        "baluchonFond": "Le fond octogonal jaune du sac baluchon",
+        "baluchonPort": "Le sac baluchon posé sur le ponton du port",
+        "baluchonAssis": "Thomas assis sur un banc, ouvrant le sac baluchon"
+      }
     }
   },
   "en": {
@@ -283,6 +427,10 @@
       "sponsors": {
         "title": "Sponsors",
         "description": "Become a sponsor of Azurite's voyage: visibility, an authentic story, local roots."
+      },
+      "sacs": {
+        "title": "Our sailcloth bags",
+        "description": "Tote and drawstring bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
       }
     },
     "nav": {
@@ -293,7 +441,8 @@
       "sponsors": "Partners",
       "menuToggle": "Menu",
       "menuAria": "Open menu",
-      "logoAria": "Home"
+      "logoAria": "Home",
+      "bags": "Our bags"
     },
     "footer": {
       "tagline": "Azurite: A family voyage, March–September 2027",
@@ -336,7 +485,6 @@
         "text": "A guiding line, never a rigid schedule: the weather always gets the final say.",
         "cta": "Explore the route"
       },
-
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
       "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and regular exchanges with the schoolchildren of L'Aiguillon-la-Presqu'île as part of an educational project.",
@@ -462,21 +610,66 @@
       "videoFallback": "Your browser does not support video playback.",
       "videoDownload": "Download the video",
       "waypoints": {
-        "1": { "legNum": "Step 1", "name": "Departure from La Faute-sur-Mer" },
-        "2": { "legNum": "Step 2", "name": "Rounding Brittany" },
-        "3": { "legNum": "Step 3", "name": "Up the Channel to Paimpol" },
-        "4": { "legNum": "Step 4", "name": "Crossing to the Channel Islands" },
-        "5": { "legNum": "Step 5", "name": "Up the south coast of England to the Isles of Scilly" },
-        "6": { "legNum": "Step 6", "name": "North to Scotland via the Irish Sea and the Isle of Man" },
-        "7": { "legNum": "Step 7", "name": "Stopover in Glasgow" },
-        "8": { "legNum": "Step 8", "name": "The Hebrides" },
-        "9": { "legNum": "Step 9", "name": "Heading for Thurso, at the northern tip of Scotland" },
-        "10": { "legNum": "Step 10", "name": "Orkney" },
-        "11": { "legNum": "Step 11, northernmost point", "name": "Shetland" },
-        "12": { "legNum": "Step 12", "name": "Heading back down to Inverness, crossing Loch Ness" },
-        "13": { "legNum": "Step 13", "name": "Return via the Irish Sea and the Isle of Arran" },
-        "14": { "legNum": "Step 14", "name": "Crossing the Channel" },
-        "15": { "legNum": "Step 15", "name": "Return to La Faute-sur-Mer" }
+        "1": {
+          "legNum": "Step 1",
+          "name": "Departure from La Faute-sur-Mer"
+        },
+        "2": {
+          "legNum": "Step 2",
+          "name": "Rounding Brittany"
+        },
+        "3": {
+          "legNum": "Step 3",
+          "name": "Up the Channel to Paimpol"
+        },
+        "4": {
+          "legNum": "Step 4",
+          "name": "Crossing to the Channel Islands"
+        },
+        "5": {
+          "legNum": "Step 5",
+          "name": "Up the south coast of England to the Isles of Scilly"
+        },
+        "6": {
+          "legNum": "Step 6",
+          "name": "North to Scotland via the Irish Sea and the Isle of Man"
+        },
+        "7": {
+          "legNum": "Step 7",
+          "name": "Stopover in Glasgow"
+        },
+        "8": {
+          "legNum": "Step 8",
+          "name": "The Hebrides"
+        },
+        "9": {
+          "legNum": "Step 9",
+          "name": "Heading for Thurso, at the northern tip of Scotland"
+        },
+        "10": {
+          "legNum": "Step 10",
+          "name": "Orkney"
+        },
+        "11": {
+          "legNum": "Step 11, northernmost point",
+          "name": "Shetland"
+        },
+        "12": {
+          "legNum": "Step 12",
+          "name": "Heading back down to Inverness, crossing Loch Ness"
+        },
+        "13": {
+          "legNum": "Step 13",
+          "name": "Return via the Irish Sea and the Isle of Arran"
+        },
+        "14": {
+          "legNum": "Step 14",
+          "name": "Crossing the Channel"
+        },
+        "15": {
+          "legNum": "Step 15",
+          "name": "Return to La Faute-sur-Mer"
+        }
       },
       "prepEyebrow": "Preparation",
       "prepTitle": "This isn't a leap into the unknown",
@@ -523,7 +716,101 @@
       "cagnotteCta": "Support the fund",
       "logosTitle": "Already backing us",
       "logoSlot": "Your logo",
-      "contactCta": "Write to us"
+      "contactCta": "Write to us",
+      "bagsLink": "Discover our sailcloth bags"
+    },
+    "sacs": {
+      "eyebrow": "Crowdfunding",
+      "title": "A sail for a sail",
+      "intro1": "Before leaving for Scotland, Azurite needs a new genoa. Rather than throwing away old sails and life rafts that have reached their expiry date, we give them a second life: we cut them, sew them, and turn them into bags.",
+      "intro2": "Two models, designed and made in La Faute-sur-Mer in partnership with <strong>Entre Sable &amp; Galets</strong>. Each bag is a reward in our fundraiser: by getting one, you directly fund the sail that will carry us to Shetland.",
+      "cta": "Choose my bag on the fundraiser",
+      "seeModels": "See both models",
+      "valuesEyebrow": "Why these bags",
+      "valuesTitle": "From the sea, for the sea",
+      "values": [
+        {
+          "title": "Recycled sailcloth",
+          "text": "Worn-out boat sails and expired life rafts, saved from the skip. No new fabric is produced to make them."
+        },
+        {
+          "title": "Made in La Faute-sur-Mer",
+          "text": "Cut and sewn by hand in our home port, with Entre Sable &amp; Galets. Short supply chain, from the pontoon to your shoulder."
+        },
+        {
+          "title": "Tough and waterproof",
+          "text": "A fabric built to take wind, salt and sun for years. Rain, beach, market or wet deck: nothing bothers it."
+        },
+        {
+          "title": "One of a kind",
+          "text": "Every sail has its own story, stitching and marks: no two bags are alike. Limited run of 30 per model."
+        }
+      ],
+      "cabas": {
+        "kicker": "Model no. 1",
+        "title": "The tote bag",
+        "text1": "The everyday bag: market shopping, beach towels, kit for a day on the water. Its diagonal yellow stripe recalls the edge of a sail, and its black rope handles work just as well in the hand as on the shoulder.",
+        "text2": "The zigzag seams are those of the original sail: we kept them, they tell its story.",
+        "size": "40 × 39 cm, 22.5 cm deep",
+        "handles": "Two rope handles, hand or shoulder",
+        "material": "Recycled sailcloth, touch of yellow fabric",
+        "cta": "I want the tote"
+      },
+      "specs": {
+        "size": "Size",
+        "handles": "Carry",
+        "material": "Material",
+        "price": "Reward",
+        "priceVal": "€50, \"helping hand\" included"
+      },
+      "breakCaption": "At the harbour of La Faute-sur-Mer, where it all begins.",
+      "baluchon": {
+        "kicker": "Model no. 2",
+        "title": "The drawstring bag",
+        "text1": "The spirit of a sailor's kit bag, in a lighter version. It closes with a pull of the cord and is carried on the back or the shoulder: perfect for cycling, walking the coastal path or a change of clothes on board.",
+        "text2": "Its thicker yellow octagonal base lets it stand upright and protects what's inside when you put it down on a wet deck.",
+        "size": "25 cm wide, 45 cm tall",
+        "handles": "Drawstring cord, back or shoulder",
+        "material": "Recycled sailcloth, yellow fabric base",
+        "cta": "I want the drawstring bag"
+      },
+      "reward": {
+        "kicker": "For €50",
+        "title": "What you receive",
+        "items": [
+          "The bag of your choice, tote or drawstring, one of a kind",
+          "Two \"Azurite sailing to Scotland\" stickers",
+          "A postcard sent from Scotland by Gaston and Rose",
+          "Privileged access to our logbook on Polarsteps"
+        ]
+      },
+      "goal": {
+        "kicker": "What it's for",
+        "title": "A new genoa for Azurite",
+        "text": "The genoa is the big headsail, the one that works hardest. Ours has had its day, and it's the last major item to fund before we leave in March 2027. Fundraiser goal: €4,000.",
+        "text2": "And when it wears out in turn, it will become bags too."
+      },
+      "partner": {
+        "eyebrow": "In partnership",
+        "title": "With Entre Sable &amp; Galets",
+        "text": "These bags were born from a collaboration with Entre Sable &amp; Galets, in La Faute-sur-Mer. Together we designed both models to be beautiful, sturdy and true to the original sailcloth. Thank you for being part of the adventure.",
+        "link": "See all our partners"
+      },
+      "alt": {
+        "heroCabas": "White sailcloth tote bag with a diagonal yellow stripe and black rope handles, on a wooden deck",
+        "insetBaluchon": "Yellow octagonal base of the drawstring bag",
+        "cabasPortrait": "The tote bag next to Morgane, on a bench by the harbour",
+        "cabasPonton": "The tote bag in the sun on a pontoon",
+        "cabasCouture": "Close-up of the sail's original zigzag stitching and the handle eyelet",
+        "cabasInterieur": "Inside view of the roomy tote bag",
+        "cabasBanc": "The tote bag on the shoulder, sitting facing the harbour",
+        "break": "Morgane sitting by the harbour of La Faute-sur-Mer, the tote bag beside her",
+        "baluchonPorte": "Thomas carrying the drawstring bag on his shoulder, facing the harbour",
+        "baluchonProduit": "The drawstring bag standing upright, black drawstring cord",
+        "baluchonFond": "The yellow octagonal base of the drawstring bag",
+        "baluchonPort": "The drawstring bag on the harbour pontoon",
+        "baluchonAssis": "Thomas sitting on a bench, opening the drawstring bag"
+      }
     }
   }
 }

@@ -81,3 +81,41 @@ document.addEventListener('DOMContentLoaded', function () {
 
   els.forEach(function (el) { io.observe(el); });
 });
+
+// Visionneuse photo : tout lien dans un [data-gallery] s'ouvre en grand,
+// avec flèches (clavier ←/→) pour passer d'une photo à l'autre.
+document.addEventListener('DOMContentLoaded', function () {
+  var box = document.querySelector('dialog.lightbox');
+  if (!box || typeof box.showModal !== 'function') return;
+  var img = box.querySelector('img');
+  var current = [], index = 0;
+
+  function show(i) {
+    index = (i + current.length) % current.length;
+    var link = current[index];
+    var thumb = link.querySelector('img');
+    img.src = link.getAttribute('href');
+    img.alt = thumb ? thumb.alt : '';
+  }
+
+  document.querySelectorAll('[data-gallery]').forEach(function (gallery) {
+    var links = Array.prototype.slice.call(gallery.querySelectorAll('a'));
+    links.forEach(function (link, i) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        current = links;
+        show(i);
+        box.showModal();
+      });
+    });
+  });
+
+  box.querySelector('.lightbox-close').addEventListener('click', function () { box.close(); });
+  box.querySelector('.prev').addEventListener('click', function () { show(index - 1); });
+  box.querySelector('.next').addEventListener('click', function () { show(index + 1); });
+  box.addEventListener('click', function (e) { if (e.target === box) box.close(); });
+  box.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowLeft') show(index - 1);
+    if (e.key === 'ArrowRight') show(index + 1);
+  });
+});
