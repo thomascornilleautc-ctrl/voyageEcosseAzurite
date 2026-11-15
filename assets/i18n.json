@@ -23,7 +23,7 @@
       },
       "sacs": {
         "title": "Nos sacs en toile de voile",
-        "description": "Sacs cabas, baluchon et sac à combi cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
+        "description": "Sacs cabas, baluchon, sac à combi et grand sac de plage cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
       }
     },
     "nav": {
@@ -316,9 +316,9 @@
       "eyebrow": "Financement participatif",
       "title": "Une voile pour une voile",
       "intro1": "Avant de partir pour l'Écosse, Azurite a besoin d'un nouveau génois. Plutôt que de jeter les vieilles voiles et les radeaux de survie arrivés en fin de validité, on leur donne une seconde vie : on les découpe, on les coud, et on en fait des sacs.",
-      "intro2": "Trois modèles, imaginés et fabriqués à La Faute-sur-Mer en partenariat avec <strong>Entre Sable &amp; Galets</strong>. Chaque sac est une contrepartie de notre cagnotte : en le recevant, vous financez directement la voile qui nous emmènera jusqu'aux Shetland.",
+      "intro2": "Quatre modèles, imaginés et fabriqués à La Faute-sur-Mer en partenariat avec <strong>Entre Sable &amp; Galets</strong>. Chaque sac est une contrepartie de notre cagnotte : en le recevant, vous financez directement la voile qui nous emmènera jusqu'aux Shetland.",
       "cta": "Choisir mon sac sur la cagnotte",
-      "seeModels": "Voir les trois modèles",
+      "seeModels": "Voir les quatre modèles",
       "valuesEyebrow": "Pourquoi ces sacs",
       "valuesTitle": "De la mer, pour la mer",
       "values": [
@@ -355,7 +355,9 @@
         "material": "Matière",
         "price": "Contrepartie",
         "priceVal": "50 €, coup de pouce inclus",
-        "use": "Usage"
+        "use": "Usage",
+        "capacity": "Contenance",
+        "care": "Entretien"
       },
       "breakCaption": "Au port de La Faute-sur-Mer, là où tout commence.",
       "baluchon": {
@@ -392,7 +394,7 @@
         "kicker": "Pour 50 €",
         "title": "Ce que vous recevez",
         "items": [
-          "Le sac de votre choix, cabas, baluchon ou sac à combi, pièce unique",
+          "Le sac de votre choix, cabas, baluchon, sac à combi ou grand sac de plage, pièce unique",
           "Deux autocollants d'Azurite en voyage en Écosse",
           "Une carte postale envoyée depuis l'Écosse par Gaston et Rose",
           "Un accès privilégié à notre carnet de bord sur Polarsteps"
@@ -432,7 +434,24 @@
         "step1": "Le tapis déplié sur le parking, derrière la voiture",
         "step2": "Thomas enfile sa combinaison debout sur le tapis, à côté du coffre ouvert",
         "step3": "La combinaison mouillée posée au centre du tapis",
-        "step4": "On tire le cordon, le tapis se referme en sac"
+        "step4": "On tire le cordon, le tapis se referme en sac",
+        "paniereProduit": "Le grand sac de plage, cylindre en toile de voile blanche avec une bande rouge fluo et des anses en cordage noir",
+        "paniereRempli": "Le grand sac de plage rempli de serviettes et d'affaires de plage",
+        "paniereFace": "Le grand sac de plage vide, debout tout seul",
+        "paniereHaut": "Le grand sac de plage vu de trois quarts, grande ouverture ronde",
+        "paniereInterieur": "Vue plongeante dans le grand sac de plage, fond rond cousu"
+      },
+      "paniere": {
+        "kicker": "Modèle n°4 · Nouveau",
+        "title": "Le grand sac de plage",
+        "motto": "« Sac de plage l'été, panière le reste de l'année »",
+        "text1": "Le grand format de la famille. Posé sur le sable, il tient debout tout seul : on y lance les serviettes, les maillots mouillés, les seaux et les pelles des enfants sans avoir besoin de le tenir ouvert. Deux anses en cordage, et on file du parking à la plage.",
+        "text2": "De retour à la maison ou à bord, il change de métier : panière à linge, coffre à jouets, rangement des bouts et des gilets dans la cabine. Toile de voile blanche, bande rouge fluo d'origine, coutures solides : il est fait pour durer aussi longtemps que la voile dont il vient.",
+        "size": "33 cm de diamètre, 46 cm de haut",
+        "capacity": "Environ 40 litres, tient debout seul",
+        "handles": "Deux anses en cordage",
+        "care": "Un rinçage à l'eau douce, séchage à l'air libre",
+        "cta": "Je veux le grand sac de plage"
       }
     }
   },
@@ -460,7 +479,7 @@
       },
       "sacs": {
         "title": "Our sailcloth bags",
-        "description": "Tote, drawstring and wetsuit bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
+        "description": "Tote, drawstring, wetsuit and big beach bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
       }
     },
     "nav": {
@@ -753,9 +772,9 @@
       "eyebrow": "Crowdfunding",
       "title": "A sail for a sail",
       "intro1": "Before leaving for Scotland, Azurite needs a new genoa. Rather than throwing away old sails and life rafts that have reached their expiry date, we give them a second life: we cut them, sew them, and turn them into bags.",
-      "intro2": "Three models, designed and made in La Faute-sur-Mer in partnership with <strong>Entre Sable &amp; Galets</strong>. Each bag is a reward in our fundraiser: by getting one, you directly fund the sail that will carry us to Shetland.",
+      "intro2": "Four models, designed and made in La Faute-sur-Mer in partnership with <strong>Entre Sable &amp; Galets</strong>. Each bag is a reward in our fundraiser: by getting one, you directly fund the sail that will carry us to Shetland.",
       "cta": "Choose my bag on the fundraiser",
-      "seeModels": "See the three models",
+      "seeModels": "See the four models",
       "valuesEyebrow": "Why these bags",
       "valuesTitle": "From the sea, for the sea",
       "values": [
@@ -792,7 +811,9 @@
         "material": "Material",
         "price": "Reward",
         "priceVal": "€50, \"helping hand\" included",
-        "use": "Use"
+        "use": "Use",
+        "capacity": "Capacity",
+        "care": "Care"
       },
       "breakCaption": "At the harbour of La Faute-sur-Mer, where it all begins.",
       "baluchon": {
@@ -809,7 +830,7 @@
         "kicker": "For €50",
         "title": "What you receive",
         "items": [
-          "The bag of your choice, tote, drawstring or wetsuit bag, one of a kind",
+          "The bag of your choice, tote, drawstring, wetsuit or big beach bag, one of a kind",
           "Two \"Azurite sailing to Scotland\" stickers",
           "A postcard sent from Scotland by Gaston and Rose",
           "Privileged access to our logbook on Polarsteps"
@@ -849,7 +870,12 @@
         "step1": "The mat unfolded in the car park, behind the car",
         "step2": "Thomas pulling on his wetsuit standing on the mat, next to the open boot",
         "step3": "The wet wetsuit placed in the middle of the mat",
-        "step4": "Pulling the cord, the mat closes into a bag"
+        "step4": "Pulling the cord, the mat closes into a bag",
+        "paniereProduit": "The big beach bag, a white sailcloth cylinder with a bright red strip and black rope handles",
+        "paniereRempli": "The big beach bag filled with towels and beach things",
+        "paniereFace": "The empty big beach bag, standing on its own",
+        "paniereHaut": "The big beach bag seen from above, wide round opening",
+        "paniereInterieur": "Looking down into the big beach bag, sewn round base"
       },
       "combi": {
         "kicker": "Model no. 3 · New",
@@ -870,6 +896,18 @@
         "1": "Get changed standing on it, feet dry and clean.",
         "2": "Drop the wet wetsuit in the middle.",
         "3": "Pull the cord: it's a bag, off to the boot."
+      },
+      "paniere": {
+        "kicker": "Model no. 4 · New",
+        "title": "The big beach bag",
+        "motto": "“A beach bag in summer, a basket the rest of the year”",
+        "text1": "The family-size one. Set down on the sand, it stands up on its own: towels, wet swimsuits, the kids' buckets and spades all go in without anyone holding it open. Two rope handles, and you're off from the car park to the beach.",
+        "text2": "Back home or on board, it changes jobs: laundry basket, toy box, storage for lines and life jackets in the cabin. White sailcloth, the original bright red strip, sturdy seams: it's made to last as long as the sail it came from.",
+        "size": "33 cm across, 46 cm high",
+        "capacity": "About 40 litres, stands on its own",
+        "handles": "Two rope handles",
+        "care": "A rinse in fresh water, air dry",
+        "cta": "I want the big beach bag"
       }
     }
   }
