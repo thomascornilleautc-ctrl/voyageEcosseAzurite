@@ -611,3 +611,30 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
 .lightbox-nav.prev{ left: 0.4rem; top: 50%; transform: translateY(-50%); }
 .lightbox-nav.next{ right: 0.4rem; top: 50%; transform: translateY(-50%); }
 .lightbox button:hover, .lightbox button:focus-visible{ color: var(--brass); }
+
+/* Page Sacs : modèle n°3 (sac à combi) et son mode d'emploi */
+.section-surf{ background: var(--seaglass); }
+.bag-motto{
+  font-family: var(--font-display); font-style: italic; font-size: 1.2rem;
+  color: var(--sea); margin-bottom: 1rem;
+}
+.bag-steps-title{ margin-top: clamp(2.5rem, 6vw, 4rem); }
+.bag-steps{
+  list-style: none; margin: 1rem 0 0; padding: 0;
+  display: grid; gap: 1rem; grid-template-columns: repeat(4, 1fr);
+  counter-reset: step;
+}
+@media (max-width: 50rem){ .bag-steps{ grid-template-columns: repeat(2, 1fr); } }
+.bag-steps li{ counter-increment: step; position: relative; font-size: 0.95rem; }
+.bag-steps img{
+  width: 100%; height: auto; aspect-ratio: 3 / 4; object-fit: cover;
+  border-radius: 2px; margin-bottom: 0.6rem;
+}
+.bag-steps li::before{
+  content: counter(step);
+  position: absolute; top: 0.6rem; left: 0.6rem;
+  width: 2rem; height: 2rem; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--brass); color: var(--ink);
+  font-family: var(--font-display); font-weight: 600;
+}

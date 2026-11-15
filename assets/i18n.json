@@ -23,7 +23,7 @@
       },
       "sacs": {
         "title": "Nos sacs en toile de voile",
-        "description": "Sacs cabas et baluchon cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
+        "description": "Sacs cabas, baluchon et sac à combi cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
       }
     },
     "nav": {
@@ -316,9 +316,9 @@
       "eyebrow": "Financement participatif",
       "title": "Une voile pour une voile",
       "intro1": "Avant de partir pour l'Écosse, Azurite a besoin d'un nouveau génois. Plutôt que de jeter les vieilles voiles et les radeaux de survie arrivés en fin de validité, on leur donne une seconde vie : on les découpe, on les coud, et on en fait des sacs.",
-      "intro2": "Deux modèles, imaginés et fabriqués à La Faute-sur-Mer en partenariat avec <strong>Entre Sable &amp; Galets</strong>. Chaque sac est une contrepartie de notre cagnotte : en le recevant, vous financez directement la voile qui nous emmènera jusqu'aux Shetland.",
+      "intro2": "Trois modèles, imaginés et fabriqués à La Faute-sur-Mer en partenariat avec <strong>Entre Sable &amp; Galets</strong>. Chaque sac est une contrepartie de notre cagnotte : en le recevant, vous financez directement la voile qui nous emmènera jusqu'aux Shetland.",
       "cta": "Choisir mon sac sur la cagnotte",
-      "seeModels": "Voir les deux modèles",
+      "seeModels": "Voir les trois modèles",
       "valuesEyebrow": "Pourquoi ces sacs",
       "valuesTitle": "De la mer, pour la mer",
       "values": [
@@ -336,7 +336,7 @@
         },
         {
           "title": "Pièce unique",
-          "text": "Chaque voile a son histoire, ses coutures et ses marques : aucun sac n'est identique. Série limitée à 30 exemplaires par modèle."
+          "text": "Chaque voile a son histoire, ses coutures et ses marques : aucun sac n'est identique. Séries limitées, cousues une à une."
         }
       ],
       "cabas": {
@@ -354,7 +354,8 @@
         "handles": "Portage",
         "material": "Matière",
         "price": "Contrepartie",
-        "priceVal": "50 €, coup de pouce inclus"
+        "priceVal": "50 €, coup de pouce inclus",
+        "use": "Usage"
       },
       "breakCaption": "Au port de La Faute-sur-Mer, là où tout commence.",
       "baluchon": {
@@ -367,11 +368,31 @@
         "material": "Toile de voile recyclée, fond en toile jaune",
         "cta": "Je veux le baluchon"
       },
+      "combi": {
+        "kicker": "Modèle n°3 · Nouveau",
+        "title": "Le sac à combi",
+        "motto": "« Range ta combi et garde ton carrosse au sec »",
+        "text1": "Pour les surfeurs, les longe-côteurs, les nageurs, bref pour tous les water-men et water-girls d'eau froide. Ouvert, c'est un tapis de change : on se déshabille debout dessus, les pieds au sec, loin du sable et des graviers du parking.",
+        "text2": "Fermé, c'est un sac : un coup de cordon et la combi mouillée part dans le coffre sans rien tremper. Il est taillé dans la toile jaune et orange de radeaux de survie périmés, faite pour rester en mer, avec ses bandes réfléchissantes d'origine.",
+        "use": "Tapis de change et sac à combi mouillée",
+        "handles": "Cordon coulissant et deux sangles",
+        "material": "Toile de radeau de survie, bandes réfléchissantes",
+        "price": "50 €, coup de pouce inclus",
+        "cta": "Je veux le sac à combi",
+        "size": "70 cm de diamètre, 10 cm de haut"
+      },
+      "steps": {
+        "title": "Mode d'emploi, en sortant de l'eau",
+        "0": "Déplie-le à plat, à côté du coffre.",
+        "1": "Change-toi debout dessus, pieds au sec et propres.",
+        "2": "Pose la combi mouillée au milieu.",
+        "3": "Tire le cordon : c'est un sac, direction le coffre."
+      },
       "reward": {
         "kicker": "Pour 50 €",
         "title": "Ce que vous recevez",
         "items": [
-          "Le sac de votre choix, cabas ou baluchon, pièce unique",
+          "Le sac de votre choix, cabas, baluchon ou sac à combi, pièce unique",
           "Deux autocollants d'Azurite en voyage en Écosse",
           "Une carte postale envoyée depuis l'Écosse par Gaston et Rose",
           "Un accès privilégié à notre carnet de bord sur Polarsteps"
@@ -402,7 +423,16 @@
         "baluchonProduit": "Le sac baluchon debout, cordelette de serrage noire",
         "baluchonFond": "Le fond octogonal jaune du sac baluchon",
         "baluchonPort": "Le sac baluchon posé sur le ponton du port",
-        "baluchonAssis": "Thomas assis sur un banc, ouvrant le sac baluchon"
+        "baluchonAssis": "Thomas assis sur un banc, ouvrant le sac baluchon",
+        "combiCoffre": "Le sac à combi fermé, jaune et orange, posé dans le coffre de la voiture",
+        "combiOuvert": "Le sac à combi ouvert à plat, en tapis de change rond",
+        "combiFerme": "Le sac à combi à moitié refermé, avec ses bandes réfléchissantes",
+        "combiPiquet": "Le sac à combi suspendu par ses sangles rouges à un piquet en bois",
+        "combiPorte": "Thomas porte le sac à combi fermé par ses sangles",
+        "step1": "Le tapis déplié sur le parking, derrière la voiture",
+        "step2": "Thomas enfile sa combinaison debout sur le tapis, à côté du coffre ouvert",
+        "step3": "La combinaison mouillée posée au centre du tapis",
+        "step4": "On tire le cordon, le tapis se referme en sac"
       }
     }
   },
@@ -430,7 +460,7 @@
       },
       "sacs": {
         "title": "Our sailcloth bags",
-        "description": "Tote and drawstring bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
+        "description": "Tote, drawstring and wetsuit bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
       }
     },
     "nav": {
@@ -723,9 +753,9 @@
       "eyebrow": "Crowdfunding",
       "title": "A sail for a sail",
       "intro1": "Before leaving for Scotland, Azurite needs a new genoa. Rather than throwing away old sails and life rafts that have reached their expiry date, we give them a second life: we cut them, sew them, and turn them into bags.",
-      "intro2": "Two models, designed and made in La Faute-sur-Mer in partnership with <strong>Entre Sable &amp; Galets</strong>. Each bag is a reward in our fundraiser: by getting one, you directly fund the sail that will carry us to Shetland.",
+      "intro2": "Three models, designed and made in La Faute-sur-Mer in partnership with <strong>Entre Sable &amp; Galets</strong>. Each bag is a reward in our fundraiser: by getting one, you directly fund the sail that will carry us to Shetland.",
       "cta": "Choose my bag on the fundraiser",
-      "seeModels": "See both models",
+      "seeModels": "See the three models",
       "valuesEyebrow": "Why these bags",
       "valuesTitle": "From the sea, for the sea",
       "values": [
@@ -743,7 +773,7 @@
         },
         {
           "title": "One of a kind",
-          "text": "Every sail has its own story, stitching and marks: no two bags are alike. Limited run of 30 per model."
+          "text": "Every sail has its own story, stitching and marks: no two bags are alike. Limited runs, sewn one by one."
         }
       ],
       "cabas": {
@@ -761,7 +791,8 @@
         "handles": "Carry",
         "material": "Material",
         "price": "Reward",
-        "priceVal": "€50, \"helping hand\" included"
+        "priceVal": "€50, \"helping hand\" included",
+        "use": "Use"
       },
       "breakCaption": "At the harbour of La Faute-sur-Mer, where it all begins.",
       "baluchon": {
@@ -778,7 +809,7 @@
         "kicker": "For €50",
         "title": "What you receive",
         "items": [
-          "The bag of your choice, tote or drawstring, one of a kind",
+          "The bag of your choice, tote, drawstring or wetsuit bag, one of a kind",
           "Two \"Azurite sailing to Scotland\" stickers",
           "A postcard sent from Scotland by Gaston and Rose",
           "Privileged access to our logbook on Polarsteps"
@@ -809,7 +840,36 @@
         "baluchonProduit": "The drawstring bag standing upright, black drawstring cord",
         "baluchonFond": "The yellow octagonal base of the drawstring bag",
         "baluchonPort": "The drawstring bag on the harbour pontoon",
-        "baluchonAssis": "Thomas sitting on a bench, opening the drawstring bag"
+        "baluchonAssis": "Thomas sitting on a bench, opening the drawstring bag",
+        "combiCoffre": "The closed wetsuit bag, yellow and orange, in the car boot",
+        "combiOuvert": "The wetsuit bag laid flat as a round changing mat",
+        "combiFerme": "The wetsuit bag half closed, with its reflective strips",
+        "combiPiquet": "The wetsuit bag hanging by its red straps from a wooden post",
+        "combiPorte": "Thomas carrying the closed wetsuit bag by its straps",
+        "step1": "The mat unfolded in the car park, behind the car",
+        "step2": "Thomas pulling on his wetsuit standing on the mat, next to the open boot",
+        "step3": "The wet wetsuit placed in the middle of the mat",
+        "step4": "Pulling the cord, the mat closes into a bag"
+      },
+      "combi": {
+        "kicker": "Model no. 3 · New",
+        "title": "The wetsuit bag",
+        "motto": "“Pack your wetsuit, keep your ride dry”",
+        "text1": "For surfers, sea-walkers, swimmers: in short, for every cold-water waterman and watergirl. Open, it's a changing mat: you get changed standing on it, feet dry, away from the sand and the car-park gravel.",
+        "text2": "Closed, it's a bag: one pull of the cord and the wet wetsuit goes into the boot without soaking anything. It's cut from the yellow and orange fabric of expired life rafts, made to stay at sea, with its original reflective strips.",
+        "use": "Changing mat and wet-wetsuit bag",
+        "handles": "Drawstring cord and two straps",
+        "material": "Life-raft fabric, reflective strips",
+        "price": "€50, \"helping hand\" included",
+        "cta": "I want the wetsuit bag",
+        "size": "70 cm across, 10 cm high"
+      },
+      "steps": {
+        "title": "How to use it, straight out of the water",
+        "0": "Lay it out flat, next to the boot.",
+        "1": "Get changed standing on it, feet dry and clean.",
+        "2": "Drop the wet wetsuit in the middle.",
+        "3": "Pull the cord: it's a bag, off to the boot."
       }
     }
   }
