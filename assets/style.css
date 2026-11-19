@@ -149,7 +149,7 @@ a{ color: var(--brass); text-decoration: none; }
     max-height: 0; overflow: hidden;
     transition: max-height .25s ease;
   }
-  .nav-links.open{ max-height: 20rem; }
+  .nav-links.open{ max-height: 28rem; }
   .nav-links li{ padding: 0.8rem var(--gap); border-top: 1px solid rgba(243,246,242,0.08); }
 }
 
@@ -387,6 +387,8 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   display: grid; grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
   gap: 1rem; margin-top: 1.5rem;
 }
+/* Logo en bandeau (format très allongé) : occupe deux cases */
+.logo-filled.logo-wide{ grid-column: span 2; }
 
 .btn{
   display: inline-block;
@@ -638,3 +640,92 @@ section{ padding: clamp(3rem, 7vw, 5.5rem) 0; }
   background: var(--brass); color: var(--ink);
   font-family: var(--font-display); font-weight: 600;
 }
+
+/* =========================================================
+   Page Science (Astrolabe Expeditions / Ketos)
+   ========================================================= */
+.science-hero{ margin: 0; position: relative; }
+.science-hero-logo{
+  display: flex; align-items: center; justify-content: center;
+  aspect-ratio: 4 / 3; padding: 12%;
+  background: var(--ink);
+  border-radius: 2px; box-shadow: 0 14px 34px rgba(30,47,61,0.22);
+  transition: transform .25s ease;
+}
+.science-hero-logo:hover, .science-hero-logo:focus-visible{ transform: translateY(-3px); }
+.science-hero-logo img{ width: 100%; height: auto; }
+.science-hero figcaption{ font-size: 0.85rem; color: var(--heather); margin-top: 0.5rem; }
+
+.science-cards{
+  display: grid; gap: var(--gap); grid-template-columns: 1fr 1fr;
+  margin: 2rem 0 1.5rem;
+}
+@media (max-width: 46rem){ .science-cards{ grid-template-columns: 1fr; } }
+.science-card{
+  border: 1px solid rgba(243,246,242,0.3);
+  padding: clamp(1.3rem, 3vw, 2rem);
+}
+.science-card svg{
+  width: 34px; height: 34px; margin-bottom: 0.6rem;
+  fill: none; stroke: var(--brass); stroke-width: 1.6;
+  stroke-linecap: round; stroke-linejoin: round;
+}
+.science-card h3{ color: var(--foam); }
+.science-where{ display: block; color: var(--brass); font-size: 0.85rem; margin-bottom: 0.3rem; }
+.science-partners{ font-size: 0.9rem; max-width: 60ch; }
+
+.science-video{
+  position: relative; aspect-ratio: 16 / 9; max-width: 52rem;
+  margin-top: 1rem; background: var(--ink);
+  border: 1px solid rgba(169,113,63,0.4);
+}
+.science-video iframe{ position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
+.science-plan{ list-style: none; margin: 1.2rem 0 0; padding: 0; }
+.science-plan li{ padding: 1rem 0; border-top: 1px solid rgba(30,47,61,0.12); }
+.science-plan li{ display: grid; grid-template-columns: 2.2rem 1fr; column-gap: 0.8rem; align-items: start; }
+.science-plan li > *{ grid-column: 2; justify-self: start; }
+.science-plan li > .science-num{ grid-column: 1; grid-row: 1 / span 3; }
+.science-plan h3{ margin: 0.4rem 0 0.3rem; }
+.science-num{
+  display: flex; align-items: center; justify-content: center;
+  width: 2.2rem; height: 2.2rem; border-radius: 50%;
+  background: var(--brass); color: var(--foam);
+  font-family: var(--font-display); font-weight: 600; font-size: 1.1rem;
+}
+.science-num.maybe{ background: var(--foam); color: var(--brass); border: 2px dashed var(--brass); }
+
+/* Carte stylisée des missions (SVG inline, généré depuis des coordonnées réelles) */
+.science-map-wrap{ margin: 0; }
+.science-map{
+  display: block; width: 100%; height: auto; max-height: 44rem;
+  border-radius: 2px; box-shadow: 0 14px 34px rgba(30,47,61,0.22);
+}
+.science-map .map-sea{ fill: var(--ink); }
+.science-map .map-land{ fill: #2C4456; stroke: rgba(244,246,243,0.45); stroke-width: 1.2; stroke-linejoin: round; }
+.science-map .map-route-acou{ fill: none; stroke: var(--brass); stroke-width: 9; stroke-linecap: round; opacity: 0.9; }
+.science-map .map-zone{ fill: rgba(169,113,63,0.15); stroke: var(--brass); stroke-width: 2; stroke-dasharray: 6 6; }
+.science-map .map-town{ fill: var(--foam); }
+.science-map .map-place{ fill: var(--foam); font: 600 26px var(--font-body); }
+.science-map .map-sea-name{ fill: rgba(244,246,243,0.5); font: italic 500 19px var(--font-display); letter-spacing: 0.05em; }
+.science-map .map-marker circle{ fill: var(--brass); stroke: var(--foam); stroke-width: 3.5; }
+.science-map .map-marker text{ fill: var(--foam); font: 600 30px var(--font-display); }
+.science-map .map-marker.maybe circle{ fill: var(--ink); stroke: var(--brass); stroke-dasharray: 5 4; }
+.science-map .map-marker.maybe text{ fill: var(--brass); }
+.science-plan p{ margin: 0; }
+
+.science-status{
+  display: inline-block; font-size: 0.75rem; font-weight: 600;
+  letter-spacing: 0.04em; text-transform: uppercase;
+  padding: 0.2rem 0.6rem; border-radius: 999px;
+}
+.science-status.ok{ background: var(--rust); color: var(--foam); }
+.science-status.maybe{ background: transparent; color: var(--brass); border: 1px dashed var(--brass); }
+
+.science-project{
+  max-width: 46rem;
+  border-left: 2px dashed var(--brass);
+  padding-left: clamp(1rem, 3vw, 2rem);
+}
+.science-project h2{ margin-top: 0.7rem; }
+.science-project p{ max-width: 60ch; }

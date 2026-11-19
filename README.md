@@ -1,6 +1,6 @@
 # Site Azurite : voyage en famille vers l'Écosse (2027)
 
-Site statique, 6 pages, en français uniquement pour l'instant.
+Site statique, 7 pages, en français uniquement pour l'instant.
 
 ## Structure
 
@@ -10,6 +10,7 @@ azurite-site/
 ├── bateau.html      → Le bateau
 ├── equipage.html     → L'équipage
 ├── trajet.html      → Le trajet
+├── science.html     → La science à bord (Astrolabe Expeditions, programme Ketos, projet EODYN)
 ├── sacs.html      → Nos sacs (contreparties de la cagnotte, avec Entre Sable & Galets)
 ├── sponsors.html    → Sponsors
 ├── assets/

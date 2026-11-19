@@ -24,6 +24,10 @@
       "sacs": {
         "title": "Nos sacs en toile de voile",
         "description": "Sacs cabas, baluchon, sac à combi et grand sac de plage cousus à La Faute-sur-Mer dans d'anciennes voiles et des radeaux de survie périmés, avec Entre Sable & Galets. Chaque sac finance le génois d'Azurite."
+      },
+      "science": {
+        "title": "La science à bord",
+        "description": "Azurite fait partie de la flotte d'Astrolabe Expeditions : observation visuelle et acoustique des cétacés avec le programme Ketos pendant notre voyage vers l'Écosse."
       }
     },
     "nav": {
@@ -35,7 +39,8 @@
       "menuToggle": "Menu",
       "menuAria": "Ouvrir le menu",
       "logoAria": "Accueil",
-      "bags": "Nos sacs"
+      "bags": "Nos sacs",
+      "science": "La science"
     },
     "footer": {
       "tagline": "Azurite : Voyage en famille, mars-septembre 2027",
@@ -80,7 +85,7 @@
       },
       "followEyebrow": "Nous suivre",
       "followTitle": "Le voyage, en direct",
-      "followText": "Navigation suivie sur PolarStep, participation à un programme de sciences participatives avec Astrolabe Expeditions, et des échanges réguliers avec les enfants scolarisés à L'Aiguillon-la-Presqu'île, dans le cadre d'un projet pédagogique.",
+      "followText": "Navigation suivie sur PolarStep, participation au programme de sciences participatives <a href=\"science.html\" class=\"link-underline\">Ketos</a> avec Astrolabe Expeditions, et des échanges réguliers avec les enfants scolarisés à L'Aiguillon-la-Presqu'île, dans le cadre d'un projet pédagogique.",
       "followLink": "Accès privilégié à notre carnet de bord",
       "followAccess": "Le lien d'accès privilégié vers notre carnet de bord est offert aux personnes qui participent à la <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">cagnotte</a>, dès le coup de pouce.",
       "quote": "« Allez-y, il faut le faire, c'est magnifique. »",
@@ -289,7 +294,7 @@
     "sponsors": {
       "eyebrow": "Cherche partenaires particulier(e)s",
       "title": "Bien plus qu'un tour en famille",
-      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous espérons devenir une plateforme de sciences participatives avec Astrolabe Expeditions, et nous le partagerons avec les enfants scolarisés à L'Aiguillon-la-Presqu'île grâce à un projet pédagogique co-construit et des échanges réguliers avec eux. Notre progression sera aussi suivie en direct sur PolarStep, avec un lien d'accès privilégié offert aux personnes qui participent à notre cagnotte.",
+      "intro": "En mars 2027, nous embarquons en famille à bord d'Azurite pour sept mois de navigation jusqu'aux Shetland. Mais ce voyage ne s'arrête pas à nous quatre : nous faisons officiellement partie de la flotte d'Astrolabe Expeditions et participerons au programme de sciences participatives Ketos, consacré aux cétacés, et nous le partagerons avec les enfants scolarisés à L'Aiguillon-la-Presqu'île grâce à un projet pédagogique co-construit et des échanges réguliers avec eux. Notre progression sera aussi suivie en direct sur PolarStep, avec un lien d'accès privilégié offert aux personnes qui participent à notre cagnotte.",
       "pitch": "On a besoin de vous pour prendre le large.",
       "panelSponsor": {
         "kicker": "Entreprises",
@@ -453,6 +458,83 @@
         "care": "Un rinçage à l'eau douce, séchage à l'air libre",
         "cta": "Je veux le grand sac de plage"
       }
+    },
+    "science": {
+      "eyebrow": "Sciences participatives",
+      "title": "La science à bord",
+      "intro1": "<strong>C'est officiel : Azurite fait partie de la flotte d'Astrolabe Expeditions.</strong> Cette association transforme des voiliers de plaisance en plateformes de recherche : les équipages récoltent des données en mer, et des laboratoires les analysent pour mieux comprendre et protéger l'océan.",
+      "intro2": "Pendant nos sept mois de navigation, nous participerons au programme <strong>Ketos</strong>, consacré aux baleines, dauphins et marsouins. Sept mois en mer, quatre paires d'yeux sur le pont, et une bonne raison de plus de garder les jumelles à portée de main.",
+      "heroCaption": "Azurite, membre de la flotte Astrolabe Expeditions.",
+      "ketos": {
+        "eyebrow": "Le programme Ketos",
+        "title": "Observer et écouter les cétacés",
+        "intro": "« Ketos » signifie cétacé en grec. Le programme confie aux plaisanciers des kits de sciences participatives pour mieux connaître la répartition des cétacés, leurs déplacements au fil des saisons et la façon dont ils communiquent.",
+        "visual": {
+          "where": "Tout au long du voyage",
+          "title": "L'observation visuelle",
+          "text": "À chaque rencontre, on note l'espèce, le nombre d'individus, la position et le comportement, et on photographie les nageoires dorsales : comme une empreinte digitale, leurs encoches permettent de reconnaître chaque animal. Les fiches sont ensuite transmises aux scientifiques.",
+          "kids": "Gaston et Rose seront aux premières loges : planches d'identification, jumelles, et beaucoup de patience."
+        },
+        "acoustic": {
+          "where": "Dans le golfe de Gascogne",
+          "title": "L'écoute acoustique",
+          "text": "Un hydrophone, un micro sous-marin, est mis à l'eau et relié à un enregistreur. Il capte les sifflements, clics et chants des cétacés, même quand on ne les voit pas. Les enregistrements sont ensuite analysés par des experts et lors de campagnes d'annotation participative."
+        },
+        "partners": "Partenaires scientifiques du programme : Lab-STICC (CNRS / ENSTA Bretagne) et Institut Jean Le Rond d'Alembert (CNRS / Sorbonne Université).",
+        "link": "En savoir plus sur Ketos"
+      },
+      "video": {
+        "title": "Ketos en vidéo"
+      },
+      "plan": {
+        "eyebrow": "Sur notre route",
+        "title": "Trois missions",
+        "items": [
+          {
+            "title": "Observation visuelle Ketos",
+            "text": "De La Faute-sur-Mer aux Shetland, et retour : sur toute la route, de mars à septembre 2027."
+          },
+          {
+            "title": "Écoute acoustique Ketos",
+            "text": "Dans le golfe de Gascogne, lors de notre remontée vers Brest."
+          },
+          {
+            "title": "Largage d'une bouée dérivante",
+            "text": "Dans le nord de l'Écosse, si le projet avec EODYN se concrétise (voir ci-dessous)."
+          }
+        ]
+      },
+      "status": {
+        "confirmed": "Confirmé",
+        "project": "En projet"
+      },
+      "eodyn": {
+        "title": "Une bouée dérivante dans le nord ?",
+        "text1": "Rien n'est encore signé, mais nous pourrions embarquer une bouée de la startup brestoise <strong>EODYN</strong> pour la larguer dans les eaux du nord de l'Écosse. Pas plus grande qu'une assiette, elle dériverait ensuite au gré des courants pendant des mois.",
+        "text2": "Ce type de bouée mesure les courants de surface, la hauteur des vagues et la température de l'eau, et envoie ses données par satellite. Des données précieuses pour mieux comprendre la dynamique de l'océan. On vous tiendra au courant ici même."
+      },
+      "follow": {
+        "kicker": "À terre aussi",
+        "title": "Partager avec les écoles",
+        "text": "Nos observations nourriront le projet pédagogique mené avec les enfants scolarisés à L'Aiguillon-la-Presqu'île : quelles espèces avons-nous croisées, où, et qu'ont révélé les enregistrements ? Vous pourrez aussi suivre nos rencontres sur notre carnet de bord Polarsteps.",
+        "cta": "Suivre le carnet de bord"
+      },
+      "support": {
+        "kicker": "Nous aider",
+        "title": "Un bateau prêt pour la science",
+        "text": "Pour embarquer ces protocoles pendant sept mois, Azurite doit être fiable : il nous reste à financer un génois neuf. Sponsor ou particulier, chaque coup de pouce compte.",
+        "cta": "Devenir partenaire"
+      },
+      "alt": {
+        "hero": "Astrolabe Expeditions"
+      },
+      "map": {
+        "title": "Carte : où se dérouleront nos trois missions scientifiques, de La Faute-sur-Mer aux Shetland",
+        "biscay": "Golfe de Gascogne",
+        "atlantic": "Océan Atlantique",
+        "northSea": "Mer du Nord",
+        "channel": "La Manche"
+      }
     }
   },
   "en": {
@@ -480,6 +562,10 @@
       "sacs": {
         "title": "Our sailcloth bags",
         "description": "Tote, drawstring, wetsuit and big beach bags sewn in La Faute-sur-Mer from old sails and expired life rafts, with Entre Sable & Galets. Every bag helps fund Azurite's new genoa."
+      },
+      "science": {
+        "title": "Science on board",
+        "description": "Azurite is part of the Astrolabe Expeditions fleet: visual and acoustic cetacean monitoring with the Ketos programme during our voyage to Scotland."
       }
     },
     "nav": {
@@ -491,7 +577,8 @@
       "menuToggle": "Menu",
       "menuAria": "Open menu",
       "logoAria": "Home",
-      "bags": "Our bags"
+      "bags": "Our bags",
+      "science": "Science"
     },
     "footer": {
       "tagline": "Azurite: A family voyage, March–September 2027",
@@ -536,7 +623,7 @@
       },
       "followEyebrow": "Follow along",
       "followTitle": "The voyage, live",
-      "followText": "Our navigation tracked live on PolarStep, participation in a citizen-science programme with Astrolabe Expeditions, and regular exchanges with the schoolchildren of L'Aiguillon-la-Presqu'île as part of an educational project.",
+      "followText": "Our navigation tracked live on PolarStep, taking part in the <a href=\"science.html\" class=\"link-underline\">Ketos</a> citizen-science programme with Astrolabe Expeditions, and regular exchanges with the schoolchildren of L'Aiguillon-la-Presqu'île as part of an educational project.",
       "followLink": "Privileged access to our logbook",
       "followAccess": "The privileged access link to our logbook is offered to people who support the <a href=\"https://www.onparticipe.fr/c/LPte6aKr\" class=\"link-underline\">fundraiser</a>, starting with the first reward tier (the coup de pouce).",
       "quote": "\"Go for it, you have to do it, it's magnificent.\"",
@@ -745,7 +832,7 @@
     "sponsors": {
       "eyebrow": "Sponsors",
       "title": "Much more than a family trip",
-      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we hope to become a citizen-science platform with Astrolabe Expeditions, and we'll share it with the schoolchildren of L'Aiguillon-la-Presqu'île through a co-built educational project and regular exchanges with them. Our progress will also be tracked live on PolarStep, with a privileged access link offered to those who support our fundraiser.",
+      "intro": "In March 2027, we're setting off as a family aboard Azurite for seven months of sailing to Shetland. But this voyage isn't just about the four of us: we are officially part of the Astrolabe Expeditions fleet and will take part in Ketos, a citizen-science programme dedicated to whales and dolphins, and we'll share it with the schoolchildren of L'Aiguillon-la-Presqu'île through a co-built educational project and regular exchanges with them. Our progress will also be tracked live on PolarStep, with a privileged access link offered to those who support our fundraiser.",
       "pitch": "We need your help to set sail.",
       "panelSponsor": {
         "kicker": "Businesses",
@@ -908,6 +995,83 @@
         "handles": "Two rope handles",
         "care": "A rinse in fresh water, air dry",
         "cta": "I want the big beach bag"
+      }
+    },
+    "science": {
+      "eyebrow": "Citizen science",
+      "title": "Science on board",
+      "intro1": "<strong>It's official: Azurite is part of the Astrolabe Expeditions fleet.</strong> This association turns pleasure yachts into research platforms: crews collect data at sea, and laboratories analyse it to better understand and protect the ocean.",
+      "intro2": "During our seven months of sailing, we'll take part in the <strong>Ketos</strong> programme, dedicated to whales, dolphins and porpoises. Seven months at sea, four pairs of eyes on deck, and one more good reason to keep the binoculars close at hand.",
+      "heroCaption": "Azurite, a member of the Astrolabe Expeditions fleet.",
+      "alt": {
+        "hero": "Astrolabe Expeditions"
+      },
+      "ketos": {
+        "eyebrow": "The Ketos programme",
+        "title": "Watching and listening to cetaceans",
+        "intro": "“Ketos” means cetacean in Greek. The programme gives sailors citizen-science kits to learn more about where cetaceans live, how they move with the seasons and how they communicate.",
+        "visual": {
+          "where": "Throughout the voyage",
+          "title": "Visual observation",
+          "text": "At each encounter, we record the species, the number of animals, the position and the behaviour, and we photograph the dorsal fins: like a fingerprint, their notches make it possible to recognise each individual. The sheets are then sent to the scientists.",
+          "kids": "Gaston and Rose will have front-row seats: identification charts, binoculars and plenty of patience."
+        },
+        "acoustic": {
+          "where": "In the Bay of Biscay",
+          "title": "Acoustic listening",
+          "text": "A hydrophone, an underwater microphone, is lowered into the water and connected to a recorder. It picks up the whistles, clicks and songs of cetaceans, even when we can't see them. The recordings are then analysed by experts and through participatory annotation campaigns."
+        },
+        "partners": "The programme's scientific partners: Lab-STICC (CNRS / ENSTA Bretagne) and Institut Jean Le Rond d'Alembert (CNRS / Sorbonne Université).",
+        "link": "Learn more about Ketos"
+      },
+      "video": {
+        "title": "Ketos on video"
+      },
+      "plan": {
+        "eyebrow": "Along our route",
+        "title": "Three missions",
+        "items": [
+          {
+            "title": "Ketos visual observation",
+            "text": "From La Faute-sur-Mer to Shetland and back: along the whole route, from March to September 2027."
+          },
+          {
+            "title": "Ketos acoustic listening",
+            "text": "In the Bay of Biscay, as we sail north to Brest."
+          },
+          {
+            "title": "Deploying a drifting buoy",
+            "text": "In northern Scotland, if the project with EODYN comes together (see below)."
+          }
+        ]
+      },
+      "status": {
+        "confirmed": "Confirmed",
+        "project": "In the works"
+      },
+      "eodyn": {
+        "title": "A drifting buoy up north?",
+        "text1": "Nothing is signed yet, but we might take on board a buoy from Brest-based start-up <strong>EODYN</strong> and release it in the waters of northern Scotland. No bigger than a plate, it would then drift with the currents for months.",
+        "text2": "This kind of buoy measures surface currents, wave height and water temperature, and sends its data by satellite: valuable data for understanding ocean dynamics. We'll keep you posted right here."
+      },
+      "follow": {
+        "kicker": "Ashore too",
+        "title": "Sharing with schools",
+        "text": "Our observations will feed the educational project run with the schoolchildren of L'Aiguillon-la-Presqu'île: which species did we meet, where, and what did the recordings reveal? You'll also be able to follow our encounters on our Polarsteps logbook.",
+        "cta": "Follow the logbook"
+      },
+      "support": {
+        "kicker": "Help us",
+        "title": "A boat ready for science",
+        "text": "To carry these protocols for seven months, Azurite has to be reliable: we still need to fund a new genoa. Sponsor or individual, every helping hand counts.",
+        "cta": "Become a partner"
+      },
+      "map": {
+        "title": "Map: where our three science missions will take place, from La Faute-sur-Mer to Shetland",
+        "biscay": "Bay of Biscay",
+        "atlantic": "Atlantic Ocean",
+        "northSea": "North Sea",
+        "channel": "English Channel"
       }
     }
   }
